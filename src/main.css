@@ -1,0 +1,101 @@
+.backgroundimg {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.companyLogo {
+  position: absolute;
+  color: black;
+  font-size: 6em;
+  font-family: cursive;
+  margin-left: 15%;
+  margin-top: 15%
+}
+
+
+.textbox {
+  position: absolute;
+  border: 15px solid black;
+  width: 230px;
+  height: 270px;
+  padding: 10px;
+  margin-left: 40%;
+  margin-top: 17%;
+}
+
+.textbox__title {
+  color: black;
+  font-size: 4em;
+  padding-bottom: 20px;
+}
+
+.textbox__subheading {
+  color: black;
+  font-size: 1.5em;
+}
+
+.eventDetails {
+  height: 1500px;
+  width: 100%;
+  background-color: #DCDCDC;
+}
+
+/*.custom-class {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}*/
