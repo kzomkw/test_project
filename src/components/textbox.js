@@ -10,20 +10,20 @@ class TextBox extends Component {
 
         <div className='textbox'>
           <div className='textbox__title'>
-            <Parallax
+            {/*<Parallax
               offsetYMin={-200}
               offsetYMax={300}
-              >
+              >*/}
               {this.props.title}
-            </Parallax>
+            {/*</Parallax>*/}
           </div>
           <div className='textbox__subheading'>
-            <Parallax
+            {/*<Parallax
               offsetYMin={-200}
               offsetYMax={300}
-            >
+            >*/}
               {this.props.text}
-            </Parallax>
+            {/*</Parallax>*/}
           </div>
         </div>
     );

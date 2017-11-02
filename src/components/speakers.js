@@ -6,9 +6,7 @@ import TextBox from './textbox'
 class Speakers extends Component {
   render() {
     return (
-      <Parallax
-        offsetYMin={-200}
-      >
+
         <div className='speakersPage'>
 
           <div className='middleSpeaker'>
@@ -36,7 +34,6 @@ class Speakers extends Component {
           </div>
 
         </div>
-      </Parallax>
     );
   }
 }

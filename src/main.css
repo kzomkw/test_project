@@ -24,6 +24,15 @@
   margin-left: 57%
 }
 
+#getTickets {
+  height: 50px;
+  width: 200px;
+  background-color: #FE198B;
+  float: right;
+  margin-right: 5%;
+  margin-top: -8.5%;
+}
+
 .eventDetails {
   height: 2000px;
   width: 100%;
@@ -37,16 +46,36 @@
   position: relative;
 }
 
+
 #date {
   font-size: 4.5em;
   margin-left: 60%;
+  margin-top: -70px;
+}
+
+#day {
+  font-size: 2em;
+  margin-left: -2%;
   margin-top: -30px;
 }
 
 #time {
   font-size: 2.5em;
-  margin-left: 72%;
-  margin-top: -30px;
+  margin-left: 71%;
+  margin-top: -115px;
+}
+
+
+#mission {
+  font-size: 2em;
+  font-family: cursive;
+  width: 30%;
+  margin-top: 200px;
+  margin-left: 10%;
+}
+
+#photoAndParagraph {
+  margin-top: -400px;
 }
 
 .titleText {
@@ -114,6 +143,7 @@
 
 
 .speakersPage {
+  border: 1px solid red;
   height: 1500px;
   width: 100%;
   margin-top: -725px;
