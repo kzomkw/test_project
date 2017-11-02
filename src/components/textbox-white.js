@@ -8,7 +8,7 @@ class TextBoxWhite extends Component {
   render() {
     return (
         <div className='textbox-white'>
-          <div className='textbox__title' style={{color: 'white'}}>
+          <div className='textbox__title--white'>
             <Parallax
               offsetYMin={-200}
               offsetYMax={200}
@@ -16,7 +16,7 @@ class TextBoxWhite extends Component {
               {this.props.title}
             </Parallax>
           </div>
-          <div className='textbox__subheading' style={{color: 'white'}}>
+          <div className='textbox__subheading--white'>
             <Parallax
               offsetYMin={-200}
               offsetYMax={200}

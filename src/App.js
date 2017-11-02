@@ -4,6 +4,7 @@ import { ParallaxProvider } from 'react-scroll-parallax'
 import LandingPage from './components/landingpage'
 import EventDetails from './components/eventdetails'
 import Speakers from './components/speakers'
+import DemosAndWorkshops from './components/demosandworkshops'
 import './main.css';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
           <LandingPage />
           <EventDetails />
           <Speakers />
+          <DemosAndWorkshops />
       </ParallaxProvider>
     );
   }
