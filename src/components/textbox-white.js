@@ -3,24 +3,23 @@ import { Parallax } from 'react-scroll-parallax'
 
 
 
-class TextBox extends Component {
+class TextBoxWhite extends Component {
 
   render() {
     return (
-
-        <div className='textbox'>
-          <div className='textbox__title'>
+        <div className='textbox-white'>
+          <div className='textbox__title' style={{color: 'white'}}>
             <Parallax
               offsetYMin={-200}
-              offsetYMax={300}
+              offsetYMax={200}
               >
               {this.props.title}
             </Parallax>
           </div>
-          <div className='textbox__subheading'>
+          <div className='textbox__subheading' style={{color: 'white'}}>
             <Parallax
               offsetYMin={-200}
-              offsetYMax={300}
+              offsetYMax={200}
             >
               {this.props.text}
             </Parallax>
@@ -30,4 +29,4 @@ class TextBox extends Component {
   }
 }
 
-export default TextBox;
+export default TextBoxWhite;

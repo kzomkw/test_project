@@ -5,19 +5,72 @@
   opacity: 0.5;
 }
 
-.companyLogo {
-  position: absolute;
-  color: black;
-  font-size: 6em;
-  font-family: cursive;
-  margin-left: 15%;
-  margin-top: 15%
+#landingPage {
+  height: 700px;
+  width: 100%;
+  background-image: url('./img/jonatan-pie-367745.jpg')
 }
 
-
-.textbox {
+.companyLogo {
   position: absolute;
-  border: 15px solid black;
+  color: white;
+  font-size: 6em;
+  font-family: cursive;
+  margin-left: 20%;
+  margin-top: 20%
+}
+
+#logo2 {
+  margin-left: 57%
+}
+
+.eventDetails {
+  height: 2000px;
+  width: 100%;
+  background-color: #DCDCDC;
+  padding-top: 7%
+}
+
+#eventTextBox {
+  margin-left: 40%;
+  z-index: 1;
+  position: relative;
+}
+
+#date {
+  font-size: 4.5em;
+  margin-left: 60%;
+  margin-top: -30px;
+}
+
+#time {
+  font-size: 2.5em;
+  margin-left: 72%;
+  margin-top: -30px;
+}
+
+.titleText {
+  font-size: 4.5em;
+  margin-left: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.descriptionParagraph {
+  font-size: 1em;
+  margin-left: 50%;
+}
+
+#detailsPhoto {
+  margin-left: 50%;
+  height: 400px;
+  z-index: -1;
+  position: relative;
+}
+
+.textbox-white {
+  border: 15px solid white;
+  position: absolute;
   width: 230px;
   height: 270px;
   padding: 10px;
@@ -25,20 +78,45 @@
   margin-top: 17%;
 }
 
+.textbox {
+  border: 15px solid #311836;
+  width: 230px;
+  height: 270px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.middleSpeaker {
+  margin-left: 40%;
+}
+
+.leftSpeaker {
+  display: inline-block;
+  margin-left: 20%;
+}
+
+.rightSpeaker {
+  display: inline-block;
+  margin-left: 60%;
+}
+
+
 .textbox__title {
-  color: black;
-  font-size: 4em;
-  padding-bottom: 20px;
+  color: #311836;
+  font-size: 3.7em;
+  margin-bottom: 0px;
 }
 
 .textbox__subheading {
-  color: black;
+  color: #311836;
   font-size: 1.5em;
 }
 
-.eventDetails {
+
+.speakersPage {
   height: 1500px;
   width: 100%;
+  margin-top: -725px;
   background-color: #DCDCDC;
 }
 

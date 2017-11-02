@@ -1,36 +1,33 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-scroll-parallax'
 
-import TextBox from './textbox'
+import TextBoxWhite from './textbox-white'
 
 class LandingPage extends Component {
   render() {
     return (
-      <div>
-        <TextBox />
+      <div id='landingPage'>
+        <TextBoxWhite
+          title='A New Purpose For'
+          text='Achieving Purpose-Led Innovation'
+          />
         <div className='companyLogo'>
           <Parallax
-            // className="custom-class"
-            offsetYMin={-200}
-            offsetYMax={200}
-            tag="figure"
+            offsetXMin={200}
+            offsetXMax={-200}
           >
-
             Logo 1
           </Parallax>
         </div>
-
-        <div id='landingBackground' >
+        <div className='companyLogo' id='logo2'>
           <Parallax
-            // className="custom-class"
-            slowerScrollRate
-            // offsetYMin={-40}
-            // offsetYMax={40}
-            tag="figure"
+            offsetXMin={-200}
+            offsetXMax={200}
           >
-              <img src='jonatan-pie-367745.jpg' className='backgroundimg' />
+            Logo 2
           </Parallax>
         </div>
+
       </div>
     );
   }
