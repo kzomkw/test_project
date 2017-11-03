@@ -39,6 +39,8 @@ class Speakers extends Component {
         </div>
 
         <div className='middleSpeaker'>
+        <img src='./pink-plus-sign.png' className='plus' />
+
           <span>
             <Parallax
               offsetXMin={0}
@@ -52,6 +54,7 @@ class Speakers extends Component {
 
         <div className='speakerRow'>
           <span className='leftSpeakerBox'>
+          <img src='./pink-plus-sign.png' className='plus' />
             <Parallax
               offsetXMin={-50}
               offsetXMax={5.5}
@@ -62,6 +65,7 @@ class Speakers extends Component {
           </span>
 
           <span className='rightSpeaker'>
+          <img src='./pink-plus-sign.png' className='plus' />
             <Parallax
               offsetXMin={0}
               offsetXMax={-43}
@@ -73,6 +77,7 @@ class Speakers extends Component {
         </div>
 
         <div className='middleSpeaker'>
+        <img src='./pink-plus-sign.png' className='plus' />
           <span>
             <Parallax
               offsetXMin={0}
@@ -86,6 +91,7 @@ class Speakers extends Component {
 
         <div className='speakerRow'>
           <span className='leftSpeakerBox'>
+          <img src='./pink-plus-sign.png' className='plus' />
             <Parallax
               offsetXMin={-50}
               offsetXMax={5.5}
@@ -96,6 +102,7 @@ class Speakers extends Component {
           </span>
 
           <span className='rightSpeaker'>
+          <img src='./pink-plus-sign.png' className='plus' />
             <Parallax
               offsetXMin={0}
               offsetXMax={-43}
@@ -107,6 +114,7 @@ class Speakers extends Component {
         </div>
 
         <div className='middleSpeaker'>
+        <img src='./pink-plus-sign.png' className='plus' />
           <span>
             <Parallax
               offsetXMin={0}
@@ -120,6 +128,7 @@ class Speakers extends Component {
 
         <div className='speakerRow'>
           <span className='leftSpeakerBox'>
+          <img src='./pink-plus-sign.png' className='plus' />
             <Parallax
               offsetXMin={-50}
               offsetXMax={5.5}
@@ -130,6 +139,7 @@ class Speakers extends Component {
           </span>
 
           <span className='rightSpeaker'>
+          <img src='./pink-plus-sign.png' className='plus' />
             <Parallax
               offsetXMin={0}
               offsetXMax={-43}

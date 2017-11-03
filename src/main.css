@@ -281,6 +281,7 @@
   padding: 10px;
   z-index: 1;
   position: relative;
+  display: inline-block;
 }
 
 .textbox__title {
@@ -301,18 +302,48 @@
 
 .speakersPage {
   border: 1px solid red;
-  height: 4300px;
+  height: 4000px;
   width: 100%;
   margin-top: -800px;
   background-color: #DCDCDC;
 }
 
-.demosandworkshops {
-
+.demosandworkshopsPage {
+  width: 100%;
+  background-color: #DCDCDC;
 }
 
-.demosandworkshops--element {
+#workshop_elements {
+  padding-top: 150px;
+  display: block;
+}
+
+#workshop_elements--inline {
+  display: block;
+  margin-bottom: 50px;
+}
+
+#workshopElement--left {
   display: inline-block;
+  margin-left: 10%;
+  width: 31%;
+}
+
+#workshopElement--right {
+  display: inline-block;
+  margin-left: 10%;
+  width: 31%;
+}
+
+.workshopParagraph {
+  font-size: 1.1em;
+  display: inline-block;
+}
+
+.demosandworkshops--bottom {
+  display: block;
+  margin-left: 35%;
+  width: 31%
 }
 
 #speakers {
@@ -326,6 +357,14 @@
   margin-top: 5%;
   margin-left: 10%;
   font-size: 1.8em;
+}
+
+.plus{
+  z-index: 1;
+  position: absolute;
+  height: 80px;
+  margin-left: -120px;
+  margin-top: 50px;
 }
 
 /*.custom-class {
