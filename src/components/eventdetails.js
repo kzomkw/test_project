@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-scroll-parallax'
+import Particles from 'react-particles-js';
 
-import TextBox from './textbox'
+import SDTextBox from './SDtextbox'
 
 class EventDetails extends Component {
   render() {
     return (
-      <div>
-
         <div className='eventDetails'>
 
           <div id='timeAndPlace'>
@@ -15,22 +14,26 @@ class EventDetails extends Component {
           </div>
 
           <div id='getTickets'>
-            Get Tickets
+            <a href='#' id='linkStyle'>GET TICKETS</a>
           </div>
 
           <div id='mirumopus'>
             #mirumopus
           </div>
 
-          <div id='eventTextBox'>
-            <TextBox title='San Diego' text='The Prado Balboa Park'/>
-          </div>
+          <Parallax
+          offsetYMin={-20}
+          offsetYMax={100}
+          >
+            <div id='eventTextBox'>
+              <SDTextBox title='San Diego' text='The Prado Balboa Park'/>
+            </div>
+          </Parallax>
 
           <Parallax
             offsetYMin={-500}
-            offsetYMax={0}
+            offsetYMax={50}
           >
-
             <img src='./marker.png' id='mapMarker'/>
             <div id='date'>
               Dec
@@ -44,7 +47,7 @@ class EventDetails extends Component {
           </Parallax>
 
           <Parallax
-          offsetYMin={-500}
+          offsetYMin={-250}
           offsetYMax={50}
           >
             <div id='mission'>
@@ -56,7 +59,12 @@ class EventDetails extends Component {
                 They must also contribute to human progress.
               </div>
             </div>
+          </Parallax>
 
+          <Parallax
+          offsetYMin={-500}
+          offsetYMax={50}
+          >
             <div id='photoAndParagraph'>
               <img src='../stefan-stefancik-105376.jpg' id='detailsPhoto'/>
               <p className='titleText'>
@@ -83,9 +91,39 @@ class EventDetails extends Component {
               VIDEO
             </div>
           </Parallax>
-
+            <Particles
+            params={{
+              particles: {
+                number: {
+                  value: 10
+                },
+                size: {
+                  value: 0
+                },
+                line_linked: {
+                  color: "FE198B",
+                  width: 1,
+                  distance: 800,
+                  opacity: 1
+                },
+                interactivity: {
+                  detect_on: "window",
+                  events: {
+                    onhover: {
+                      enable: true,
+                      mode: "repulse"
+                    }
+                  }
+                }
+              }
+            }}
+              style={{
+                position: "absolute",
+                zIndex: 0,
+                marginTop: -2500
+              }}
+            />
         </div>
-      </div>
     );
   }
 }

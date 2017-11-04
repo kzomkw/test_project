@@ -1,34 +1,9 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-scroll-parallax'
-
+import Particles from 'react-particles-js';
 import TextBox from './textbox'
 
 class Speakers extends Component {
-  //
-  // handleScroll = function(event) {
-  //   console.log(window.scrollY);
-  //   if (window.scrollY < 2400) {
-  //     document.getElementById('bowie').className = 'portrait--before'
-  //   } else if (window.scrollY > 2400 && window.scrollY < 2700) {
-  //     var leftMargin = ((-2/3*window.scrollY) + 1823)
-  //     console.log(leftMargin);
-  //     document.getElementById('bowie').style.marginLeft = `${leftMargin}`
-  //     document.getElementById('bowie').style.marginTop = '(246/300*window.scrollY)'
-  //   } else if (window.scrollY > 2700 ) {
-  //     document.getElementById('bowie').className = 'portrait'
-  //   }
-  // }
-  //
-  // componentDidMount = function() {
-  //   console.log('componentDidMount invoked');
-  //   window.addEventListener('scroll', this.handleScroll);
-  // }
-  //
-  // componentWillUnmount = function() {
-  //   console.log('componentWillUnmount invoked');
-  //   window.removeEventListener('scroll', this.handleScroll);
-  // }
-
   render() {
     return (
 
@@ -39,116 +14,233 @@ class Speakers extends Component {
         </div>
 
         <div className='middleSpeaker'>
-        <img src='./pink-plus-sign.png' className='plus' />
-
           <span>
             <Parallax
               offsetXMin={0}
-              offsetXMax={-40.5}
+              offsetXMax={-10}
             >
-              <img className='portrait' src='./bowie.jpg' id='bowie'/>
+              <img className='portrait bottom' src='./bowie.jpg'/>
+              <img className='portrait top' src='./bowieBW.jpg'/>
             </Parallax>
-              <TextBox title='Person Name' text='Lorem ipsum dolor sit amet, consectetur adipiscing.'/>
+            <img src='./pink-plus-sign.png' className='plus' />
+            <TextBox title='Tony Markosvski' text='Head of Innovation and Emerging Technology'/>
+            <div className='keynoteText'>
+              <p className='keynoteTitle'>
+                Opening
+              </p>
+              <p className='keynoteDescription'>
+                You’re innovating in All The Wrong Places
+              </p>
+            </div>
           </span>
         </div>
 
         <div className='speakerRow'>
           <span className='leftSpeakerBox'>
-          <img src='./pink-plus-sign.png' className='plus' />
             <Parallax
-              offsetXMin={-50}
-              offsetXMax={5.5}
+            offsetXMin={0}
+            offsetXMax={-10}
             >
               <img className='portrait--left' src='./bowie.jpg' />
+              <img className='portrait--left top' src='./bowieBW.jpg'/>
             </Parallax>
-            <TextBox title='Person Name' text='Lorem ipsum dolor sit amet, consectetur adipiscing.'/>
+            <img src='./pink-plus-sign.png' className='plus' />
+            <TextBox title='Bree Groff' text='CEO of NOBL'/>
+            <div className='keynoteText'>
+              <p className='keynoteTitle'>
+                Keynote
+              </p>
+              <p className='keynoteDescription'>
+                Underwear, Clocks, and Companies: How to Change When You Must
+              </p>
+            </div>
           </span>
 
           <span className='rightSpeaker'>
-          <img src='./pink-plus-sign.png' className='plus' />
             <Parallax
               offsetXMin={0}
-              offsetXMax={-43}
+              offsetXMax={-10}
             >
               <img className='portrait--right' src='./bowie.jpg' />
+              <img className='portrait--right top' src='./bowieBW.jpg'/>
             </Parallax>
-            <TextBox title='Person Name' text='Lorem ipsum dolor sit amet, consectetur adipiscing.'/>
+            <img src='./pink-plus-sign.png' className='plus' />
+            <TextBox title='Brett Hurt' text='CEO & Founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
+            <div className='keynoteText'>
+              <p className='keynoteTitle'>
+                Keynote
+              </p>
+              <p className='keynoteDescription'>
+                The Secrets of Making Profits with Purpose
+              </p>
+            </div>
           </span>
         </div>
 
         <div className='middleSpeaker'>
-        <img src='./pink-plus-sign.png' className='plus' />
           <span>
             <Parallax
               offsetXMin={0}
-              offsetXMax={-40.5}
+              offsetXMax={-10}
             >
               <img className='portrait' src='./bowie.jpg' id='bowie'/>
+              <img className='portrait top' src='./bowieBW.jpg'/>
             </Parallax>
-            <TextBox title='Person Name' text='Lorem ipsum dolor sit amet, consectetur adipiscing.'/>
+            <img src='./pink-plus-sign.png' className='plus' />
+            <TextBox title='Tamara Ingram' text='CEO of J. Walter Thompson Worldwide'/>
+            <div className='keynoteText'>
+              <p className='keynoteTitle'>
+                Keynote
+              </p>
+              <p className='keynoteDescription'>
+                Innovating Like a Bull in a China Shop
+              </p>
+            </div>
           </span>
         </div>
 
         <div className='speakerRow'>
           <span className='leftSpeakerBox'>
-          <img src='./pink-plus-sign.png' className='plus' />
             <Parallax
-              offsetXMin={-50}
-              offsetXMax={5.5}
+              offsetXMin={0}
+              offsetXMax={-10}
             >
               <img className='portrait--left' src='./bowie.jpg' />
+              <img className='portrait--left top' src='./bowieBW.jpg'/>
             </Parallax>
+            <img src='./pink-plus-sign.png' className='plus' />
             <TextBox title='Person Name' text='Lorem ipsum dolor sit amet, consectetur adipiscing.'/>
+            <div className='keynoteText'>
+              <p className='keynoteTitle'>
+                Opening
+              </p>
+              <p className='keynoteDescription'>
+                You’re innovating in All The Wrong Places
+              </p>
+            </div>
           </span>
 
           <span className='rightSpeaker'>
-          <img src='./pink-plus-sign.png' className='plus' />
             <Parallax
               offsetXMin={0}
-              offsetXMax={-43}
+              offsetXMax={-10}
             >
               <img className='portrait--right' src='./bowie.jpg' />
+              <img className='portrait--right top' src='./bowieBW.jpg'/>
             </Parallax>
+            <img src='./pink-plus-sign.png' className='plus' />
             <TextBox title='Person Name' text='Lorem ipsum dolor sit amet, consectetur adipiscing.'/>
+            <div className='keynoteText'>
+              <p className='keynoteTitle'>
+                Opening
+              </p>
+              <p className='keynoteDescription'>
+                You’re innovating in All The Wrong Places
+              </p>
+            </div>
           </span>
         </div>
 
         <div className='middleSpeaker'>
-        <img src='./pink-plus-sign.png' className='plus' />
           <span>
             <Parallax
               offsetXMin={0}
-              offsetXMax={-40.5}
+              offsetXMax={-10}
             >
               <img className='portrait' src='./bowie.jpg' id='bowie'/>
+              <img className='portrait top' src='./bowieBW.jpg'/>
             </Parallax>
+            <img src='./pink-plus-sign.png' className='plus' />
             <TextBox title='Person Name' text='Lorem ipsum dolor sit amet, consectetur adipiscing.'/>
+            <div className='keynoteText'>
+              <p className='keynoteTitle'>
+                Opening
+              </p>
+              <p className='keynoteDescription'>
+                You’re innovating in All The Wrong Places
+              </p>
+            </div>
           </span>
         </div>
 
         <div className='speakerRow'>
           <span className='leftSpeakerBox'>
-          <img src='./pink-plus-sign.png' className='plus' />
             <Parallax
-              offsetXMin={-50}
-              offsetXMax={5.5}
+              offsetXMin={0}
+              offsetXMax={-10}
             >
               <img className='portrait--left' src='./bowie.jpg' />
+              <img className='portrait--left top' src='./bowieBW.jpg'/>
             </Parallax>
+            <img src='./pink-plus-sign.png' className='plus' />
             <TextBox title='Person Name' text='Lorem ipsum dolor sit amet, consectetur adipiscing.'/>
+            <div className='keynoteText'>
+              <p className='keynoteTitle'>
+                Opening
+              </p>
+              <p className='keynoteDescription'>
+                You’re innovating in All The Wrong Places
+              </p>
+            </div>
           </span>
 
           <span className='rightSpeaker'>
-          <img src='./pink-plus-sign.png' className='plus' />
             <Parallax
               offsetXMin={0}
-              offsetXMax={-43}
+              offsetXMax={-10}
             >
               <img className='portrait--right' src='./bowie.jpg' />
+              <img className='portrait--right top' src='./bowieBW.jpg'/>
             </Parallax>
+            <img src='./pink-plus-sign.png' className='plus' />
             <TextBox title='Person Name' text='Lorem ipsum dolor sit amet, consectetur adipiscing.'/>
+            <div className='keynoteText'>
+              <p className='keynoteTitle'>
+                Opening
+              </p>
+              <p className='keynoteDescription'>
+                You’re innovating in All The Wrong Places
+              </p>
+            </div>
           </span>
         </div>
+        <Parallax
+
+          slowerScrollRate
+        >
+          <Particles
+          params={{
+            particles: {
+              number: {
+                value: 10
+              },
+              size: {
+                value: 0
+              },
+              line_linked: {
+                color: "FE198B",
+                width: 1,
+                distance: 800,
+                opacity: 1
+              },
+              interactivity: {
+                detect_on: "window",
+                events: {
+                  onhover: {
+                    enable: true,
+                    mode: "repulse"
+                  }
+                }
+              }
+            }
+          }}
+            style={{
+              position: "relative",
+              zIndex: 0,
+              marginTop: -2500
+            }}
+          />
+        </Parallax>
       </div>
 
     );

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-scroll-parallax'
+import Particles from 'react-particles-js';
 
 import TextBoxWhite from './textbox-white'
 
@@ -7,9 +8,10 @@ class LandingPage extends Component {
   render() {
     return (
       <div id='landingPage'>
+
         <Parallax
-          offsetXMin={0}
-          offsetXMax={20}
+          offsetYMin={0}
+          offsetYMax={0}
           slowerScrollRate
         >
           <div>
@@ -49,7 +51,37 @@ class LandingPage extends Component {
             BRANDS
           </Parallax>
         </div>
-
+        <Particles
+          params={{
+            particles: {
+              number: {
+                value: 10
+              },
+              size: {
+                value: 0
+              },
+              line_linked: {
+                color: "#FE198B",
+                width: 1,
+                distance: 800,
+                opacity: 1
+              },
+              interactivity: {
+                detect_on: "window",
+                events: {
+                  onhover: {
+                    enable: true,
+                    mode: "repulse"
+                  }
+                }
+              }
+            }
+          }}
+          style={{
+            position: "absolute",
+            zIndex: 0
+          }}
+        />
       </div>
     );
   }

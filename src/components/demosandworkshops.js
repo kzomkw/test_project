@@ -19,14 +19,14 @@ class DemosAndWorkshops extends Component {
               <span id='workshopElement--left'>
                 <TextBox title='Product Demo Space'/>
                 <p className='workshopParagraph'>
-                  By embracing purpose-led innovation, businesses position themselves to stay relevant and grow in the activist economy, where consumers, employees and the media can quickly express dissent.
+                  We’ll showcase the best-in-class innovation experiences created by Mirum, J. Walter Thompson and our Opus sponsors to solve real-world problems. We’ll include prototypes and finished projects that attendees can touch, engage with and discuss with team members involved in bringing them to life.
                 </p>
               </span>
 
               <span id='workshopElement--right'>
                 <TextBox title='Innovation Spirit'/>
                 <p className='workshopParagraph'>
-                  By embracing purpose-led innovation, businesses position themselves to stay relevant and grow in the activist economy, where consumers, employees and the media can quickly express dissent.
+                  Experience a live prototype solution as we collaborate with one of our clients to use digital technology to implement purpose-led innovation. Mirum Global CTO Matt Webb and Mirum North America CTO Bret Otzenberger will co-host the sprint and update their progress and outcomes throughout the day.
                 </p>
               </span>
             </div>
@@ -34,7 +34,7 @@ class DemosAndWorkshops extends Component {
             <div className='demosandworkshops--bottom'>
               <TextBox title='One On Ones'/>
             <p className='workshopParagraph'>
-              While Opus attendees digest knowledge shared by our speakers, a team of Mirum specialists will be working alongside a client team to solve their most pressing challenge in a day-long innovation workshop.
+              Leaders from Mirum and J. Walter Thompson will offer 30-minute consultations to focus on specific innovation challenges facing your business and answer questions.
             </p>
             </div>
           </div>

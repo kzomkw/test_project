@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ParallaxProvider } from 'react-scroll-parallax'
+import Particles from 'react-particles-js';
 
 import LandingPage from './components/landingpage'
 import EventDetails from './components/eventdetails'
@@ -10,12 +11,14 @@ import './main.css';
 class App extends Component {
   render() {
     return (
-      <ParallaxProvider>
+      <div>
+        <ParallaxProvider>
           <LandingPage />
           <EventDetails />
           <Speakers />
           <DemosAndWorkshops />
-      </ParallaxProvider>
+        </ParallaxProvider>
+      </div>
     );
   }
 }
