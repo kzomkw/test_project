@@ -23,7 +23,7 @@ class Speakers extends Component {
               <img className='portrait top' src='./bowieBW.jpg'/>
             </Parallax>
             <img src='./pink-plus-sign.png' className='plus' />
-            <TextBox title='Tony Markosvski' text='Head of Innovation and Emerging Technology'/>
+            <TextBox title='Tony Markovski' text='Head of Innovation and Emerging Technology'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Opening
@@ -205,7 +205,6 @@ class Speakers extends Component {
           </span>
         </div>
         <Parallax
-
           slowerScrollRate
         >
           <Particles

@@ -435,6 +435,19 @@ img.top:hover {
   position: absolute;
 }
 
+#mirum-pic{
+  height: 600px;
+  width: 950px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+#btm-text{
+  position: absolute;
+  display: inline-block;
+  margin: 30% 5% 30% 1%;
+}
+
 /*.custom-class {
   position: absolute;
     top: 0;
