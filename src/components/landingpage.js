@@ -37,16 +37,17 @@ class LandingPage extends Component {
 
         <div className='companyLogo'>
           <Parallax
-            offsetXMin={200}
-            offsetXMax={-200}
+            offsetYMin={-200}
+            offsetYMax={200}
+            slowerScrollRate
           >
             Logo 1
           </Parallax>
         </div>
-        <div className='companyLogo' id='logo2'>
+        <div className='companyLogo' id='brandsText'>
           <Parallax
-            offsetXMin={-172}
-            offsetXMax={200}
+            offsetYMin={-172}
+            offsetYMax={200}
           >
             BRANDS
           </Parallax>

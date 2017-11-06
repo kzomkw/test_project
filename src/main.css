@@ -50,16 +50,16 @@
   color: white;
   font-size: 6em;
   font-family: monospace;
-  margin-left: 7%;
+  margin-left: 10%;
   margin-top: 30%;
   position: absolute;
   z-index: 1;
 }
 
-#logo2 {
+#brandsText {
   position: absolute;
   z-index: 1;
-  margin-left: 67%;
+  margin-left: 63%;
   font-size: 6em;
   font-family: sans-serif;
 }
