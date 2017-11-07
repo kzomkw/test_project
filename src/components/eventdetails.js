@@ -101,7 +101,7 @@ class EventDetails extends Component {
                   value: 0
                 },
                 line_linked: {
-                  color: "FE198B",
+                  color: "#E24498",
                   width: 1,
                   distance: 800,
                   opacity: 1

@@ -15,6 +15,7 @@ class Speakers extends Component {
 
         <div className='middleSpeaker'>
           <span>
+
             <Parallax
               offsetXMin={0}
               offsetXMax={-10}
@@ -56,7 +57,7 @@ class Speakers extends Component {
             </div>
           </span>
 
-          <span className='rightSpeaker'>
+          <span className='rightSpeakerBox'>
             <Parallax
               offsetXMin={0}
               offsetXMax={-10}
@@ -120,7 +121,7 @@ class Speakers extends Component {
             </div>
           </span>
 
-          <span className='rightSpeaker'>
+          <span className='rightSpeakerBox'>
             <Parallax
               offsetXMin={0}
               offsetXMax={-10}
@@ -184,7 +185,7 @@ class Speakers extends Component {
             </div>
           </span>
 
-          <span className='rightSpeaker'>
+          <span className='rightSpeakerBox'>
             <Parallax
               offsetXMin={0}
               offsetXMax={-10}
@@ -217,7 +218,7 @@ class Speakers extends Component {
                 value: 0
               },
               line_linked: {
-                color: "FE198B",
+                color: "#E24498",
                 width: 1,
                 distance: 800,
                 opacity: 1

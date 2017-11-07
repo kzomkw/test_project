@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import { Parallax } from 'react-scroll-parallax'
-
-
 
 class TextBox extends Component {
 
   render() {
     return (
 
-        <div className='textbox'>
+        <div className='textbox' id={this.props.boxid}>
           <div className='textbox__title'>
               {this.props.title}
           </div>

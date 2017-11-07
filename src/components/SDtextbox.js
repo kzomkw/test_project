@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import { Parallax } from 'react-scroll-parallax'
-
-
 
 class TextBox extends Component {
 
