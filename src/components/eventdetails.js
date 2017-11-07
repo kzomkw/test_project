@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-scroll-parallax'
-import Particles from 'react-particles-js';
-
+import ParticlesComponent from './particles'
 import SDTextBox from './SDtextbox'
 
 class EventDetails extends Component {
   render() {
     return (
         <div className='eventDetails'>
-
-          <div id='timeAndPlace'>
-            TIME AND PLACE
-          </div>
 
           <div id='getTickets'>
             <a href='#' id='linkStyle'>GET TICKETS</a>
@@ -21,6 +16,12 @@ class EventDetails extends Component {
             #mirumopus
           </div>
 
+          <div id='timeAndPlace'>
+            TIME AND PLACE
+          </div>
+          {window.matchMedia("(min-width: 700px)").matches &&
+            <ParticlesComponent />
+          }
           <Parallax
           offsetYMin={-20}
           offsetYMax={100}
@@ -91,38 +92,6 @@ class EventDetails extends Component {
               VIDEO
             </div>
           </Parallax>
-            <Particles
-            params={{
-              particles: {
-                number: {
-                  value: 10
-                },
-                size: {
-                  value: 0
-                },
-                line_linked: {
-                  color: "#E24498",
-                  width: 1,
-                  distance: 800,
-                  opacity: 1
-                },
-                interactivity: {
-                  detect_on: "window",
-                  events: {
-                    onhover: {
-                      enable: true,
-                      mode: "repulse"
-                    }
-                  }
-                }
-              }
-            }}
-              style={{
-                position: "absolute",
-                zIndex: 0,
-                marginTop: -2500
-              }}
-            />
         </div>
     );
   }

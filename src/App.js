@@ -3,6 +3,7 @@ import { ParallaxProvider } from 'react-scroll-parallax'
 import Scroll from 'react-scroll'
 
 import LandingPage from './components/landingpage'
+import LandingPageMobile from './components/landingpagemobile'
 import EventDetails from './components/eventdetails'
 import Speakers from './components/speakers'
 import DemosAndWorkshops from './components/demosandworkshops'
@@ -86,9 +87,12 @@ class App extends Component {
           </div>
         }
         <ParallaxProvider>
-          <Element name='landingPage'>
+          {window.matchMedia("(min-width: 700px)").matches &&
             <LandingPage />
-          </Element>
+          }
+          {window.matchMedia("(max-width: 700px)").matches &&
+            <LandingPageMobile />
+          }
           <Element name='eventDetails'>
             <EventDetails />
           </Element>

@@ -1,21 +1,25 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-scroll-parallax'
-import Particles from 'react-particles-js';
+import ParticlesComponent from './particles'
 
 class LandingPage extends Component {
   render() {
     return (
       <div id='landingPage'>
 
-        <Parallax
-          offsetYMin={0}
-          offsetYMax={0}
-          slowerScrollRate
-        >
           <div>
             <img src='../jonatan-pie-367745.jpg' alt='background' id='landingPhoto'/>
           </div>
-        </Parallax>
+
+        <div className='landingMirumOpusLogo'>
+          <Parallax
+            offsetYMin={-200}
+            offsetYMax={100}
+            slowerScrollRate
+          >
+            Logo 1
+          </Parallax>
+        </div>
 
         <div id='presentedBy'>
           <span id='presentedBy--text'>
@@ -28,13 +32,14 @@ class LandingPage extends Component {
             Acquia Logo
           </span>
         </div>
+
         <div id='textbox-white'>
           <div id='textbox__title--white'>
             <Parallax
-              offsetYMin={'-100px'}
-              offsetYMax={'500px'}
+              offsetYMin={0}
+              offsetYMax={200}
               >
-              Achieving <span id='purposeLed'>Purpose-Led</span> Innovation
+              Achieving <div className='purposeLed'>Purpose-Led</div> Innovation
             </Parallax>
           </div>
           <div id='textbox__subheading--white'>
@@ -46,47 +51,10 @@ class LandingPage extends Component {
             </Parallax>
           </div>
         </div>
+        {window.matchMedia("(min-width: 700px)").matches &&
+          <ParticlesComponent />
+        }
 
-        <div className='companyLogo'>
-          <Parallax
-            offsetYMin={-200}
-            offsetYMax={100}
-            slowerScrollRate
-          >
-            Logo 1
-          </Parallax>
-        </div>
-        <Particles
-          params={{
-            particles: {
-              number: {
-                value: 10
-              },
-              size: {
-                value: 0
-              },
-              line_linked: {
-                color: "#E24498",
-                width: 1,
-                distance: 800,
-                opacity: 1
-              },
-              interactivity: {
-                detect_on: "window",
-                events: {
-                  onhover: {
-                    enable: true,
-                    mode: "repulse"
-                  }
-                }
-              }
-            }
-          }}
-          style={{
-            position: "absolute",
-            zIndex: 0
-          }}
-        />
       </div>
     );
   }

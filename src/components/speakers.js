@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-scroll-parallax'
-import Particles from 'react-particles-js';
+import ParticlesComponent from './particles'
 import TextBox from './textbox'
 
 class Speakers extends Component {
@@ -13,6 +13,10 @@ class Speakers extends Component {
           SPEAKERS
         </div>
 
+        {window.matchMedia("(min-width: 700px)").matches &&
+          <ParticlesComponent />
+        }
+        
         <div className='middleSpeaker'>
           <span>
 
@@ -99,6 +103,10 @@ class Speakers extends Component {
             </div>
           </span>
         </div>
+
+        {window.matchMedia("(min-width: 700px)").matches &&
+          <ParticlesComponent />
+        }
 
         <div className='speakerRow'>
           <span className='leftSpeakerBox'>
@@ -208,38 +216,6 @@ class Speakers extends Component {
         <Parallax
           slowerScrollRate
         >
-          <Particles
-          params={{
-            particles: {
-              number: {
-                value: 10
-              },
-              size: {
-                value: 0
-              },
-              line_linked: {
-                color: "#E24498",
-                width: 1,
-                distance: 800,
-                opacity: 1
-              },
-              interactivity: {
-                detect_on: "window",
-                events: {
-                  onhover: {
-                    enable: true,
-                    mode: "repulse"
-                  }
-                }
-              }
-            }
-          }}
-            style={{
-              position: "relative",
-              zIndex: 0,
-              marginTop: -2500
-            }}
-          />
         </Parallax>
       </div>
 
