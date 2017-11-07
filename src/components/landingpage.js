@@ -47,7 +47,7 @@ class LandingPage extends Component {
               offsetYMin={-200}
               offsetYMax={200}
             >
-              A New Purpose For Brands
+                A New Purpose For Brands
             </Parallax>
           </div>
         </div>
