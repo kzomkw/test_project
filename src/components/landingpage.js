@@ -44,14 +44,6 @@ class LandingPage extends Component {
             Logo 1
           </Parallax>
         </div>
-        <div className='companyLogo' id='brandsText'>
-          <Parallax
-            offsetYMin={-172}
-            offsetYMax={200}
-          >
-            BRANDS
-          </Parallax>
-        </div>
         <Particles
           params={{
             particles: {
