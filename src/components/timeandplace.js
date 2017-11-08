@@ -13,7 +13,7 @@ class TimeAndPlace extends Component {
             #mirumopus
           </div>
 
-          <div id='timeAndPlaceHeading'>
+          <div id='section_heading'>
             TIME AND PLACE
           </div>
           {window.matchMedia("(min-width: 700px)").matches &&
