@@ -7,7 +7,7 @@ class DemosAndWorkshops extends Component {
 
         <div className='demosandworkshopsPage'>
 
-          <div id='timeAndPlace'>
+          <div id='section_heading'>
             DEMOS & WORKSHOPS
           </div>
 
@@ -35,10 +35,11 @@ class DemosAndWorkshops extends Component {
               Leaders from Mirum and J. Walter Thompson will offer 30-minute consultations to focus on specific innovation challenges facing your business and answer questions.
             </p>
             </div>
-            <div>
-            <img id='mirum-pic' src='./mirum.png' alt='mirum'/>
-            <p id='btm-text'>Mirum is borderless agency of over 2400 digital savants, storytellers, makers and relentlessly curious minds who are united by an uncommon drive to makes what&#39;s next. Active in 24 countries, we work across our global network of expertise to transform business, design innovative digital experiences and activate commerce at a global and local level. Mirum is part of the J. Walter Thompson Company and the WPP Network. Visit mirumagency.com for more information.</p>
-            </div>
+
+            <span>
+              <img id='mirum-pic' src='./mirum.png' alt='mirum'/>
+              <p id='btm-text'>Mirum is borderless agency of over 2400 digital savants, storytellers, makers and relentlessly curious minds who are united by an uncommon drive to makes what&#39;s next. Active in 24 countries, we work across our global network of expertise to transform business, design innovative digital experiences and activate commerce at a global and local level. Mirum is part of the J. Walter Thompson Company and the WPP Network. Visit mirumagency.com for more information.</p>
+            </span>
           </div>
 
 
