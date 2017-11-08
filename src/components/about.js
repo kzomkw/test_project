@@ -3,71 +3,25 @@ import { Parallax } from 'react-scroll-parallax'
 import ParticlesComponent from './particles'
 import SDTextBox from './SDtextbox'
 
-class EventDetails extends Component {
+class About extends Component {
   render() {
     return (
-        <div className='eventDetails'>
-
-          <div id='getTickets'>
-            <a href='#' id='linkStyle'>GET TICKETS</a>
-          </div>
-
-          <div id='mirumopus'>
-            #mirumopus
-          </div>
-
-          <div id='timeAndPlace'>
-            TIME AND PLACE
-          </div>
-          {window.matchMedia("(min-width: 700px)").matches &&
-            <ParticlesComponent />
-          }
-          <Parallax
-          offsetYMin={-20}
-          offsetYMax={100}
-          >
-            <div id='eventTextBox'>
-              <SDTextBox title='San Diego' text='The Prado Balboa Park'/>
-            </div>
-          </Parallax>
-
-          <Parallax
-            offsetYMin={-500}
-            offsetYMax={50}
-          >
-            <img src='./marker.png' id='mapMarker'/>
-            <div id='date'>
-              Dec
-              <div id='day'>
-                13
-              </div>
-            </div>
-            <div id='time'>
-              <div id='starting-time'>9AM</div><div id='ending-time'>6PM</div>
-            </div>
-          </Parallax>
-
-          <Parallax
-          offsetYMin={-250}
-          offsetYMax={50}
-          >
-            <div id='mission'>
-              <div>
-                Brands today have a bigger mission than selling products.
-              </div>
-              <div> <br/> </div>
-              <div>
-                They must also contribute to human progress.
-              </div>
-            </div>
-          </Parallax>
-
+        <div className='about'>
           <Parallax
           offsetYMin={-500}
           offsetYMax={50}
           >
             <div id='photoAndParagraph'>
               <img src='../stefan-stefancik-105376.jpg' id='detailsPhoto'/>
+              <div id='mission'>
+                <div>
+                  Brands today have a bigger mission than selling products.
+                </div>
+                <div> <br/> </div>
+                <div>
+                  They must also contribute to human progress.
+                </div>
+              </div>
               <p className='titleText'>
                 How is this <br/> possible?
               </p>
@@ -97,4 +51,4 @@ class EventDetails extends Component {
   }
 }
 
-export default EventDetails;
+export default About;

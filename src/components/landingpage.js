@@ -51,10 +51,7 @@ class LandingPage extends Component {
             </Parallax>
           </div>
         </div>
-        {window.matchMedia("(min-width: 700px)").matches &&
-          <ParticlesComponent />
-        }
-
+        <ParticlesComponent />
       </div>
     );
   }
