@@ -26,7 +26,7 @@ class App extends Component {
   }
 
   navClick = () => {
-    this.setState({showNav: !this.state.showNav})
+    this.setState({showNav: !this.state.showNav, showForm: false});
     if (document.getElementById('navIcon')){
       document.getElementById('navIcon').id = 'activeNavIcon'
     } else {
@@ -35,7 +35,7 @@ class App extends Component {
   }
 
   formClick = () => {
-    this.setState({showForm: !this.state.showForm});
+    this.setState({showForm: !this.state.showForm, showNav: false});
   }
 
   componentDidMount(){
