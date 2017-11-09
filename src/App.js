@@ -104,9 +104,11 @@ class App extends Component {
           {window.matchMedia("(max-width: 700px)").matches &&
             <LandingPageMobile />
           }
+        {!this.state.showForm &&
           <div id='getTickets'>
             <a onClick={this.formClick} id='getTicketsLink'>GET TICKETS</a>
           </div>
+        }
           {this.state.showForm &&
             <div id='getTicketsContainer'>
               <a id='closeNav' className='closeNav' onClick={this.formClick}>X</a>
