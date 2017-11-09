@@ -3,6 +3,10 @@
   overflow-x: hidden;
 }*/
 
+body {
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: 'Mirum-Sans';
   src: url(./fonts/Mirum-Sans.otf)
