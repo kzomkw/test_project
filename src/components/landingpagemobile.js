@@ -10,8 +10,8 @@ class LandingPageMobile extends Component {
           <img src='../jonatan-pie-367745.jpg' alt='background' id='landingPhoto'/>
         </div>
 
-        <div id='landingMirumOpusLogo--mobile'>
-          Logo 1
+        <div>
+          <img src='../mirum-opus.png'  id='landingMirumOpusLogo--mobile' alt='opus logo'/>
         </div>
 
         <div id='textbox-white--mobile'>
@@ -28,10 +28,10 @@ class LandingPageMobile extends Component {
             Presented in association with our partners
           </div>
           <div id='presentedBy--logo1--mobile'>
-            JWT Logo
+            <img src='../jwt-sig.png'/>
           </div>
           <div id='presentedBy--logo2--mobile'>
-            Acquia Logo
+            <img src='../acquia.png'/>
           </div>
         </div>
 

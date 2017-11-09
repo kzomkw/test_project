@@ -16,18 +16,18 @@ class Speakers extends Component {
         {window.matchMedia("(min-width: 700px)").matches &&
           <ParticlesComponent />
         }
-        
+
         <div className='middleSpeaker'>
           <span>
 
             <Parallax
-              offsetXMin={0}
-              offsetXMax={-10}
+              offsetXMin={"0px"}
+              offsetXMax={"-50px"}
             >
               <img className='portrait bottom' src='./bowie.jpg'/>
               <img className='portrait top' src='./bowieBW.jpg'/>
             </Parallax>
-            <img src='./pink-plus-sign.png' className='plus' />
+            <img src='./pink-plus-sign.png' className='plus--middle' />
             <TextBox title='Tony Markovski' text='Head of Innovation and Emerging Technology'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -43,8 +43,8 @@ class Speakers extends Component {
         <div className='speakerRow'>
           <span className='leftSpeakerBox'>
             <Parallax
-            offsetXMin={0}
-            offsetXMax={-10}
+              offsetXMin={"0px"}
+              offsetXMax={"-50px"}
             >
               <img className='portrait--left' src='./bowie.jpg' />
               <img className='portrait--left top' src='./bowieBW.jpg'/>
@@ -63,8 +63,8 @@ class Speakers extends Component {
 
           <span className='rightSpeakerBox'>
             <Parallax
-              offsetXMin={0}
-              offsetXMax={-10}
+              offsetXMin={"0px"}
+              offsetXMax={"-50px"}
             >
               <img className='portrait--right' src='./bowie.jpg' />
               <img className='portrait--right top' src='./bowieBW.jpg'/>
@@ -85,13 +85,13 @@ class Speakers extends Component {
         <div className='middleSpeaker'>
           <span>
             <Parallax
-              offsetXMin={0}
-              offsetXMax={-10}
+              offsetXMin={"0px"}
+              offsetXMax={"-50px"}
             >
               <img className='portrait' src='./bowie.jpg' id='bowie'/>
               <img className='portrait top' src='./bowieBW.jpg'/>
             </Parallax>
-            <img src='./pink-plus-sign.png' className='plus' />
+            <img src='./pink-plus-sign.png' className='plus--middle' />
             <TextBox title='Tamara Ingram' text='CEO of J. Walter Thompson Worldwide'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -111,8 +111,8 @@ class Speakers extends Component {
         <div className='speakerRow'>
           <span className='leftSpeakerBox'>
             <Parallax
-              offsetXMin={0}
-              offsetXMax={-10}
+              offsetXMin={"0px"}
+              offsetXMax={"-50px"}
             >
               <img className='portrait--left' src='./bowie.jpg' />
               <img className='portrait--left top' src='./bowieBW.jpg'/>
@@ -131,8 +131,8 @@ class Speakers extends Component {
 
           <span className='rightSpeakerBox'>
             <Parallax
-              offsetXMin={0}
-              offsetXMax={-10}
+              offsetXMin={"0px"}
+              offsetXMax={"-50px"}
             >
               <img className='portrait--right' src='./bowie.jpg' />
               <img className='portrait--right top' src='./bowieBW.jpg'/>
@@ -153,13 +153,13 @@ class Speakers extends Component {
         <div className='middleSpeaker'>
           <span>
             <Parallax
-              offsetXMin={0}
-              offsetXMax={-10}
+              offsetXMin={"0px"}
+              offsetXMax={"-50px"}
             >
               <img className='portrait' src='./bowie.jpg' id='bowie'/>
               <img className='portrait top' src='./bowieBW.jpg'/>
             </Parallax>
-            <img src='./pink-plus-sign.png' className='plus' />
+            <img src='./pink-plus-sign.png' className='plus--middle' />
             <TextBox title='Person Name' text='Lorem ipsum dolor sit amet, consectetur adipiscing.'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -175,8 +175,8 @@ class Speakers extends Component {
         <div className='speakerRow'>
           <span className='leftSpeakerBox'>
             <Parallax
-              offsetXMin={0}
-              offsetXMax={-10}
+              offsetXMin={"0px"}
+              offsetXMax={"-50px"}
             >
               <img className='portrait--left' src='./bowie.jpg' />
               <img className='portrait--left top' src='./bowieBW.jpg'/>
@@ -195,8 +195,8 @@ class Speakers extends Component {
 
           <span className='rightSpeakerBox'>
             <Parallax
-              offsetXMin={0}
-              offsetXMax={-10}
+              offsetXMin={"0px"}
+              offsetXMax={"-50px"}
             >
               <img className='portrait--right' src='./bowie.jpg' />
               <img className='portrait--right top' src='./bowieBW.jpg'/>

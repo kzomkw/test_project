@@ -11,44 +11,68 @@ class LandingPage extends Component {
             <img src='../jonatan-pie-367745.jpg' alt='background' id='landingPhoto'/>
           </div>
 
-        <div className='landingMirumOpusLogo'>
-          <Parallax
-            offsetYMin={-200}
-            offsetYMax={100}
-            slowerScrollRate
-          >
-            Logo 1
-          </Parallax>
-        </div>
-
         <div id='presentedBy'>
           <span id='presentedBy--text'>
             Presented in association with our partners
           </span>
           <span id='presentedBy--logo1'>
-            JWT Logo
+            <img src='../jwt-sig.png'/>
           </span>
           <span id='presentedBy--logo2'>
-            Acquia Logo
+            <img src='../acquia.png'/>
           </span>
+        </div>
+
+
+        <div>
+          <img src='../mirum-opus.png'  id='landingMirumOpusLogo' alt='opus logo'/>
         </div>
 
         <div id='textbox-white'>
           <div id='textbox__title--white'>
+          {window.matchMedia("(max-height: 600px)").matches &&
+          <Parallax
+            offsetYMin={-200}
+            offsetYMax={250}
+            >
+            Achieving <div className='purposeLed'>Purpose-Led</div> Innovation
+          </Parallax>
+          }
+          {window.matchMedia("(min-height: 600px) and (max-height: 900px)").matches &&
+          <Parallax
+            offsetYMin={-120}
+            offsetYMax={250}
+            >
+            Achieving <div className='purposeLed'>Purpose-Led</div> Innovation
+          </Parallax>
+          }
+          {window.matchMedia("(min-height: 900px)").matches &&
             <Parallax
-              offsetYMin={0}
-              offsetYMax={200}
+              offsetYMin={-80}
+              offsetYMax={250}
               >
               Achieving <div className='purposeLed'>Purpose-Led</div> Innovation
             </Parallax>
+          }
+
           </div>
           <div id='textbox__subheading--white'>
-            <Parallax
-              offsetYMin={-200}
-              offsetYMax={200}
-            >
+            {window.matchMedia("(max-height: 900px)").matches &&
+              <Parallax
+                offsetYMin={-90}
+                offsetYMax={350}
+              >
                 A New Purpose For Brands
-            </Parallax>
+              </Parallax>
+            }
+            {window.matchMedia("(min-height: 1000px)").matches &&
+              <Parallax
+                offsetYMin={30}
+                offsetYMax={250}
+                >
+                A New Purpose For Brands
+              </Parallax>
+            }
           </div>
         </div>
         <ParticlesComponent />

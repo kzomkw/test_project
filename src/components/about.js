@@ -8,7 +8,7 @@ class About extends Component {
     return (
         <div className='about'>
           <Parallax
-          offsetYMin={-500}
+          offsetYMin={0}
           offsetYMax={50}
           >
             <div id='photoAndParagraph'>
@@ -23,7 +23,7 @@ class About extends Component {
                 </div>
               </div>
               <p className='titleText'>
-                How is this <br/> possible?
+                How is this possible?
               </p>
               <p className='descriptionParagraph'>
                 By embracing purpose-led innovation, businesses position themselves to stay relevant and grow in the activist economy, where consumers, employees and the media can quickly express dissent.

@@ -65,7 +65,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div id='appWrapper'>
         <div id='navIcon' onClick={this.navClick}></div>
         {this.state.showNav &&
           <div id='expandedNav'>

@@ -9,11 +9,11 @@ class TimeAndPlace extends Component {
 
         <div className='timeAndPlaceContainer'>
 
-          <div id='mirumopus'>
+          <div id='mirumopusHashtag'>
             #mirumopus
           </div>
 
-          <div id='section_heading'>
+          <div id='timeandplace_heading'>
             TIME AND PLACE
           </div>
           {window.matchMedia("(min-width: 700px)").matches &&
@@ -21,7 +21,7 @@ class TimeAndPlace extends Component {
           }
           <Parallax
           offsetYMin={0}
-          offsetYMax={200}
+          offsetYMax={20}
           >
             <div id='eventTextBox'>
               <SDTextBox title='San Diego' text='The Prado Balboa Park'/>
@@ -29,7 +29,7 @@ class TimeAndPlace extends Component {
           </Parallax>
 
           <Parallax
-            offsetYMin={-500}
+            offsetYMin={-400}
             offsetYMax={50}
           >
             <img src='./marker.png' id='mapMarker'/>
