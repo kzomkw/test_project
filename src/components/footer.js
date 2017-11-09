@@ -6,13 +6,14 @@ class Footer extends Component {
     return (
       <div id='footer'>
         <span>
-          <img id='mirum-pic' src='./mirum.png' alt='mirum'/>
+          <img id='mirum-pic' src='./bottompic.png' alt='mirum'/>
         </span>
 
-        <span>
-          <p id='btm-text'>
-            Mirum is borderless agency of over 2400 digital savants, storytellers, makers and relentlessly curious minds who are united by an uncommon drive to makes what&#39;s next. Active in 24 countries, we work across our global network of expertise to transform business, design innovative digital experiences and activate commerce at a global and local level. Mirum is part of the J. Walter Thompson Company and the WPP Network. Visit mirumagency.com for more information.
-          </p>
+        <p id='btm-text'>
+          Mirum is borderless agency of over 2400 digital savants, storytellers, makers and relentlessly curious minds who are united by an uncommon drive to makes what&#39;s next. Active in 24 countries, we work across our global network of expertise to transform business, design innovative digital experiences and activate commerce at a global and local level. Mirum is part of the J. Walter Thompson Company and the WPP Network. Visit mirumagency.com for more information.
+        </p>
+
+        <span id='social'>
           <a href="https://www.facebook.com/MirumAgency/" >
             <svg viewBox="0 0 512 512" id='facebook'>
               <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path>

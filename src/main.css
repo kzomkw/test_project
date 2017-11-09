@@ -1314,6 +1314,13 @@ body {
   background-color: #DCDCDC;
   height: 800px;
 }
+@media (min-width:1000px){
+  #footer {
+    width: 100%;
+    background-color: #DCDCDC;
+    height: 1100px;
+  }
+}
 
 #mirum-pic{
   height: auto;
@@ -1351,18 +1358,18 @@ body {
   height:60px;
   fill: #311836;
   /*display: block;
-  position: absolute;
+  position: absolute;*/
   margin-top: 85%;
-  margin-left: 50%;*/
+  margin-left: 0%;
 }
 
 @media (min-width:700px){
   #twitter{
     width:60px;
     height:60px;
-    /*position: absolute;
-    margin-top: 65%;
-    margin-left: 10%;*/
+    /*position: absolute;*/
+    margin-top: 0%;
+    margin-left: 0%;
   }
 }
 
@@ -1372,8 +1379,8 @@ body {
   fill: #311836;
   /*position: absolute;
   margin-top: 85%;
-  display: block;
-  margin-left: 10%;*/
+  display: block;*/
+  margin-left: 15%;
 }
 
 @media (min-width:700px){
@@ -1383,6 +1390,7 @@ body {
     /*height:60px;
     position: absolute;
     margin-top: 65%;*/
+    margin-left: 0;
   }
 }
 
@@ -1423,5 +1431,18 @@ body {
     /*position: absolute;
     margin-top: 65%;
     margin-left: 5%;*/
+  }
+}
+
+#social{
+  margin-top: 40%;
+  position:relative;
+  margin-left: 1%;
+}
+@media (min width: 700px){
+  #social{
+    margin-top: 40%;
+    position:absolute;
+    margin-left: 1%;
   }
 }
