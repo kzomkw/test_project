@@ -412,7 +412,6 @@
 }
 
 #section_heading {
-  margin-top: 40px;
   font-size: 1.8em;
   z-index: 1;
   text-align: center;
@@ -551,16 +550,15 @@
 /*styling for about section (photo, words, video)*/
 
 .about {
-  height: 1700px;
+  height: 1800px;
   width: 100%;
   background-color: #DCDCDC;
 }
-@media (min-width: 700px) and (max-width: 1500px){
+@media (min-width: 700px) and (max-width: 1500){
   .about {
-    height: 2220px;
+    height: 2300px;
     width: 100%;
     margin-bottom: 10px;
-
   }
 }
 @media (min-width: 1500px) {
@@ -688,14 +686,14 @@
 /*styling for speakers page*/
 
 .speakersPage {
-  height: 4500px;
+  height: 4800px;
   width: 100%;
-  margin-top: -65%;
+  margin-top: -35%;
   background-color: #DCDCDC;
 }
 @media (min-width: 700px) {
   .speakersPage {
-    height: 4500px;
+    height: 5200px;
     width: 100%;
     background-color: #DCDCDC;
   }
@@ -944,14 +942,47 @@
   }
 }
 
+.textbox1__title {
+  color: #311836;
+  font-size: 3em;
+  /*margin-left: 10px;*/
+  margin-bottom: -20px;
+}
+@media (min-width:700px) {
+  .textbox1__title {
+    color: #311836;
+    font-size: 4em;
+    /*margin-left: 10px;*/
+    margin-top: 30px;
+    margin-bottom: -20px;
+  }
+}
+
+.textbox2__title{
+  color: #311836;
+  font-size: 3em;
+  /*margin-left: 10px;*/
+  margin-top: 80px;
+}
+
+@media (min-width:700px){
+  .textbox2__title{
+    color: #311836;
+    font-size: 3em;
+    /*margin-left: 10px;*/
+    margin-top: 140px;
+    margin-bottom: -20px;
+  }
+}
 
 .textbox__subheading {
   color: #311836;
   font-size: 1.5em;
   bottom: 0;
   position: absolute;
-  margin-bottom: 5%;
+  margin-bottom: 0;
 }
+
 @media (min-width:700px) {
   .textbox__subheading {
     color: #311836;
@@ -962,7 +993,23 @@
   }
 }
 
+.textbox2__subheading {
+  color: #311836;
+  font-size: 1.75em;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 65%;
+}
 
+@media (min-width:700px) {
+  .textbox2__subheading {
+    color: #311836;
+    font-size: 1.75em;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 60%;
+  }
+}
 
 .demosandworkshopsPage {
   width: 100%;
@@ -1074,7 +1121,7 @@
 }
 
 .plus{
-  z-index: 1;
+  z-index: 2;
   position: absolute;
   height: 40px;
   margin-left: 17%;
@@ -1091,14 +1138,33 @@
 }
 
 .plus--middle{
-  z-index: 1;
+  z-index: 2;
   position: absolute;
   height: 40px;
   margin-left: 17%;
   margin-top: 44%;
 }
+
 @media (min-width:700px){
   .plus--middle{
+    z-index: 1;
+    position: absolute;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 17%;
+  }
+}
+
+.plus--middle2{
+  z-index: 2;
+  position: absolute;
+  height: 40px;
+  margin-left: 17%;
+  margin-top: 40%;
+}
+
+@media (min-width:700px){
+  .plus--middle2{
     z-index: 1;
     position: absolute;
     height: 50px;
