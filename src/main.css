@@ -69,7 +69,6 @@
 }
 @media (min-width: 700px){
   #activeNavIcon {
-    border: 1px solid white;
     height: 70px;
     width: 70px;
     background: #E24498;
