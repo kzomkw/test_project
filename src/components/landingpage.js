@@ -8,7 +8,7 @@ class LandingPage extends Component {
       <div id='landingPage'>
 
           <div>
-            <img src='../jonatan-pie-367745.jpg' alt='background' id='landingPhoto'/>
+            <img src='../landing_still_full.png' alt='background' id='landingPhoto'/>
           </div>
 
         <div id='presentedBy'>
@@ -25,7 +25,7 @@ class LandingPage extends Component {
 
 
         <div>
-          <img src='../mirum-opus.png'  id='landingMirumOpusLogo' alt='opus logo'/>
+          <img src='../mirumopuslogo.png'  id='landingMirumOpusLogo' alt='opus logo'/>
         </div>
 
         <div id='textbox-white'>

@@ -12,7 +12,7 @@ class About extends Component {
           offsetYMax={50}
           >
             <div id='photoAndParagraph'>
-              <img src='../stefan-stefancik-105376.jpg' id='detailsPhoto'/>
+              <img src='../GettyImages-539144571.jpg' id='detailsPhoto'/>
               <div id='mission'>
                 <div>
                   Brands today have a bigger mission than selling products.
@@ -43,7 +43,7 @@ class About extends Component {
             </div>
 
             <div id='video'>
-              VIDEO
+              <iframe src="https://player.vimeo.com/video/204015105" width='100%' height='100%' frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
           </Parallax>
         </div>

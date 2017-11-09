@@ -7,11 +7,11 @@ class LandingPageMobile extends Component {
       <div id='landingPage--mobile'>
 
         <div>
-          <img src='../jonatan-pie-367745.jpg' alt='background' id='landingPhoto'/>
+          <img src='../landing_still.jpg' alt='background' id='landingPhoto--mobile'/>
         </div>
 
         <div>
-          <img src='../mirum-opus.png'  id='landingMirumOpusLogo--mobile' alt='opus logo'/>
+          <img src='../mirumopuslogo.png'  id='landingMirumOpusLogo--mobile' alt='opus logo'/>
         </div>
 
         <div id='textbox-white--mobile'>
@@ -27,11 +27,11 @@ class LandingPageMobile extends Component {
           <div id='presentedBy--text--mobile'>
             Presented in association with our partners
           </div>
-          <div id='presentedBy--logo1--mobile'>
-            <img src='../jwt-sig.png'/>
+          <div >
+            <img src='../jwt-sig.png' id='presentedBy--logo1--mobile'/>
           </div>
-          <div id='presentedBy--logo2--mobile'>
-            <img src='../acquia.png'/>
+          <div>
+            <img src='../acquia.png' id='presentedBy--logo2--mobile'/>
           </div>
         </div>
 

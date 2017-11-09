@@ -88,10 +88,6 @@ class App extends Component {
           </div>
         }
 
-        <div id='getTickets'>
-          <a href='#' id='getTicketsLink'>GET TICKETS</a>
-        </div>
-
         <ParallaxProvider>
           {window.matchMedia("(min-width: 700px)").matches &&
             <LandingPage />
@@ -99,6 +95,9 @@ class App extends Component {
           {window.matchMedia("(max-width: 700px)").matches &&
             <LandingPageMobile />
           }
+          <div id='getTickets'>
+            <a href='#' id='getTicketsLink'>GET TICKETS</a>
+          </div>
           <Element name='timeAndPlace'>
             <TimeAndPlace />
           </Element>

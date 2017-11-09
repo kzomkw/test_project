@@ -27,22 +27,42 @@ class TimeAndPlace extends Component {
               <SDTextBox title='San Diego' text='The Prado Balboa Park'/>
             </div>
           </Parallax>
-
-          <Parallax
-            offsetYMin={-400}
-            offsetYMax={50}
-          >
-            <img src='./marker.png' id='mapMarker'/>
-            <div id='date'>
-              Dec
-              <div id='day'>
-                13
+          {window.matchMedia("(min-width: 700px)").matches &&
+            <Parallax
+              offsetYMin={-400}
+              offsetYMax={50}
+            >
+              <div id='datetime'>
+                <img src='./marker.png' id='mapMarker'/>
+                <div id='date'>
+                  Dec
+                  <div id='day'>
+                    13
+                  </div>
+                </div>
+                <div id='time'>
+                  <div id='starting-time'>9AM</div><div id='ending-time'>6PM</div>
+                </div>
               </div>
+            </Parallax>
+          }
+          {window.matchMedia("(max-width: 700px)").matches &&
+            <div id='datetime--mobile'>
+              <img src='./marker.png' id='mapMarker'/>
+              <span>
+                <div id='date'>
+                  Dec
+                  <div id='day'>
+                    13
+                  </div>
+                </div>
+              </span>
+                <span id='time'>
+                  <div id='starting-time'>9AM</div><div id='ending-time'>6PM</div>
+                </span>
+
             </div>
-            <div id='time'>
-              <div id='starting-time'>9AM</div><div id='ending-time'>6PM</div>
-            </div>
-          </Parallax>
+          }
 
         </div>
     );
