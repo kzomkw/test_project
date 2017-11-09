@@ -35,7 +35,7 @@ class TimeAndPlace extends Component {
               <div id='datetime'>
                 <img src='./marker.png' id='mapMarker'/>
                 <div id='date'>
-                  Dec
+                  DEC
                   <div id='day'>
                     13
                   </div>

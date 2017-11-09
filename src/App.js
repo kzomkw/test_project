@@ -96,7 +96,7 @@ class App extends Component {
             <LandingPageMobile />
           }
           <div id='getTickets'>
-            <a href='#' id='getTicketsLink'>GET TICKETS</a>
+            <a href='#' id='getTicketsLink'>Get Tickets</a>
           </div>
           <Element name='timeAndPlace'>
             <TimeAndPlace />
