@@ -78,17 +78,17 @@ class App extends Component {
           <span><img src='../mirumopuslogo.png'  id='navLogo' alt='opus logo'/></span>
 
             <span id='navList'>
-              <div className='navLink' onClick={this.navClick}>
-                <Link activeClass="active" to="timeAndPlace" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive.bind(this)}>Time and Place</Link>
+              <div className='navLink'>
+                <Link activeClass="active" to="timeAndPlace" onClick={this.navClick} spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive.bind(this)}>Time and Place</Link>
               </div>
-              <div className='navLink' onClick={this.navClick}>
-                <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>About</Link>
+              <div className='navLink'>
+                <Link activeClass="active" to="about"  onClick={this.navClick} spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>About</Link>
               </div>
-              <div className='navLink' onClick={this.navClick}>
-                <Link activeClass="active" to="speakers" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>Speakers</Link>
+              <div className='navLink'>
+                <Link activeClass="active" to="speakers" onClick={this.navClick} spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>Speakers</Link>
               </div>
-              <div className='navLink' onClick={this.navClick}>
-                <Link activeClass="active" to="demosAndWorkshops" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>Demos &amp; Workshops</Link>
+              <div className='navLink'>
+                <Link activeClass="active" to="demosAndWorkshops" onClick={this.navClick} spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>Demos &amp; Workshops</Link>
               </div>
             </span>
           </div>

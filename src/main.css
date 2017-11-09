@@ -168,10 +168,12 @@ body {
 }
 @media (min-width: 700px) {
   #closeNav {
-    font-size: 6em;
-    color: black;
+    font-size: 3em;
+    color: white;
     float: right;
     cursor: pointer;
+    margin-left: 65%;
+    top: 15%;
   }
 }
 
