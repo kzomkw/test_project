@@ -22,7 +22,11 @@ class App extends Component {
     super();
     this.state = {
       showNav: false,
+<<<<<<< 0a4e914c3f23de38a914c12673f08fc6325a7e66
       showTicketForm: false
+=======
+      showForm: false,
+>>>>>>> Added the get tickets modal for eventbrite
     }
   }
 
@@ -35,6 +39,7 @@ class App extends Component {
     }
   }
 
+<<<<<<< 0a4e914c3f23de38a914c12673f08fc6325a7e66
   ticketClick = () => {
     this.setState({showTicketForm: !this.state.showTicketForm})
     if (document.getElementById('ticketClosed')){
@@ -42,6 +47,10 @@ class App extends Component {
     } else {
       document.getElementById('activeTicketOrder').id = 'ticketClosed'
     }
+=======
+  formClick = () => {
+    this.setState({showForm: !this.state.showForm});
+>>>>>>> Added the get tickets modal for eventbrite
   }
 
   componentDidMount(){
@@ -83,6 +92,7 @@ class App extends Component {
           <span><img src='../mirumopuslogo.png'  id='navLogo' alt='opus logo'/></span>
 
             <span id='navList'>
+<<<<<<< 0a4e914c3f23de38a914c12673f08fc6325a7e66
               <div className='navLink' onclick={this.navClick}>
                 <Link activeClass="active" to="timeAndPlace" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive.bind(this)}>Time and Place</Link>
               </div>
@@ -91,8 +101,18 @@ class App extends Component {
               </div>
               <div className='navLink' onclick={this.navClick}>
                 <Link activeClass="active" to="speakers" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>Speakers</Link>
+=======
+              <div className='navLink' onClick={this.navClick}>
+                <Link activeClass="active" to="timeAndPlace" smooth={true} duration={500} onSetActive={this.handleSetActive.bind(this)}>Time and Place</Link>
               </div>
-              <div className='navLink' onclick={this.navClick}>
+              <div className='navLink' onClick={this.navClick}>
+                <Link activeClass="active" to="about" smooth={true} duration={500} onSetActive={this.handleSetActive}>About</Link>
+              </div>
+              <div className='navLink' onClick={this.navClick}>
+                <Link activeClass="active" to="speakers" smooth={true} duration={500} onSetActive={this.handleSetActive}>Speakers</Link>
+>>>>>>> Added the get tickets modal for eventbrite
+              </div>
+              <div className='navLink' onClick={this.navClick}>
                 <Link activeClass="active" to="demosAndWorkshops" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>Demos &amp; Workshops</Link>
               </div>
             </span>
@@ -111,9 +131,19 @@ class App extends Component {
             <LandingPageMobile />
           }
           <div id='getTickets'>
+<<<<<<< 0a4e914c3f23de38a914c12673f08fc6325a7e66
             <a href='https://www.eventbrite.com/e/mirum-opus-san-diego-tickets-36226627819' id='getTicketsLink'>GET TICKETS</a>
             {/*<p onClick  id='getTicketsLink'>GET TICKETS</p>*/}
+=======
+            <a onClick={this.formClick} id='getTicketsLink'>GET TICKETS</a>
+>>>>>>> Added the get tickets modal for eventbrite
           </div>
+          {this.state.showForm &&
+            <div id='getTicketsContainer'>
+              <a id='closeNav' className='closeNav' onClick={this.formClick}>X</a>
+              <div style={{width:100+'%', textAlign:'left'}}><iframe src="//eventbrite.com/tickets-external?eid=36226627819&ref=etckt" frameBorder="0" height="308" width="100%" vspace="0" hspace="0" marginHeight="5" marginWidth="5" scrolling="auto" allowTransparency="true"></iframe><div style={{fontFamily:'Helvetica, Arial', fontSize:12 + 'px', padding: '10px 0 5px', margin: 2 +'px', width: 100+'%', textAlign:'left'}} ><a class="powered-by-eb" style={{color: '#ADB0B6', textDecoration: 'none'}} target="_blank" href="http://www.eventbrite.com/">Powered by Eventbrite</a></div></div>
+            </div>
+          }
           <Element name='timeAndPlace'>
             <TimeAndPlace />
           </Element>
@@ -127,6 +157,8 @@ class App extends Component {
             <DemosAndWorkshops />
           </Element>
         </ParallaxProvider>
+        <div id="test">
+        </div>
       </div>
     );
   }
