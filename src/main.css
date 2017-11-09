@@ -262,6 +262,10 @@ body {
   position: absolute;
 }
 
+.presentedby--mobile-logos img {
+  vertical-align: middle;
+}
+
 #presentedBy {
   color: white;
   font-family: 'Mirum-Serif';
@@ -301,6 +305,7 @@ body {
 
 #presentedBy--logo2--mobile {
   width: 20%;
+  vertical-align: middle;
 }
 #presentedBy--logo2 {
   margin-left: 20px;
@@ -311,6 +316,7 @@ body {
   width: 25%;
   margin-left: 10%;
   display: inline;
+  vertical-align: middle;
 }
 #presentedBy--logo3 {
   margin-left: 25px;

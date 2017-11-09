@@ -30,7 +30,7 @@ class LandingPageMobile extends Component {
           <div >
             <img src='../jwt-sig.png' id='presentedBy--logo1--mobile'/>
           </div>
-          <div>
+          <div classname='presentedby--mobile-logos'>
             <img src='../acquia.png' id='presentedBy--logo2--mobile'/>
             <img src='../lingotek_logo_white.png' id='presentedBy--logo3--mobile'/>
           </div>
