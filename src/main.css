@@ -8,25 +8,25 @@
   src: url(./fonts/Mirum-Serif.otf)
 }
 
+#navIconWrapper {
+  top: 3%;
+  position: -webkit-sticky;
+  position: sticky;
+  cursor: pointer;
+  z-index:10;
+}
+
 #navIcon {
   height: 50px;
   width: 50px;
   background: #311836;
-  position: -webkit-sticky;
-  position: sticky;
-  z-index:10;
-  top:3%;
-  cursor: pointer;
 }
 @media (min-width: 700px){
   #navIcon {
     height: 70px;
     width: 70px;
     background: #311836;
-    position: -webkit-sticky;
-    position: sticky;
     z-index:10;
-    top:3%;
     cursor: pointer;
   }
 }
@@ -187,7 +187,7 @@
   margin-left: 13%;
   width: 300px;
   padding-top: 20%;
-  z-index: 10;
+  z-index: 5;
 }
 
 
@@ -387,7 +387,7 @@
   color: white;
   text-align: center;
   margin-top: -25px;
-  z-index: 10;
+  z-index: 5;
 }
 @media (min-width:700px) {
   #getTickets {
@@ -402,7 +402,7 @@
     text-align: center;
     margin-top: -35px;
     margin-right: 5%;
-    z-index: 10;
+    z-index: 5;
   }
 }
 
@@ -782,8 +782,8 @@
   .portrait {
     margin-top: -60px;
     margin-left: 250px;
-    height: 435px;
-    width: 373px;
+    height: 395px;
+    width: 320px;
     opacity: 1;
     display: inline-block;
     position: absolute;
@@ -811,8 +811,8 @@
   .portrait--left{
     margin-top: -60px;
     margin-left: 150px;
-    height: 435px;
-    width: 373px;
+    height: 395px;
+    width: 320px;
     opacity: 1;
     display: inline-block;
     position: absolute;
@@ -840,8 +840,8 @@
   .portrait--right {
     margin-top: -60px;
     margin-left: 150px;
-    height: 435px;
-    width: 373px;
+    height: 395px;
+    width: 320px;
     opacity: 1;
     display: inline-block;
     position: absolute;

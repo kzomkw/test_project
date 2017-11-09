@@ -25,8 +25,8 @@ class Speakers extends Component {
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
             >
-              <img className='portrait bottom' src='./Tony.png'/>
-              <img className='portrait top' src='./TonyBW.png'/>
+              <img className='portrait bottom' src='./TonyC.jpg'/>
+              <img className='portrait top' src='./TonyBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus--middle' />
             <TextBox title='Tony Markovski' text='Head of Innovation and Emerging Technology'/>
@@ -47,8 +47,8 @@ class Speakers extends Component {
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
             >
-              <img className='portrait--left' src='./Bree.png' />
-              <img className='portrait--left top' src='./BreeBW.png'/>
+              <img className='portrait--left' src='./BreeC.jpg' />
+              <img className='portrait--left top' src='./BreeBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' />
             <TextBox title='Bree Groff' text='CEO of NOBL'/>
@@ -67,8 +67,8 @@ class Speakers extends Component {
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
             >
-              <img className='portrait--right' src='./Brett.png' />
-              <img className='portrait--right top' src='./BrettBW.png'/>
+              <img className='portrait--right' src='./BrettC.jpg' />
+              <img className='portrait--right top' src='./BrettBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' />
             <TextBox title='Brett Hurt' text='CEO & Founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
@@ -89,8 +89,8 @@ class Speakers extends Component {
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
             >
-              <img className='portrait' src='./Tamara.png' id='bowie'/>
-              <img className='portrait top' src='./TamaraBW.png'/>
+              <img className='portrait' src='./TamaraC.jpg'/>
+              <img className='portrait top' src='./TamaraBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus--middle' />
             <TextBox title='Tamara Ingram' text='CEO of J. Walter Thompson Worldwide'/>
@@ -115,8 +115,8 @@ class Speakers extends Component {
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
             >
-              <img className='portrait--left' src='./Emily.png' />
-              <img className='portrait--left top' src='./EmilyBW.png'/>
+              <img className='portrait--left' src='./EmilyC.jpg' />
+              <img className='portrait--left top' src='./EmilyBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' />
             <TextBox title='Emily Musil Church' text='Director of Education and Impact XPRIZE Learning'/>
@@ -135,8 +135,8 @@ class Speakers extends Component {
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
             >
-              <img className='portrait--right' src='./Mark.png' />
-              <img className='portrait--right top' src='./MarkBW.png'/>
+              <img className='portrait--right' src='./MarkC.jpg' />
+              <img className='portrait--right top' src='./MarkBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' />
             <TextBox title='Mark Lovett' text='Organizer, TEDX San Diego'/>
@@ -157,8 +157,8 @@ class Speakers extends Component {
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
             >
-              <img className='portrait' src='./Matt.png' id='bowie'/>
-              <img className='portrait top' src='./MattBW.png'/>
+              <img className='portrait' src='./MattC.jpg'/>
+              <img className='portrait top' src='./MattBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus--middle' />
             <TextBox title='Matt Webb' text='Global CTO Mirum'/>
@@ -179,8 +179,8 @@ class Speakers extends Component {
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
             >
-              <img className='portrait--left' src='./Lucie.png' />
-              <img className='portrait--left top' src='./LucieBW.png'/>
+              <img className='portrait--left' src='./LucieC.jpg' />
+              <img className='portrait--left top' src='./LucieBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' />
             <TextBox title='Lucie Greene' text='Worldwide Director of J. Walter Thompson Intelligence'/>
@@ -199,8 +199,8 @@ class Speakers extends Component {
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
             >
-              <img className='portrait--right' src='./JamieBW.png' />
-              <img className='portrait--right top' src='./JamieBW.png'/>
+              <img className='portrait--right' src='./JamieC.jpg' />
+              <img className='portrait--right top' src='./JamieBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' />
             <TextBox title='Jamie McLellan' text='CTO of J. Walter Thompson Worldwide'/>
@@ -221,8 +221,8 @@ class Speakers extends Component {
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
             >
-              <img className='portrait' src='./Lynne-Chris.png' id='bowie'/>
-              <img className='portrait top' src='./Lynne-ChrisBW.png'/>
+              <img className='portrait' src='./Acquia.jpg'/>
+              <img className='portrait top' src='./AcquiaBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus--middle2' />
             <TwoSpeakersTB title1='Lynne Capozzi' text1='CMO, Acquia' title2='Chris Stone' text2='CPO, Acquia'/>
@@ -231,7 +231,7 @@ class Speakers extends Component {
                 Talk
               </p>
               <p className='keynoteDescription'>
-                She Said, He Said: How Product & Marketing Can See Eye to Eye on the Customer Journey
+                She Said, He Said: How Product & Marketing <br /> Can See Eye to Eye on the Customer Journey
               </p>
             </div>
           </span>
