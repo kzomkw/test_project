@@ -175,6 +175,14 @@ body {
   }
 }
 
+#closeTicketBox {
+  font-size: 3em;
+  color: white;
+  cursor: pointer;
+  margin-left: 90%;
+
+}
+
 /*.header {
   text-align:center;
   padding: 65px 0;
@@ -453,6 +461,7 @@ body {
   margin-top: -25px;
   z-index: 5;
   font-family: 'Mirum-Sans-Bold';
+  cursor: pointer;
 }
 @media (min-width:700px) {
   #getTickets {
