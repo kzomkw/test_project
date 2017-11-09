@@ -57,7 +57,7 @@ class Speakers extends Component {
                 Keynote
               </p>
               <p className='keynoteDescription'>
-                Underwear, Clocks, and Companies: How to Change When You Must
+                Underwear, Clocks, and Companies: <br/> How to Change When You Must
               </p>
             </div>
           </span>

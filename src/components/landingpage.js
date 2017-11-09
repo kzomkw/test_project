@@ -15,9 +15,16 @@ class LandingPage extends Component {
           <span id='presentedBy--text'>
             Presented in association with our partners
           </span>
-          <span id='presentedBy--logo1'>
-            <img src='../jwt-sig.png'/>
-          </span>
+          {window.matchMedia("(min-width: 700px)").matches &&
+            <span id='presentedBy--logo1'>
+              <img src='../jwt-sig.png'/>
+            </span>
+          }
+          {window.matchMedia("(max-width: 700px)").matches &&
+            <span id='presentedBy--logo1'>
+              <img src='../jwt-sig.png'/>
+            </span>
+          }
           <span id='presentedBy--logo2'>
             <img src='../acquia.png'/>
           </span>

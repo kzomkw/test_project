@@ -1,5 +1,6 @@
 /*body {
   background-color: black;
+  overflow-x: hidden;
 }*/
 
 @font-face {
@@ -42,6 +43,7 @@
 }
 @media (min-width: 700px){
   #activeNavIcon {
+    border: 1px solid white;
     height: 70px;
     width: 70px;
     background: #E24498;
@@ -77,17 +79,11 @@
 }
 
 #navLogo {
-  font-size: 2em;
-  color: white;
-  width: 30%;
   display: inline-block;
-  margin-left: 37%;
 }
 @media (min-width: 700px) {
   #navLogo {
-    font-size: 6em;
-    color: white;
-    width: 30%;
+    width: 220px;
     display: inline-block;
   }
 }
@@ -566,16 +562,16 @@
   width: 100%;
   background-color: #DCDCDC;
 }
-@media (min-width: 700px) and (max-width: 1500){
+@media (min-width: 700px) and (max-width: 1500px){
   .about {
-    height: 2300px;
+    height: 1900px;
     width: 100%;
     margin-bottom: 10px;
   }
 }
 @media (min-width: 1500px) {
   .about {
-    height: 2550px;
+    height: 2100px;
     width: 100%;
     margin-bottom: 10px;
   }
@@ -784,7 +780,7 @@
 }
 @media (min-width: 700px) {
   .portrait {
-    margin-top: -90px;
+    margin-top: -60px;
     margin-left: 250px;
     height: 435px;
     width: 373px;
@@ -813,7 +809,7 @@
 }
 @media (min-width: 700px) {
   .portrait--left{
-    margin-top: -90px;
+    margin-top: -60px;
     margin-left: 150px;
     height: 435px;
     width: 373px;
@@ -842,7 +838,7 @@
 }
 @media (min-width: 700px) {
   .portrait--right {
-    margin-top: -90px;
+    margin-top: -60px;
     margin-left: 150px;
     height: 435px;
     width: 373px;
@@ -924,8 +920,8 @@
 @media (min-width:700px) {
   .textbox {
     border: 23px solid #311836;
-    width: 350px;
-    height: 415px;
+    width: 320px;
+    height: 395px;
     padding: 10px;
     z-index: 1;
     position: relative;

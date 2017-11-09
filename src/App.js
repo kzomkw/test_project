@@ -70,6 +70,8 @@ class App extends Component {
         {this.state.showNav &&
           <div id='expandedNav'>
           <span id='closeNav' onclick={this.navClick}>X</span>
+          <span><img src='../mirumopuslogo.png'  id='navLogo' alt='opus logo'/></span>
+
             <span id='navList'>
               <div className='navLink' onclick={this.navClick}>
                 <Link activeClass="active" to="timeAndPlace" smooth={true} duration={500} onSetActive={this.handleSetActive.bind(this)}>Time and Place</Link>
@@ -84,7 +86,6 @@ class App extends Component {
                 <Link activeClass="active" to="demosAndWorkshops" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>Demos &amp; Workshops</Link>
               </div>
             </span>
-            <span id='navLogo'>Mirum Opus</span>
           </div>
         }
 
