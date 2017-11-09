@@ -15,11 +15,11 @@ class About extends Component {
               <img src='../GettyImages-539144571.jpg' id='detailsPhoto'/>
               <div id='mission'>
                 <div>
-                  Brands today have a bigger mission than selling products.
+                  Brands today have a <br/> bigger mission than <br/>selling products.
                 </div>
                 <div> <br/> </div>
                 <div>
-                  They must also contribute to human progress.
+                  They must also <br/> contribute to human <br/> progress.
                 </div>
               </div>
               <p className='titleText'>
@@ -38,7 +38,7 @@ class About extends Component {
 
             <div id='videoIntro'>
               <div>
-                See highlights from our last Mirum Opus innovation sprint here:
+                See highlights from our last Mirum <br/> Opus innovation sprint here:
               </div>
             </div>
 

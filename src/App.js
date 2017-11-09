@@ -130,8 +130,6 @@ class App extends Component {
           </Element>
           <Footer />
         </ParallaxProvider>
-        <div id="test">
-        </div>
       </div>
     );
   }
