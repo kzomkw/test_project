@@ -609,6 +609,7 @@ body {
   position: absolute;
   height: 70px;
   z-index: 1;
+  margin-left: 5%;
 }
 @media (min-width: 700px) {
   #mapMarker {
