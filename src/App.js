@@ -8,6 +8,7 @@ import TimeAndPlace from './components/timeandplace'
 import About from './components/about'
 import Speakers from './components/speakers'
 import DemosAndWorkshops from './components/demosandworkshops'
+import Footer from './components/footer'
 import './main.css';
 
 let Link       = Scroll.Link;
@@ -126,6 +127,7 @@ class App extends Component {
           <Element name='demosAndWorkshops'>
             <DemosAndWorkshops />
           </Element>
+          <Footer />
         </ParallaxProvider>
       </div>
     );
