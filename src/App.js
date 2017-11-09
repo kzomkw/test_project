@@ -113,7 +113,7 @@ class App extends Component {
           {this.state.showForm &&
             <div id='getTicketsContainer'>
               <a id='closeNav' className='closeNav' onClick={this.formClick}>X</a>
-              <div style={{width:100+'%', textAlign:'left'}}><iframe src="//eventbrite.com/tickets-external?eid=36226627819&ref=etckt" frameBorder="0" height="308" width="100%" vspace="0" hspace="0" marginHeight="5" marginWidth="5" scrolling="auto" allowTransparency="true"></iframe><div style={{fontFamily:'Helvetica, Arial', fontSize:12 + 'px', padding: '10px 0 5px', margin: 2 +'px', width: 100+'%', textAlign:'left'}} ><a class="powered-by-eb" style={{color: '#ADB0B6', textDecoration: 'none'}} target="_blank" href="http://www.eventbrite.com/">Powered by Eventbrite</a></div></div>
+              <div style={{width:100+'%', textAlign:'left'}}><iframe src="//eventbrite.com/tickets-external?eid=36226627819&ref=etckt" frameBorder="0" height="308" width="100%" vspace="0" hspace="0" marginHeight="5" marginWidth="5" scrolling="auto" allowTransparency="true"></iframe><div style={{fontFamily:'Helvetica, Arial', fontSize:12 + 'px', padding: '10px 0 5px', margin: 2 +'px', width: 100+'%', textAlign:'left'}} ><a className="powered-by-eb" style={{color: '#ADB0B6', textDecoration: 'none'}} target="_blank" href="http://www.eventbrite.com/">Powered by Eventbrite</a></div></div>
             </div>
           }
           <Element name='timeAndPlace'>
