@@ -221,8 +221,8 @@ class Speakers extends Component {
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
             >
-              <img className='portrait' src='./Acquia.jpg'/>
-              <img className='portrait top' src='./AcquiaBW.jpg'/>
+              <img className='portrait-last' src='./Acquia.jpg'/>
+              <img className='portrait-last top' src='./AcquiaBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus--middle2' />
             <TwoSpeakersTB title1='Lynne Capozzi' text1='CMO, Acquia' title2='Chris Stone' text2='CPO, Acquia'/>
