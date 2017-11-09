@@ -435,6 +435,8 @@ body {
   margin-top: 3%;
   font-size: 2em;
   font-family: 'Mirum Serif';
+  color: #311836;
+
 }
 @media (min-width:700px) {
   #mirumopusHashtag {
@@ -678,7 +680,7 @@ body {
 }
 @media (min-width: 700px) {
   #mission {
-    font-size: 2em;
+    font-size: 2.5em;
     width: 30%;
     margin-top: -20%;
     margin-left: 13%;
