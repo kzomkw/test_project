@@ -28,6 +28,9 @@ class LandingPage extends Component {
           <span id='presentedBy--logo2'>
             <img src='../acquia.png'/>
           </span>
+          <span id='presentedBy--logo3'>
+            <img id='lingotek_logo' src='../lingotek_logo_white.png'/>
+          </span>
         </div>
 
 

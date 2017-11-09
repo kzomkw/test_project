@@ -290,7 +290,7 @@ body {
 #presentedBy--logo1--mobile {
   width: 40%;
   margin-top: 5px;
-  margin-bottom: -5px;
+  margin-bottom: 2px;
 }
 #presentedBy--logo1 {
   margin-left: 20px;
@@ -305,6 +305,21 @@ body {
 #presentedBy--logo2 {
   margin-left: 20px;
   display: inline;
+}
+
+#presentedBy--logo3--mobile {
+  width: 25%;
+  margin-left: 10%;
+  display: inline;
+}
+#presentedBy--logo3 {
+  margin-left: 25px;
+  display: inline;
+  width: 100%;
+}
+
+#lingotek_logo {
+  width: 120px;
 }
 
 #landingBackground {
