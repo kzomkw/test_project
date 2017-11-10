@@ -222,6 +222,7 @@ body {
   width: 100%;
   overflow: hidden;
   auto: 100%;
+  position: relative;
 }
 
 #landingPhoto--mobile {
