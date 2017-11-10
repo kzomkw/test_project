@@ -8,12 +8,13 @@ class About extends Component {
     return (
         <div className='about'>
           <Parallax
-          offsetYMin={0}
-          offsetYMax={50}
+          offsetYMin={-10}
+          offsetYMax={20}
           >
             <div id='photoAndParagraph'>
               <img src='../GettyImages-539144571.jpg' id='detailsPhoto'/>
               <div id='mission'>
+                <div className="mission-heading">A New <br/> Purpose <br/> For Brands</div>
                 <div>
                   Brands today have a <br/> bigger mission than <br/>selling products.
                 </div>
