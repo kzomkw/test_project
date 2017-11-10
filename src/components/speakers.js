@@ -75,7 +75,7 @@ class Speakers extends Component {
               <img className='portrait--left top' src='./BreeBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('bree-groff')}}/>
-            <MattTB firstname='Bree' lastname='Groff' text='CEO of NOBL'/>
+            <MattTB firstname='Bree' lastname='Groff' text1='CEO of NOBL'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Keynote
@@ -95,7 +95,7 @@ class Speakers extends Component {
               <img className='portrait--right top' src='./BrettBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('brett-hurt')}}/>
-            <MattTB firstname='Brett' lastname='Hurt' text='CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
+            <MattTB firstname='Brett' lastname='Hurt' text1='CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Keynote
@@ -143,7 +143,7 @@ class Speakers extends Component {
               <img className='portrait--left top' src='./EmilyBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('emily-musil-church')}}/>
-            <TextBox title='Emily Musil Church' text='Director of Education and Impact XPRIZE Learning'/>
+            <MattTB firstname='Emily Musil' lastname='Church' text1='Director of Education and Impact' text2='XPRIZE Learning'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Talk
@@ -163,7 +163,7 @@ class Speakers extends Component {
               <img className='portrait--right top' src='./MarkBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('mark-lovett')}}/>
-            <TextBox title='Mark Lovett' text='Organizer, TEDX San Diego'/>
+            <MattTB firstname='Mark' lastname='Lovett' text1='Organizer, TEDX' text2='San Diego'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Talk
@@ -185,7 +185,7 @@ class Speakers extends Component {
               <img className='portrait top' src='./MattBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus--middle' onClick={() => {this.speakerModal('matt-webb')}}/>
-            <MattTB firstname='Matt' lastname='Webb' text='Global CTO Mirum'/>
+            <MattTB firstname='Matt' lastname='Webb' text1='Global CTO' text2='Mirum'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Workshop
