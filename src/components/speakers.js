@@ -72,7 +72,7 @@ class Speakers extends Component {
               <img className='portrait--right top' src='./BrettBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' />
-            <TextBox title='Brett Hurt' text='CEO & Founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
+            <TextBox title='Brett Hurt' text='CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Keynote
@@ -232,7 +232,7 @@ class Speakers extends Component {
                 Talk
               </p>
               <p className='keynoteDescription'>
-                The Right Stuff: What It Takes to Align Product and Marketing
+                She Said, He Said: How Product & Marketing Can See Eye to Eye on the Customer Journey
               </p>
             </div>
           </span>
