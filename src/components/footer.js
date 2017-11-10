@@ -10,7 +10,7 @@ class Footer extends Component {
         </span>
 
         <p id='btm-text'>
-          Mirum is a borderless agency of over 2400 digital savants, storytellers, makers and relentlessly curious minds who are united by an uncommon drive to make what&#39;s next. Active in 24 countries, we work across our global network of expertise to transform business, design innovative digital experiences and activate commerce at a global and local level. Mirum is part of the J. Walter Thompson Company and the WPP Network. Visit mirumagency.com for more information.
+          Mirum is a borderless agency of over 2400 digital savants, storytellers, makers and relentlessly curious minds who are united by an uncommon drive to make what&#39;s next. Active in 24 countries, we work across our global network of expertise to transform business, design innovative digital experiences and activate commerce at a global and local level. Mirum is part of the J. Walter Thompson Company and the WPP Network. Visit <a href='https://www.mirumagency.com/' class='mirumagency_link'>mirumagency.com</a> for more information.
         </p>
 
         <span id='social'>
