@@ -506,6 +506,7 @@ body {
   font-size: 1.8em;
   z-index: 1;
   text-align: center;
+  color: #311836;
   font-family: 'Mirum-Sans';
 }
 @media (min-width:700px) {
@@ -1086,6 +1087,7 @@ body {
   margin-left: 10%;
   font-size: 1.8em;
   font-family: 'Mirum-Sans';
+  color: #311836;
 }
 
 .plus{
