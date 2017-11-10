@@ -44,26 +44,26 @@ class LandingPage extends Component {
           <div id='textbox__title--white'>
           {window.matchMedia("(max-height: 600px)").matches &&
           <Parallax
-            offsetYMin={-150}
+            offsetYMin={-190}
             offsetYMax={250}
             >
-            Achieving <div className='purposeLed'>Purpose-Led</div> Innovation
+            Achieving <div className='purposeLed'>Purpose-Led</div> <div className='titleInnovation'>Innovation</div>
           </Parallax>
           }
           {window.matchMedia("(min-height: 600px) and (max-height: 900px)").matches &&
           <Parallax
-            offsetYMin={-70}
+            offsetYMin={-110}
             offsetYMax={250}
             >
-            Achieving <div className='purposeLed'>Purpose-Led</div> Innovation
+            Achieving <div className='purposeLed'>Purpose-Led</div> <div className='titleInnovation'>Innovation</div>
           </Parallax>
           }
           {window.matchMedia("(min-height: 900px)").matches &&
             <Parallax
-              offsetYMin={-30}
+              offsetYMin={-80}
               offsetYMax={250}
               >
-              Achieving <div className='purposeLed'>Purpose-Led</div> Innovation
+              Achieving <div className='purposeLed'>Purpose-Led</div> <div className='titleInnovation'>Innovation</div>
             </Parallax>
           }
 

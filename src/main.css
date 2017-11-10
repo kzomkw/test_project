@@ -384,6 +384,7 @@ body {
 }
 
 #textbox__title--white--mobile {
+  font-family: "Mirum-Sans-Bold";
   margin-top: 50px;
   color: white;
   font-size: 3em;
@@ -391,13 +392,29 @@ body {
   margin-bottom: 30px;
 }
 #textbox__title--white {
+  font-family: "Mirum-Sans-Bold";
   color: white;
   font-size: 4.5em;
   margin-left: 10px;
 }
 
 .purposeLed {
-  font-size: .75em;
+  font-size: .8em;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+.purposeLed--mobile {
+  font-size: .8em;
+  margin-top: 15px;
+  margin-bottom: -5px;
+}
+
+.titleInnovation {
+  font-size: 1.37em;
+}
+.titleInnovation--mobile {
+  font-size: 1.24em;
+  margin-left: -2px;
 }
 
 #textbox__subheading--white--mobile {
