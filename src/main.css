@@ -188,7 +188,8 @@ body {
   cursor: pointer;
 }
 @media (min-width: 700px) {
-  #closeNav {
+  #closeNav,
+  .modal-close{
     font-size: 3em;
     color: white;
     float: right;
@@ -510,7 +511,7 @@ body {
   color: white;
   text-align: center;
   margin-top: -25px;
-  z-index: 5;
+  z-index: 8;
   font-family: 'Mirum-Sans-Bold';
   cursor: pointer;
 }
@@ -1253,11 +1254,12 @@ body {
   height: 40px;
   margin-left: 17%;
   margin-top: 44%;
+  cursor: pointer;
 }
 
 @media (min-width:700px) and (max-width:1700px){
   .plus--middle{
-    z-index: 1;
+    z-index: 5;
     position: absolute;
     height: 50px;
     margin-left: 10%;
@@ -1514,17 +1516,39 @@ body {
 }
 
 .modal {
-  /*display: none;*/
+  display: none;
   font-family: "Mirum-Sans";
   background-color: #E24498;
   color: white;
-  z-index:4;
+  z-index:5;
   position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top:0;
   width: 100%;
-  height: 200px;
-  display: block;
-  padding: 20px 10px 20px;
+  height: 100%;
+  /*display: block;*/
+  padding: 100px 10px 20px;
   box-sizing: border-box;
+}
+
+.modal__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.speaker:before,
+.speaker:after {
+  clear: both;
+  display: block;
+  content: '';
+  height: 0;
+}
+.speaker h2,
+.speaker h3 {
+}
+
+.speaker img {
+  margin-right: 15px;
+  float: left;
+  max-height: 200px;
 }
