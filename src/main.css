@@ -1274,7 +1274,7 @@ body {
     position: absolute;
     height: 50px;
     margin-left: 6%;
-    margin-top: 12%;
+    margin-top: 11%;
   }
 }
 
@@ -1293,7 +1293,7 @@ body {
     position: absolute;
     height: 50px;
     margin-left: 10%;
-    margin-top: 17%;
+    margin-top: 15%;
   }
 }
 @media (min-width:1700px){
@@ -1302,7 +1302,7 @@ body {
     position: absolute;
     height: 50px;
     margin-left: 10%;
-    margin-top: 12%;
+    margin-top: 11%;
   }
 }
 
@@ -1320,7 +1320,7 @@ body {
     position: absolute;
     height: 50px;
     margin-left: 10%;
-    margin-top: 17%;
+    margin-top: 17.5%;
   }
 }
 @media (min-width:1700px){
@@ -1329,7 +1329,7 @@ body {
     position: absolute;
     height: 50px;
     margin-left: 10%;
-    margin-top: 12%;
+    margin-top: 13%;
   }
 }
 
