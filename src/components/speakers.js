@@ -4,6 +4,7 @@ import ParticlesComponent from './particles'
 import TextBox from './textbox'
 import TwoSpeakersTB from './twospeakerstb'
 import MattTB from './matttb'
+import SmallTextBox from './smalltextbox'
 
 class Speakers extends Component {
   constructor(props){
@@ -266,7 +267,8 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <img src="./TonyBW.jpg" />
-                      <h2>Tony Markovski</h2>
+                      <SmallTextBox title='Tony Markovski' text='Head of Innovation and Emerging Technology'/>
+                      <h1>Tony <br/> Markovski</h1>
                       <h3>Head of Innovation and Emerging Technologies at Mirum </h3>
                   </div>
                   <div className="modal-columns">
