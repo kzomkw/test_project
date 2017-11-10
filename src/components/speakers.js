@@ -266,7 +266,7 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <img src="./TonyBW.jpg" />
-                      <h2>Tony Markovski</h2>
+                      <h2>Tony <br/> Markovski</h2>
                       <h3>Head of Innovation and Emerging Technologies at Mirum </h3>
                   </div>
                   <div className="modal-columns">

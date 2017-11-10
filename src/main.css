@@ -760,7 +760,7 @@ body {
 
 #videoIntro {
   font-size: 1.5em;
-  width: 100%;
+  width: 92%;
   margin-top: 50px;
   margin-bottom: 1.0576%;
   margin-left: 7%;
@@ -1359,8 +1359,15 @@ body {
   content: '';
   height: 0;
 }
-.speaker h2,
+
+.speaker h2 {
+  font-size: 3em;
+  font-family: "Mirum-Sans-Bold";
+}
+
 .speaker h3 {
+  font-family: "Mirum-Sans-Bold";
+  color: black;
 }
 
 .speaker img {
