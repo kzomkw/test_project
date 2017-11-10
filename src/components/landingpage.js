@@ -44,7 +44,7 @@ class LandingPage extends Component {
           <div id='textbox__title--white'>
           {window.matchMedia("(max-height: 600px)").matches &&
           <Parallax
-            offsetYMin={-200}
+            offsetYMin={-150}
             offsetYMax={250}
             >
             Achieving <div className='purposeLed'>Purpose-Led</div> Innovation
@@ -52,7 +52,7 @@ class LandingPage extends Component {
           }
           {window.matchMedia("(min-height: 600px) and (max-height: 900px)").matches &&
           <Parallax
-            offsetYMin={-120}
+            offsetYMin={-70}
             offsetYMax={250}
             >
             Achieving <div className='purposeLed'>Purpose-Led</div> Innovation
@@ -60,31 +60,13 @@ class LandingPage extends Component {
           }
           {window.matchMedia("(min-height: 900px)").matches &&
             <Parallax
-              offsetYMin={-80}
+              offsetYMin={-30}
               offsetYMax={250}
               >
               Achieving <div className='purposeLed'>Purpose-Led</div> Innovation
             </Parallax>
           }
 
-          </div>
-          <div id='textbox__subheading--white'>
-            {window.matchMedia("(max-height: 900px)").matches &&
-              <Parallax
-                offsetYMin={-90}
-                offsetYMax={350}
-              >
-                A New Purpose For Brands
-              </Parallax>
-            }
-            {window.matchMedia("(min-height: 1000px)").matches &&
-              <Parallax
-                offsetYMin={30}
-                offsetYMax={250}
-                >
-                A New Purpose For Brands
-              </Parallax>
-            }
           </div>
         </div>
         <ParticlesComponent />
