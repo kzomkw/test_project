@@ -288,7 +288,7 @@ class Speakers extends Component {
 
           <div className="modal" id="bree-groff">
               <div className="modal__inner">
-                  <div className="modal-close"></div>
+                  <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <h2>Bree Groff</h2>
                       <h3>CEO of NOBL</h3>
@@ -311,7 +311,7 @@ class Speakers extends Component {
 
           <div className="modal" id="brett-hurt">
               <div className="modal__inner">
-                  <div className="modal-close"></div>
+                  <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <h2>Brett Hurt</h2>
                       <h3>CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice</h3>
@@ -334,7 +334,7 @@ class Speakers extends Component {
 
           <div className="modal" id="tamara-ingram">
               <div className="modal__inner">
-                  <div className="modal-close"></div>
+                  <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <h2>Tamara Ingram</h2>
                       <h3>CEO of J. Walter Thompson Worldwide</h3>
@@ -357,7 +357,7 @@ class Speakers extends Component {
 
           <div className="modal" id="emily-musil-church">
               <div class="modal__inner">
-                  <div class="modal-close"></div>
+                  <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div class="speaker">
                       <h2>Emily Musil Church</h2>
                       <h3>Director of Education and Impact XPRIZE Learning</h3>
@@ -380,7 +380,7 @@ class Speakers extends Component {
 
           <div className="modal" id="mark-lovett">
               <div class="modal__inner">
-                  <div class="modal-close"></div>
+                  <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div class="speaker">
                       <h2>Mark Lovett</h2>
                       <h3>Organizer, TEDX San Diego</h3>
@@ -397,7 +397,7 @@ class Speakers extends Component {
 
           <div className="modal" id="matt-webb">
               <div class="modal__inner">
-                  <div class="modal-close"></div>
+                  <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div class="speaker">
                       <h2>Matt Webb</h2>
                       <h3>Global CTO of Mirum</h3>
@@ -420,7 +420,7 @@ class Speakers extends Component {
 
           <div className="modal" id="lucie-greene">
               <div className="modal__inner">
-                  <div className="modal-close"></div>
+                  <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <h2>Lucie Greene</h2>
                       <h3>Worldwide Director of J. Walter Thompson Intelligence</h3>
@@ -445,7 +445,7 @@ class Speakers extends Component {
 
           <div className="modal" id="jamie-mclellan">
               <div className="modal__inner">
-                  <div className="modal-close"></div>
+                  <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <h2>Jamie McLellan</h2>
                       <h3>CTO of J. Walter Thompson Worldwide</h3>
@@ -467,7 +467,7 @@ class Speakers extends Component {
 
           <div class="modal two-speakers" id="acquiaspeakers">
               <div class="modal__inner">
-                  <div class="modal-close"></div>
+                  <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div class="modal-columns">
                       <div class="col">
                           <div class="speaker-header">
