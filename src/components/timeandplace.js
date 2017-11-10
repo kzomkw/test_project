@@ -33,7 +33,9 @@ class TimeAndPlace extends Component {
               offsetYMax={50}
             >
               <div id='datetime'>
-                <img src='./marker.png' id='mapMarker'/>
+                <a href='https://www.google.com/maps/place/The+Prado+at+Balboa+Park/@32.7310106,-117.1519294,17z/data=!3m1!4b1!4m5!3m4!1s0x80d954bd88e868f9:0xe3785d326e563046!8m2!3d32.7310061!4d-117.1497354'>
+                  <img src='./map-get.png' id='mapMarker'/>
+                </a>
                 <div id='date'>
                   DEC
                   <div id='day'>
@@ -48,7 +50,9 @@ class TimeAndPlace extends Component {
           }
           {window.matchMedia("(max-width: 700px)").matches &&
             <div id='datetime--mobile'>
-              <img src='./marker.png' id='mapMarker'/>
+              <a href='https://www.google.com/maps/place/The+Prado+at+Balboa+Park/@32.7310106,-117.1519294,17z/data=!3m1!4b1!4m5!3m4!1s0x80d954bd88e868f9:0xe3785d326e563046!8m2!3d32.7310061!4d-117.1497354'>
+                <img src='./map-get.png' id='mapMarker'/>
+              </a>
               <span>
                 <div id='date'>
                   Dec
