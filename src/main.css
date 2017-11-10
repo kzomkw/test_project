@@ -598,7 +598,7 @@ body {
 
 .SDtextbox {
   border: 15px solid #311836;
-  height: 300px;
+  height: 270px;
   padding: 10px;
   width: 70%;
   z-index: 1;
@@ -620,13 +620,15 @@ body {
 .SDtextbox__title {
   color: #311836;
   font-size: 4em;
-  margin-left: 10px;
+  margin-left: 3%;
+  margin-top: 10px;
   font-family: 'Mirum-Sans-Bold';
 }
 @media (min-width:700px) {
   .SDtextbox__title {
     font-size: 6em;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
     font-family: 'Mirum-Sans-Bold';
   }
 }
@@ -646,9 +648,9 @@ body {
     font-size: 2.5em;
     bottom: 0;
     position: absolute;
-    margin-left: 3%;
-    margin-bottom: 10%;
-    width: 60%;
+    margin-left: 23px;
+    margin-bottom: 20%;
+    width: 70%;
     font-family: 'Mirum-Sans-Bold';
   }
 }
