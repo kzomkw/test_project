@@ -74,7 +74,7 @@ class Speakers extends Component {
               <img className='portrait--left' src='./BreeC.jpg' />
               <img className='portrait--left top' src='./BreeBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('bree-groff')}/>
+            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('bree-groff')}}/>
             <MattTB firstname='Bree' lastname='Groff' text='CEO of NOBL'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -94,7 +94,7 @@ class Speakers extends Component {
               <img className='portrait--right' src='./BrettC.jpg' />
               <img className='portrait--right top' src='./BrettBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('brett-hurt')}/>
+            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('brett-hurt')}}/>
             <MattTB firstname='Brett' lastname='Hurt' text='CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -116,7 +116,7 @@ class Speakers extends Component {
               <img className='portrait' src='./TamaraC.jpg'/>
               <img className='portrait top' src='./TamaraBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus--middle' onClick={() => {this.speakerModal('tamara-ingram')}/>
+            <img src='./plus-sign.png' className='plus--middle' onClick={() => {this.speakerModal('tamara-ingram')}}/>
             <TextBox title='Tamara Ingram' text='CEO of J. Walter Thompson Worldwide'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -142,7 +142,7 @@ class Speakers extends Component {
               <img className='portrait--left' src='./EmilyC.jpg' />
               <img className='portrait--left top' src='./EmilyBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('emily-musil-church')}/>
+            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('emily-musil-church')}}/>
             <TextBox title='Emily Musil Church' text='Director of Education and Impact XPRIZE Learning'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -162,7 +162,7 @@ class Speakers extends Component {
               <img className='portrait--right' src='./MarkC.jpg' />
               <img className='portrait--right top' src='./MarkBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('mark-lovett')}/>
+            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('mark-lovett')}}/>
             <TextBox title='Mark Lovett' text='Organizer, TEDX San Diego'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -184,7 +184,7 @@ class Speakers extends Component {
               <img className='portrait' src='./MattC.jpg'/>
               <img className='portrait top' src='./MattBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus--middle' onClick={() => {this.speakerModal('matt-webb')}/>
+            <img src='./plus-sign.png' className='plus--middle' onClick={() => {this.speakerModal('matt-webb')}}/>
             <MattTB firstname='Matt' lastname='Webb' text='Global CTO Mirum'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -206,7 +206,7 @@ class Speakers extends Component {
               <img className='portrait--left' src='./LucieC.jpg' />
               <img className='portrait--left top' src='./LucieBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('lucie-greene')}/>
+            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('lucie-greene')}}/>
             <TextBox title='Lucie Greene' text='Worldwide Director of J. Walter Thompson Intelligence'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -226,7 +226,7 @@ class Speakers extends Component {
               <img className='portrait--right' src='./JamieC.jpg' />
               <img className='portrait--right top' src='./JamieBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('jamie-mclellan')}/>
+            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('jamie-mclellan')}}/>
             <TextBox title='Jamie McLellan' text='CTO of J. Walter Thompson Worldwide'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -248,7 +248,7 @@ class Speakers extends Component {
               <img className='portrait-last' src='./Acquia.jpg'/>
               <img className='portrait-last top' src='./AcquiaBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus--middle2' onClick={() => {this.speakerModal('acquiaspeakers')}/>
+            <img src='./plus-sign.png' className='plus--middle2' onClick={() => {this.speakerModal('acquiaspeakers')}}/>
             <TwoSpeakersTB title1='Lynne Capozzi' text1='CMO, Acquia' title2='Chris Stone' text2='CPO, Acquia'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -287,20 +287,20 @@ class Speakers extends Component {
           </div>
 
           <div className="modal" id="bree-groff">
-              <div class="modal__inner">
-                  <div class="modal-close"></div>
-                  <div class="speaker">
+              <div className="modal__inner">
+                  <div className="modal-close"></div>
+                  <div className="speaker">
                       <h2>Bree Groff</h2>
                       <h3>CEO of NOBL</h3>
                   </div>
-                  <div class="modal-columns">
-                      <div class="col bio">
+                  <div className="modal-columns">
+                      <div className="col bio">
                           <p>Bree is a speaker and consultant, and serves as CEO of NOBL Collective. For more than a decade, she has been focused on organizational
                               design and innovation, advising leaders at companies including Calvin Klein, Intel, AARP, Capital
                               One and Memorial Sloan Kettering Cancer Center. She is recognized internationally for thought
                               leadership on designing organizations that support high-performing teams.</p>
                       </div>
-                      <div class="col talk">
+                      <div className="col talk">
                           <h3>Underwear, Clocks, and Companies: How to Change When You Must</h3>
                           <p>Bree explains why those at the top of organizations must be instigators of change, and how to work through human responses
                           like resistance and vulnerability.  </p>
@@ -310,21 +310,21 @@ class Speakers extends Component {
           </div>
 
           <div className="modal" id="brett-hurt">
-              <div class="modal__inner">
-                  <div class="modal-close"></div>
-                  <div class="speaker">
+              <div className="modal__inner">
+                  <div className="modal-close"></div>
+                  <div className="speaker">
                       <h2>Brett Hurt</h2>
                       <h3>CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice</h3>
                   </div>
-                  <div class="modal-columns">
-                      <div class="col bio">
+                  <div className="modal-columns">
+                      <div className="col bio">
                           <p>At data.world, Brett is building meaningful, collaborative and abundant data resources in the world. He founded
                               Coremetrics and Bazaarvoice before IBM’s acquisition. To support Austin’s entrepreneurs, Brett serves
                               as a Partner at Capital Factory and Mentor at Techstars Austin. He also serves as the Chairman of the
                               Board at Edgecase and serves on the Board of Conscious Capitalism.
                           </p>
                       </div>
-                      <div class="col talk">
+                      <div className="col talk">
                           <h3>The Secrets of Making Profits with Purpose</h3>
                           <p>Brett dives into the concept of Conscious Capitalism, providing personal insights from his experience creating billion-dollar purpose-led business models that better serve us all, including investors.</p>
                       </div>
@@ -333,21 +333,21 @@ class Speakers extends Component {
           </div>
 
           <div className="modal" id="tamara-ingram">
-              <div class="modal__inner">
-                  <div class="modal-close"></div>
-                  <div class="speaker">
+              <div className="modal__inner">
+                  <div className="modal-close"></div>
+                  <div className="speaker">
                       <h2>Tamara Ingram</h2>
                       <h3>CEO of J. Walter Thompson Worldwide</h3>
                   </div>
-                  <div class="modal-columns">
-                      <div class="col bio">
+                  <div className="modal-columns">
+                      <div className="col bio">
                           <p>Tamara joined J. Walter Thompson Company in 2016 as CEO where she oversees the agency’s global network. Previously at WPP,
                               Tamara oversaw the group’s 45 global account teams, which represented one-third of the Group’s
                               $20 billion revenue with over 38,000 employees. She has extensive experience leading innovative
                               advertising agencies, and has previously served as Grey UK’s Group CEO and global leader on their
                               Proctor & Gamble (P&G) account.</p>
                       </div>
-                      <div class="col talk">
+                      <div className="col talk">
                           <h3>Innovating Like a Bull in a China Shop</h3>
                           <p>(Description coming soon.)</p>
                       </div>
