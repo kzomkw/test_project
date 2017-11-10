@@ -17,6 +17,14 @@ class Speakers extends Component {
     document.getElementById(speakerId).style.display = 'block';
   }
 
+  closeModal = () => {
+      let modals = document.querySelectorAll('.modal');
+
+      for (let i = 0; i < modals.length; i++) {
+          modals[i].style.display = 'none';
+      }
+  }
+
   render() {
     return (
 
@@ -254,21 +262,22 @@ class Speakers extends Component {
         </div>
 
           <div className="modal" id="tony-markovski">
-              <div class="modal__inner">
-                  <div class="modal-close"></div>
-                  <div class="speaker">
+              <div className="modal__inner">
+                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="speaker">
+                      <img src="./TonyBW.jpg" />
                       <h2>Tony Markovski</h2>
                       <h3>Head of Innovation and Emerging Technologies at Mirum </h3>
                   </div>
-                  <div class="modal-columns">
-                      <div class="col bio">
+                  <div className="modal-columns">
+                      <div className="col bio">
                           <p>Tony has 16 years of experience helping organizations plan, architect and deploy emerging technologies
                               and ideas that drive business transformation, innovation, experience development and leadership. He
                               has held leadership positions at Google, Adobe and Bazaarvoice, and is currently the Head of
                               Innovation & Emerging Technologies at Mirum Agency, which was named "Visionary" in the 2016 and
                               2017 Gartner Magic Quadrant. </p>
                       </div>
-                      <div class="col talk">
+                      <div className="col talk">
                           <h3>You’re Innovating in All the Wrong Places</h3>
                           <p>Setting the tone for the day, Tony demonstrates how prioritizing “purpose” to future-proof your business determines how long
                           your company will live.</p>
@@ -410,21 +419,21 @@ class Speakers extends Component {
           </div>
 
           <div className="modal" id="lucie-greene">
-              <div class="modal__inner">
-                  <div class="modal-close"></div>
-                  <div class="speaker">
+              <div className="modal__inner">
+                  <div className="modal-close"></div>
+                  <div className="speaker">
                       <h2>Lucie Greene</h2>
                       <h3>Worldwide Director of J. Walter Thompson Intelligence</h3>
                   </div>
-                  <div class="modal-columns">
-                      <div class="col bio">
+                  <div className="modal-columns">
+                      <div className="col bio">
                           <p>At J. Walter Thompson, Lucie leads The Innovation Group’s ongoing research into emerging global consumer behaviors, cultural
                               changes and sector innovation with deep-dive studies and daily insights. She’s a thought leadership
                               columnist for Campaign, writes for the Financial Times and has spoken at conferences including
                               CES, SXSW, Web Summit and Adweek, discussing future trends across multiple lifestyle sectors.
                               </p>
                       </div>
-                      <div class="col talk">
+                      <div className="col talk">
                           <h3>How to be a Future-Focused Brand</h3>
                           <p>Lucie guides us through current trends for future-proofing your business, dissecting some of the best examples in today’s
                           do-or-die climate.</p>
@@ -435,19 +444,19 @@ class Speakers extends Component {
 
 
           <div className="modal" id="jamie-mclellan">
-              <div class="modal__inner">
-                  <div class="modal-close"></div>
-                  <div class="speaker">
+              <div className="modal__inner">
+                  <div className="modal-close"></div>
+                  <div className="speaker">
                       <h2>Jamie McLellan</h2>
                       <h3>CTO of J. Walter Thompson Worldwide</h3>
                   </div>
-                  <div class="modal-columns">
-                      <div class="col bio">
+                  <div className="modal-columns">
+                      <div className="col bio">
                           <p>Innovative technology that helps solve challenges, enable transformation and enhance experiences like artificial intelligence
                               (AI) are what motivate and excite Jamie. An architect by training, Jamie tries—sometime successfully—to
                               operate on the intersection of his left and right brains.</p>
                       </div>
-                      <div class="col talk">
+                      <div className="col talk">
                           <h3>Solving Human Problems with AI</h3>
                           <p>Jamie explains why intelligence can never be artificial, and how our human ability to interpret context makes people, not
                           technology, the most important factor in achieving purpose-led innovation.</p>
@@ -465,7 +474,7 @@ class Speakers extends Component {
                               <h2>Lynne Capozzi</h2>
                               <h3>CMO, Acquia</h3>
                           </div>
-                          <div class="bio">
+                          <div className="bio">
                               <p>As Acquia’s CMO, Lynne oversees all global marketing functions, including corporate communications, content and events. In
                                   2011, Lynne left Acquia to pursue nonprofit work full-time, returning in 2016 to lead Acquia’s next stage of growth.
                                   She was previously CMO at JackBe, an enterprise mashup software company, and VP at Lotus Development, later acquired
@@ -473,12 +482,12 @@ class Speakers extends Component {
                                   the hospital.</p>
                           </div>
                       </div>
-                      <div class="col">
-                          <div class="speaker-header">
+                      <div className="col">
+                          <div className="speaker-header">
                               <h2>Chris Stone</h2>
                               <h3>CPO, Acquia</h3>
                           </div>
-                          <div class="bio">
+                          <div className="bio">
                               <p>Responsible for engineering, DevOps, product management and integrated digital experiences for the Acquia Platform, Chris
                                   has more than 30 years’ experience in enterprise software development and open source solutions. With Eric Schmidt, former
                                   CEO of Google and current Executive Chairman of Alphabet, Chris was part of Novell’s remarkable 1990s turnaround, and
@@ -486,7 +495,7 @@ class Speakers extends Component {
                           </div>
                       </div>
                   </div>
-                  <div class="talk">
+                  <div className="talk">
                       <h3>She Said, He Said: How Product & Marketing Can See Eye to Eye on the Customer Journey</h3>
                       <p>Acquia’s CMO and CTO throw down in a battle for product and market alignment, with the aim of achieving their mutual North Star: enhancing customer experience.</p>
                   </div>

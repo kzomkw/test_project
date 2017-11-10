@@ -188,7 +188,8 @@ body {
   cursor: pointer;
 }
 @media (min-width: 700px) {
-  #closeNav {
+  #closeNav,
+  .modal-close{
     font-size: 3em;
     color: white;
     float: right;
@@ -1253,6 +1254,7 @@ body {
   height: 40px;
   margin-left: 17%;
   margin-top: 44%;
+  cursor: pointer;
 }
 
 @media (min-width:700px) and (max-width:1700px){
@@ -1523,7 +1525,7 @@ body {
   position: fixed;
   top:0;
   width: 100%;
-  height: auto;
+  height: 100%;
   /*display: block;*/
   padding: 100px 10px 20px;
   box-sizing: border-box;
@@ -1532,4 +1534,21 @@ body {
 .modal__inner {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.speaker:before,
+.speaker:after {
+  clear: both;
+  display: block;
+  content: '';
+  height: 0;
+}
+.speaker h2,
+.speaker h3 {
+}
+
+.speaker img {
+  margin-right: 15px;
+  float: left;
+  max-height: 200px;
 }
