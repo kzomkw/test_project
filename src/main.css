@@ -1228,10 +1228,11 @@ body {
   height: 40px;
   margin-left: 17%;
   margin-top: 40%;
+  cursor: pointer;
 }
 @media (min-width:700px) and (max-width:1700px){
   .plus{
-    z-index: 1;
+    z-index: 5;
     position: absolute;
     height: 50px;
     margin-left: 6%;
@@ -1240,7 +1241,7 @@ body {
 }
 @media (min-width:1700px){
   .plus{
-    z-index: 1;
+    z-index: 5;
     position: absolute;
     height: 50px;
     margin-left: 6%;
@@ -1282,10 +1283,11 @@ body {
   height: 40px;
   margin-left: 17%;
   margin-top: 40%;
+  cursor: pointer;
 }
 @media (min-width:700px) and (max-width:1700px){
   .plus--middle2{
-    z-index: 1;
+    z-index: 5;
     position: absolute;
     height: 50px;
     margin-left: 10%;
@@ -1294,7 +1296,7 @@ body {
 }
 @media (min-width:1700px){
   .plus--middle2{
-    z-index: 1;
+    z-index: 5;
     position: absolute;
     height: 50px;
     margin-left: 10%;
@@ -1529,6 +1531,7 @@ body {
   /*display: block;*/
   padding: 100px 10px 20px;
   box-sizing: border-box;
+  overflow: scroll;
 }
 
 .modal__inner {

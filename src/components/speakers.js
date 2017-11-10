@@ -290,6 +290,7 @@ class Speakers extends Component {
               <div className="modal__inner">
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
+                      <img src="./BreeBW.jpg" />
                       <h2>Bree Groff</h2>
                       <h3>CEO of NOBL</h3>
                   </div>
@@ -313,6 +314,7 @@ class Speakers extends Component {
               <div className="modal__inner">
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
+                      <img src="./BrettBW.jpg"/>
                       <h2>Brett Hurt</h2>
                       <h3>CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice</h3>
                   </div>
@@ -336,6 +338,7 @@ class Speakers extends Component {
               <div className="modal__inner">
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
+                      <img src="./TamaraBW.jpg"/>
                       <h2>Tamara Ingram</h2>
                       <h3>CEO of J. Walter Thompson Worldwide</h3>
                   </div>
@@ -356,20 +359,21 @@ class Speakers extends Component {
           </div>
 
           <div className="modal" id="emily-musil-church">
-              <div class="modal__inner">
+              <div className="modal__inner">
                   <div className="modal-close" onClick={this.closeModal}>X</div>
-                  <div class="speaker">
+                  <div className="speaker">
+                      <img src="./EmilyBW.jpg"/>
                       <h2>Emily Musil Church</h2>
                       <h3>Director of Education and Impact XPRIZE Learning</h3>
                   </div>
-                  <div class="modal-columns">
-                      <div class="col bio">
+                  <div className="modal-columns">
+                      <div className="col bio">
                           <p>As the Senior Director of Global Learning XPRIZE, Matt challenges teams from around the world to create innovative technologies.
                               Previously as Vice President of One Laptop per Child (OLPC), Keller led OLPC’s ground-breaking
                               literacy project testing the theory that children from non-literate communities could teach themselves
                               to read using tablets filled with off-the-shelf applications.</p>
                       </div>
-                      <div class="col talk">
+                      <div className="col talk">
                           <h3>Shooting for the Stars</h3>
                           <p>Competition plays a pivotal role in innovation. Matt shares insights from watching entrepreneurs and private businesses compete
                           to break barriers and solve the Earth’s most pressing problems.</p>
@@ -379,16 +383,17 @@ class Speakers extends Component {
           </div>
 
           <div className="modal" id="mark-lovett">
-              <div class="modal__inner">
+              <div className="modal__inner">
                   <div className="modal-close" onClick={this.closeModal}>X</div>
-                  <div class="speaker">
+                  <div className="speaker">
+                      <img src="./MarkBW.jpg"/>
                       <h2>Mark Lovett</h2>
                       <h3>Organizer, TEDX San Diego</h3>
                   </div>
-                  <div class="modal-columns">
-                      <div class="col bio">
+                  <div className="modal-columns">
+                      <div className="col bio">
                       </div>
-                      <div class="col talk">
+                      <div className="col talk">
                         <h3>Storylistening as an Agent of (R)evolution</h3>
                       </div>
                   </div>
@@ -396,20 +401,21 @@ class Speakers extends Component {
           </div>
 
           <div className="modal" id="matt-webb">
-              <div class="modal__inner">
+              <div className="modal__inner">
                   <div className="modal-close" onClick={this.closeModal}>X</div>
-                  <div class="speaker">
+                  <div className="speaker">
+                      <img src="./MattBW.jpg"/>
                       <h2>Matt Webb</h2>
                       <h3>Global CTO of Mirum</h3>
                   </div>
-                  <div class="modal-columns">
-                      <div class="col bio">
+                  <div className="modal-columns">
+                      <div className="col bio">
                           <p>Matt has over 18 years of web technology experience that extends across a range of areas, including web standards and best
                               practice, accessibility and human computer interfaces, enterprise content management systems,
                               system architecture, AR/VR, AI and anything to do with the future of web interfaces. He is passionate
                               about how technology relates to the customer experience.</p>
                       </div>
-                      <div class="col talk">
+                      <div className="col talk">
                           <h3>How To Build A Maker Business</h3>
                           <p>Matt explores what it really means to “make what’s next” and why the ability to hire and retain makers will be your business’s
                           competitive advantage today (and tomorrow). Matt also co-hosts the <em>Opus</em> innovation sprint.</p>
@@ -422,6 +428,7 @@ class Speakers extends Component {
               <div className="modal__inner">
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
+                      <img src="./LucieBW.jpg"/>
                       <h2>Lucie Greene</h2>
                       <h3>Worldwide Director of J. Walter Thompson Intelligence</h3>
                   </div>
@@ -447,6 +454,7 @@ class Speakers extends Component {
               <div className="modal__inner">
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
+                      <img src="./JamieBW.jpg"/>
                       <h2>Jamie McLellan</h2>
                       <h3>CTO of J. Walter Thompson Worldwide</h3>
                   </div>
@@ -465,12 +473,13 @@ class Speakers extends Component {
               </div>
           </div>
 
-          <div class="modal two-speakers" id="acquiaspeakers">
-              <div class="modal__inner">
+          <div className="modal two-speakers" id="acquiaspeakers">
+              <div className="modal__inner">
                   <div className="modal-close" onClick={this.closeModal}>X</div>
-                  <div class="modal-columns">
-                      <div class="col">
-                          <div class="speaker-header">
+                  <div className="modal-columns">
+                      <div className="col">
+                          <div className="speaker">
+                              <img src="./AcquiaBW.jpg"/>
                               <h2>Lynne Capozzi</h2>
                               <h3>CMO, Acquia</h3>
                           </div>
