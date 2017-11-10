@@ -499,7 +499,7 @@ class Speakers extends Component {
                           </div>
                       </div>
                       <div className="col">
-                          <div className="speaker-header">
+                          <div className="speaker">
                               <h1>Chris Stone</h1>
                               <h3>CPO, Acquia</h3>
                           </div>
