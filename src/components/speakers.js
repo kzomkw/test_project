@@ -7,15 +7,14 @@ import MattTB from './matttb'
 
 class Speakers extends Component {
   constructor(props){
-    super(props),
+    super(props);
     this.state = {
       showSpeakerModal: false
-    }
+    };
   }
 
   speakerModal = (speakerId) => {
-    console.log('speakerModal function running');
-    document.getElementById(speakerId).style.display = 'block'
+    document.getElementById(speakerId).style.display = 'block';
   }
 
   render() {
@@ -45,7 +44,7 @@ class Speakers extends Component {
               <img className='portrait bottom' src='./TonyC.jpg'/>
               <img className='portrait top' src='./TonyBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus--middle' onClick={this.speakerModal('tony-markovski')} />
+            <img src='./plus-sign.png' className='plus--middle' onClick={() => {this.speakerModal('tony-markovski')}} />
             <TextBox title='Tony Markovski' text='Head of Innovation and Emerging Technology'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
