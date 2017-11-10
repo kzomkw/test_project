@@ -368,11 +368,11 @@ class Speakers extends Component {
                   </div>
                   <div className="modal-columns">
                       <div className="col bio">
-                          <p></p>
+                          <p>Dr. Emily Musil Church is a strategist and thought leader in harnessing technology to address global challenges for social good. Dr. Church directs the impact work for the Global Learning XPRIZE, where she bridges the worlds of research, innovation and global development. Prior to XPRIZE, Dr. Church spent over a decade in academia, where as a professor she specialized in African history, human rights and women’s global issues.</p>
                       </div>
                       <div className="col talk">
                           <h3>Shooting for the Stars</h3>
-                          <p></p>
+                          <p>What is incentivized competition and what is it capable of achieving? XPRIZE is impact driven and future looking, and Emily will share how to eliminate obstacles to change and energize human progress.</p>
                       </div>
                   </div>
               </div>
@@ -388,9 +388,11 @@ class Speakers extends Component {
                   </div>
                   <div className="modal-columns">
                       <div className="col bio">
+                          <p>Having survived three decades in corporate America, recovering executive Mark Lovett is now immersed in the world of storytelling, from organizing TEDx events in San Diego, on the U.S. & Mexico border, and in prisons, to professional speaker coaching and storytelling workshops at Fabricating the Truth.</p>
                       </div>
                       <div className="col talk">
                         <h3>Storylistening as an Agent of (R)evolution</h3>
+                        <p>Mark will explore how to humanize experience and create connection. When we remove the titles and clichés, the barriers and borders that divide us, we see that everyone has a story to share, and that being a part of others’ stories allows us to gain perspective. Leaders should not overlook the importance of listening to others and sharing stories as one of the most powerful agents of change.</p>
                       </div>
                   </div>
               </div>
