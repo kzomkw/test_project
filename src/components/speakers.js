@@ -266,7 +266,7 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <img src="./TonyBW.jpg" />
-                      <h2>Tony <br/> Markovski</h2>
+                      <h1>Tony <br/> Markovski</h1>
                       <h3>Head of Innovation and Emerging Technologies at Mirum </h3>
                   </div>
                   <div className="modal-columns">
@@ -278,6 +278,7 @@ class Speakers extends Component {
                               2017 Gartner Magic Quadrant. </p>
                       </div>
                       <div className="col talk">
+                          <h2>Opening</h2>
                           <h3>You’re Innovating in All the Wrong Places</h3>
                           <p>Setting the tone for the day, Tony demonstrates how prioritizing “purpose” to future-proof your business determines how long
                           your company will live.</p>
@@ -291,7 +292,7 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <img src="./BreeBW.jpg" />
-                      <h2>Bree Groff</h2>
+                      <h1>Bree Groff</h1>
                       <h3>CEO of NOBL</h3>
                   </div>
                   <div className="modal-columns">
@@ -302,6 +303,7 @@ class Speakers extends Component {
                               leadership on designing organizations that support high-performing teams.</p>
                       </div>
                       <div className="col talk">
+                          <h2>Keynote</h2>
                           <h3>Underwear, Clocks, and Companies: How to Change When You Must</h3>
                           <p>Bree explains why those at the top of organizations must be instigators of change, and how to work through human responses
                           like resistance and vulnerability.  </p>
@@ -315,7 +317,7 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <img src="./BrettBW.jpg"/>
-                      <h2>Brett Hurt</h2>
+                      <h1>Brett Hurt</h1>
                       <h3>CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice</h3>
                   </div>
                   <div className="modal-columns">
@@ -327,6 +329,7 @@ class Speakers extends Component {
                           </p>
                       </div>
                       <div className="col talk">
+                          <h2>Keynote</h2>
                           <h3>The Secrets of Making Profits with Purpose</h3>
                           <p>Brett dives into the concept of Conscious Capitalism, providing personal insights from his experience creating billion-dollar purpose-led business models that better serve us all, including investors.</p>
                       </div>
@@ -339,7 +342,7 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <img src="./TamaraBW.jpg"/>
-                      <h2>Tamara Ingram</h2>
+                      <h1>Tamara Ingram</h1>
                       <h3>CEO of J. Walter Thompson Worldwide</h3>
                   </div>
                   <div className="modal-columns">
@@ -351,6 +354,7 @@ class Speakers extends Component {
                               Proctor & Gamble (P&G) account.</p>
                       </div>
                       <div className="col talk">
+                          <h2>Fireside Chat</h2>
                           <h3>Innovating Like a Bull in a China Shop</h3>
                           <p>(Description coming soon.)</p>
                       </div>
@@ -363,7 +367,7 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <img src="./EmilyBW.jpg"/>
-                      <h2>Emily Musil Church</h2>
+                      <h1>Emily Musil Church</h1>
                       <h3>Director of Education and Impact XPRIZE Learning</h3>
                   </div>
                   <div className="modal-columns">
@@ -371,6 +375,7 @@ class Speakers extends Component {
                           <p>Dr. Emily Musil Church is a strategist and thought leader in harnessing technology to address global challenges for social good. Dr. Church directs the impact work for the Global Learning XPRIZE, where she bridges the worlds of research, innovation and global development. Prior to XPRIZE, Dr. Church spent over a decade in academia, where as a professor she specialized in African history, human rights and women’s global issues.</p>
                       </div>
                       <div className="col talk">
+                          <h2>Talk</h2>
                           <h3>Shooting for the Stars</h3>
                           <p>What is incentivized competition and what is it capable of achieving? XPRIZE is impact driven and future looking, and Emily will share how to eliminate obstacles to change and energize human progress.</p>
                       </div>
@@ -383,7 +388,7 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <img src="./MarkBW.jpg"/>
-                      <h2>Mark Lovett</h2>
+                      <h1>Mark Lovett</h1>
                       <h3>Organizer, TEDX San Diego</h3>
                   </div>
                   <div className="modal-columns">
@@ -391,6 +396,7 @@ class Speakers extends Component {
                           <p>Having survived three decades in corporate America, recovering executive Mark Lovett is now immersed in the world of storytelling, from organizing TEDx events in San Diego, on the U.S. & Mexico border, and in prisons, to professional speaker coaching and storytelling workshops at Fabricating the Truth.</p>
                       </div>
                       <div className="col talk">
+                        <h2>Talk</h2>
                         <h3>Storylistening as an Agent of (R)evolution</h3>
                         <p>Mark will explore how to humanize experience and create connection. When we remove the titles and clichés, the barriers and borders that divide us, we see that everyone has a story to share, and that being a part of others’ stories allows us to gain perspective. Leaders should not overlook the importance of listening to others and sharing stories as one of the most powerful agents of change.</p>
                       </div>
@@ -403,7 +409,7 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <img src="./MattBW.jpg"/>
-                      <h2>Matt Webb</h2>
+                      <h1>Matt Webb</h1>
                       <h3>Global CTO of Mirum</h3>
                   </div>
                   <div className="modal-columns">
@@ -414,6 +420,7 @@ class Speakers extends Component {
                               about how technology relates to the customer experience.</p>
                       </div>
                       <div className="col talk">
+                          <h2>Workshop</h2>
                           <h3>How To Build A Maker Business</h3>
                           <p>Matt explores what it really means to “make what’s next” and why the ability to hire and retain makers will be your business’s
                           competitive advantage today (and tomorrow). Matt also co-hosts the <em>Opus</em> innovation sprint.</p>
@@ -427,7 +434,7 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <img src="./LucieBW.jpg"/>
-                      <h2>Lucie Greene</h2>
+                      <h1>Lucie Greene</h1>
                       <h3>Worldwide Director of J. Walter Thompson Intelligence</h3>
                   </div>
                   <div className="modal-columns">
@@ -439,6 +446,7 @@ class Speakers extends Component {
                               </p>
                       </div>
                       <div className="col talk">
+                          <h2>Talk</h2>
                           <h3>How to be a Future-Focused Brand</h3>
                           <p>Lucie guides us through current trends for future-proofing your business, dissecting some of the best examples in today’s
                           do-or-die climate.</p>
@@ -453,7 +461,7 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}>X</div>
                   <div className="speaker">
                       <img src="./JamieBW.jpg"/>
-                      <h2>Jamie McLellan</h2>
+                      <h1>Jamie McLellan</h1>
                       <h3>CTO of J. Walter Thompson Worldwide</h3>
                   </div>
                   <div className="modal-columns">
@@ -463,6 +471,7 @@ class Speakers extends Component {
                               operate on the intersection of his left and right brains.</p>
                       </div>
                       <div className="col talk">
+                          <h2>Talk</h2>
                           <h3>Solving Human Problems with AI</h3>
                           <p>Jamie explains why intelligence can never be artificial, and how our human ability to interpret context makes people, not
                           technology, the most important factor in achieving purpose-led innovation.</p>
@@ -478,7 +487,7 @@ class Speakers extends Component {
                       <div className="col">
                           <div className="speaker">
                               <img src="./AcquiaBW.jpg"/>
-                              <h2>Lynne Capozzi</h2>
+                              <h1>Lynne Capozzi</h1>
                               <h3>CMO, Acquia</h3>
                           </div>
                           <div className="bio">
@@ -491,7 +500,7 @@ class Speakers extends Component {
                       </div>
                       <div className="col">
                           <div className="speaker-header">
-                              <h2>Chris Stone</h2>
+                              <h1>Chris Stone</h1>
                               <h3>CPO, Acquia</h3>
                           </div>
                           <div className="bio">
@@ -503,6 +512,7 @@ class Speakers extends Component {
                       </div>
                   </div>
                   <div className="talk">
+                      <h2>Talk</h2>
                       <h3>She Said, He Said: How Product & Marketing Can See Eye to Eye on the Customer Journey</h3>
                       <p>Acquia’s CMO and CTO throw down in a battle for product and market alignment, with the aim of achieving their mutual North Star: enhancing customer experience.</p>
                   </div>

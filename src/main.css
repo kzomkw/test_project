@@ -1360,20 +1360,42 @@ body {
   height: 0;
 }
 
-.speaker h2 {
-  font-size: 3em;
+.speaker h1 {
+  font-size: 2em;
   font-family: "Mirum-Sans-Bold";
+}
+@media (min-width: 700px) {
+  .speaker h1 {
+    font-size: 3em;
+  }
 }
 
 .speaker h3 {
+  font-size: 1.3em;
   font-family: "Mirum-Sans-Bold";
-  color: black;
+  color: #311836;
 }
 
 .speaker img {
   margin-right: 15px;
   float: left;
   max-height: 200px;
+}
+
+.bio p {
+  color: #311836;
+}
+
+.talk h2 {
+  font-family: "Mirum-Serif";
+}
+
+.talk h3 {
+  color: #311836;
+}
+
+.talk p {
+  color: #311836;
 }
 
 .mirumagency_link {
