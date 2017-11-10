@@ -263,7 +263,7 @@ class Speakers extends Component {
 
           <div className="modal" id="tony-markovski">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./TonyBW.jpg" />
                       <h1>Tony <br/> Markovski</h1>
@@ -289,7 +289,7 @@ class Speakers extends Component {
 
           <div className="modal" id="bree-groff">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./BreeBW.jpg" />
                       <h1>Bree Groff</h1>
@@ -314,7 +314,7 @@ class Speakers extends Component {
 
           <div className="modal" id="brett-hurt">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./BrettBW.jpg"/>
                       <h1>Brett Hurt</h1>
@@ -339,7 +339,7 @@ class Speakers extends Component {
 
           <div className="modal" id="tamara-ingram">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./TamaraBW.jpg"/>
                       <h1>Tamara Ingram</h1>
@@ -364,7 +364,7 @@ class Speakers extends Component {
 
           <div className="modal" id="emily-musil-church">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./EmilyBW.jpg"/>
                       <h1>Emily Musil Church</h1>
@@ -385,7 +385,7 @@ class Speakers extends Component {
 
           <div className="modal" id="mark-lovett">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./MarkBW.jpg"/>
                       <h1>Mark Lovett</h1>
@@ -406,7 +406,7 @@ class Speakers extends Component {
 
           <div className="modal" id="matt-webb">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./MattBW.jpg"/>
                       <h1>Matt Webb</h1>
@@ -431,7 +431,7 @@ class Speakers extends Component {
 
           <div className="modal" id="lucie-greene">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./LucieBW.jpg"/>
                       <h1>Lucie Greene</h1>
@@ -458,7 +458,7 @@ class Speakers extends Component {
 
           <div className="modal" id="jamie-mclellan">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./JamieBW.jpg"/>
                       <h1>Jamie McLellan</h1>
@@ -482,7 +482,7 @@ class Speakers extends Component {
 
           <div className="modal two-speakers" id="acquiaspeakers">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="modal-columns">
                       <div className="col">
                           <div className="speaker">

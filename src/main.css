@@ -596,6 +596,7 @@ body {
   height: 70px;
   z-index: 1;
   margin-left: 5%;
+  margin-top: 17%;
 }
 @media (min-width: 700px) {
   #mapMarker {
@@ -1359,6 +1360,10 @@ body {
   display: block;
   content: '';
   height: 0;
+}
+
+.closeButton {
+  float: right;
 }
 
 .speaker h1 {

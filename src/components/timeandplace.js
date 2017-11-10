@@ -4,6 +4,11 @@ import ParticlesComponent from './particles'
 import SDTextBox from './SDtextbox'
 
 class TimeAndPlace extends Component {
+
+  componentWillMount() {
+
+  }
+
   render() {
     return (
 

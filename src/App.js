@@ -81,7 +81,7 @@ class App extends Component {
         </div>
         {this.state.showNav &&
           <div id='expandedNav'>
-          <span id='closeNav' onClick={this.navClick}>X</span>
+          <span id='closeNav' onClick={this.navClick}><img src='../close-x.png'  className='navCloseButton' alt='Close'/></span>
           <span><img src='../mirumopuslogo.png'  id='navLogo' alt='opus logo'/></span>
 
             <span id='navList'>
