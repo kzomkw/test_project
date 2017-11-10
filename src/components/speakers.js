@@ -52,7 +52,7 @@ class Speakers extends Component {
               <img className='portrait--left top' src='./BreeBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' />
-            <TextBox title='Bree Groff' text='CEO of NOBL'/>
+            <MattTB firstname='Bree' lastname='Groff' text='CEO of NOBL'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Keynote
@@ -72,7 +72,7 @@ class Speakers extends Component {
               <img className='portrait--right top' src='./BrettBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' />
-            <TextBox title='Brett Hurt' text='CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
+            <MattTB firstname='Brett' lastname='Hurt' text='CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Keynote
