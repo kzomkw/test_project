@@ -216,9 +216,12 @@ body {
 }
 #landingPage {
   background-color: black;
+  z-index: -2;
   margin-top: -70px;
   height: 700px;
   width: 100%;
+  overflow: hidden;
+  auto: 100%;
 }
 
 #landingPhoto--mobile {
@@ -228,7 +231,6 @@ body {
 }
 #landingPhoto {
   opacity: .7;
-  height: 700px;
   width: 100%;
   position: absolute;
 }
@@ -387,6 +389,8 @@ body {
   width: 100%;
   background-color: #DCDCDC;
   padding-top: 30px;
+  position: static;
+  z-index: 5;
 }
 @media (min-width:700px) and (max-width: 1500px) {
   .timeAndPlaceContainer {

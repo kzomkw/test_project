@@ -8,7 +8,9 @@ class LandingPage extends Component {
       <div id='landingPage'>
 
           <div>
-            <img src='../landing_still_full.png' alt='background' id='landingPhoto'/>
+            <video id='landingPhoto' loop autoPlay>
+              <source src='../GettyImages-471736934_6MBs.mp4' type="video/mp4" />
+            </video>
           </div>
 
         <div id='presentedBy'>
