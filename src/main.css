@@ -1366,3 +1366,8 @@ body {
   float: left;
   max-height: 200px;
 }
+
+.mirumagency_link {
+  text-decoration: none;
+  color: #311836;
+}
