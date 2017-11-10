@@ -439,7 +439,7 @@ body {
 /*styling for time and place component*/
 
 .timeAndPlaceContainer {
-  height: 500px;
+  height: 670px;
   width: 100%;
   background-color: #DCDCDC;
   padding-top: 30px;
@@ -726,20 +726,20 @@ body {
 /*styling for about section (photo, words, video)*/
 
 .about {
-  height: 1500px;
+  height: 1580px;
   width: 100%;
   background-color: #DCDCDC;
 }
 @media (min-width: 700px) and (max-width: 1500px){
   .about {
-    height: 2150px;
+    height: 2000px;
     width: 100%;
     margin-bottom: 10px;
   }
 }
 @media (min-width: 1500px) {
   .about {
-    height: 2200px;
+    height: 2100px;
     width: 100%;
     margin-bottom: 10px;
   }
