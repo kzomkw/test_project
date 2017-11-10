@@ -659,6 +659,10 @@ body {
   margin-top: -165px;
 }
 
+#datetime {
+  margin-top: -150px;
+}
+
 #mapMarker {
   position: absolute;
   height: 70px;
@@ -667,10 +671,11 @@ body {
 }
 @media (min-width: 700px) {
   #mapMarker {
-    margin-left: 20%;
+    margin-left: 22%;
     position: absolute;
     height: 150px;
     z-index: 1;
+    margin-top: 30px;
   }
 }
 
