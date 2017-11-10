@@ -231,7 +231,7 @@ class Speakers extends Component {
                 Talk
               </p>
               <p className='keynoteDescription'>
-                She Said, He Said: How Product & Marketing <br /> Can See Eye to Eye on the Customer Journey
+                The Right Stuff: What It Takes to Align Product and Marketing
               </p>
             </div>
           </span>
