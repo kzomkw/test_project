@@ -19,6 +19,12 @@ class TimeAndPlace extends Component {
           {window.matchMedia("(min-width: 700px)").matches &&
             <ParticlesComponent />
           }
+          {window.matchMedia("(min-width: 700px)").matches &&
+            <div id='eventTextBox'>
+              <SDTextBox title='San Diego' text='The Prado Balboa Park'/>
+            </div>
+          }
+          {window.matchMedia("(max-width: 700px)").matches &&
           <Parallax
           offsetYMin={0}
           offsetYMax={20}
@@ -27,6 +33,7 @@ class TimeAndPlace extends Component {
               <SDTextBox title='San Diego' text='The Prado Balboa Park'/>
             </div>
           </Parallax>
+          }
           {window.matchMedia("(min-width: 700px)").matches &&
             <Parallax
               offsetYMin={-400}
