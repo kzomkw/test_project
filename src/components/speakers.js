@@ -3,6 +3,7 @@ import { Parallax } from 'react-scroll-parallax'
 import ParticlesComponent from './particles'
 import TextBox from './textbox'
 import TwoSpeakersTB from './twospeakerstb'
+import MattTB from './matttb'
 
 class Speakers extends Component {
   render() {
@@ -161,7 +162,7 @@ class Speakers extends Component {
               <img className='portrait top' src='./MattBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus--middle' />
-            <TextBox title='Matt Webb' text='Global CTO Mirum'/>
+            <MattTB firstname='Matt' lastname='Webb' text='Global CTO Mirum'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Workshop
