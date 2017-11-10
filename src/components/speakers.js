@@ -368,15 +368,11 @@ class Speakers extends Component {
                   </div>
                   <div className="modal-columns">
                       <div className="col bio">
-                          <p>As the Senior Director of Global Learning XPRIZE, Matt challenges teams from around the world to create innovative technologies.
-                              Previously as Vice President of One Laptop per Child (OLPC), Keller led OLPC’s ground-breaking
-                              literacy project testing the theory that children from non-literate communities could teach themselves
-                              to read using tablets filled with off-the-shelf applications.</p>
+                          <p></p>
                       </div>
                       <div className="col talk">
                           <h3>Shooting for the Stars</h3>
-                          <p>Competition plays a pivotal role in innovation. Matt shares insights from watching entrepreneurs and private businesses compete
-                          to break barriers and solve the Earth’s most pressing problems.</p>
+                          <p></p>
                       </div>
                   </div>
               </div>
