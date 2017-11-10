@@ -1492,3 +1492,8 @@ body {
     margin-left: 1%;
   }
 }
+
+.modal {
+  /*display: none;*/
+  background-color: #E24498;
+}
