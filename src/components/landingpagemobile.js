@@ -18,9 +18,6 @@ class LandingPageMobile extends Component {
           <div id='textbox__title--white--mobile'>
             Achieving <div className='purposeLed'>Purpose-Led</div> Innovation
           </div>
-          <div id='textbox__subheading--white--mobile'>
-            A New Purpose For Brands
-          </div>
         </div>
 
         <div id='presentedBy--mobile'>
