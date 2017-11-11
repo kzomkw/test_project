@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ParticlesComponent from './particles'
 
 class LandingPageMobile extends Component {
   render() {
@@ -16,7 +15,7 @@ class LandingPageMobile extends Component {
 
         <div id='textbox-white--mobile'>
           <div id='textbox__title--white--mobile'>
-            Achieving <div className='purposeLed'>Purpose-Led</div> Innovation
+            Achieving <div className='purposeLed--mobile'>Purpose-Led</div> <div className='titleInnovation--mobile'>Innovation</div>
           </div>
         </div>
 

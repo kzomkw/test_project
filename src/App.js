@@ -81,7 +81,7 @@ class App extends Component {
         </div>
         {this.state.showNav &&
           <div id='expandedNav'>
-          <span id='closeNav' onClick={this.navClick}>X</span>
+          <span id='closeNav' onClick={this.navClick}><img src='../close-x.png'  className='navCloseButton' alt='Close'/></span>
           <span><img src='../mirumopuslogo.png'  id='navLogo' alt='opus logo'/></span>
 
             <span id='navList'>
@@ -117,12 +117,10 @@ class App extends Component {
             <a onClick={this.formClick} id='getTicketsLink'>GET TICKETS</a>
           </div>
         }
-          {this.state.showForm &&
-            <div id='getTicketsContainer'>
-              <a id='closeTicketBox' onClick={this.formClick}>X</a>
-              <div style={{width:100+'%', textAlign:'left'}}><iframe src="//eventbrite.com/tickets-external?eid=36226627819&ref=etckt" frameBorder="0" height="308" width="100%" vspace="0" hspace="0" marginHeight="5" marginWidth="5" scrolling="auto" allowTransparency="true"></iframe><div style={{fontFamily:'Helvetica, Arial', fontSize:12 + 'px', padding: '10px 0 5px', margin: 2 +'px', width: 100+'%', textAlign:'left'}} ><a className="powered-by-eb" style={{color: '#ADB0B6', textDecoration: 'none'}} target="_blank" href="http://www.eventbrite.com/">Powered by Eventbrite</a></div></div>
-            </div>
-          }
+        <div id='getTicketsContainer' className={this.state.showForm ? 'open': ''}>
+          <a id='closeTicketBox' onClick={this.formClick}>X</a>
+          <div style={{width:100+'%', textAlign:'left'}}><iframe src="//eventbrite.com/tickets-external?eid=36226627819&ref=etckt" frameBorder="0" height="308" width="100%" vspace="0" hspace="0" marginHeight="5" marginWidth="5" scrolling="auto" allowTransparency="true"></iframe><div style={{fontFamily:'Helvetica, Arial', fontSize:12 + 'px', padding: '10px 0 5px', margin: 2 +'px', width: 100+'%', textAlign:'left'}} ><a className="powered-by-eb" style={{color: '#ADB0B6', textDecoration: 'none'}} target="_blank" href="http://www.eventbrite.com/">Powered by Eventbrite</a></div></div>
+        </div>
           <Element name='timeAndPlace'>
             <TimeAndPlace />
           </Element>

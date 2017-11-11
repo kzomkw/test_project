@@ -76,7 +76,7 @@ class Speakers extends Component {
               <img className='portrait--left top' src='./BreeBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('bree-groff')}}/>
-            <MattTB firstname='Bree' lastname='Groff' text='CEO of NOBL'/>
+            <MattTB firstname='Bree' lastname='Groff' text1='CEO of NOBL'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Keynote
@@ -96,7 +96,7 @@ class Speakers extends Component {
               <img className='portrait--right top' src='./BrettBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('brett-hurt')}}/>
-            <MattTB firstname='Brett' lastname='Hurt' text='CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
+            <MattTB firstname='Brett' lastname='Hurt' text1='CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Keynote
@@ -144,7 +144,7 @@ class Speakers extends Component {
               <img className='portrait--left top' src='./EmilyBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('emily-musil-church')}}/>
-            <TextBox title='Emily Musil Church' text='Director of Education and Impact XPRIZE Learning'/>
+            <MattTB firstname='Emily Musil' lastname='Church' text1='Director of Education and Impact' text2='XPRIZE Learning'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Talk
@@ -164,7 +164,7 @@ class Speakers extends Component {
               <img className='portrait--right top' src='./MarkBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('mark-lovett')}}/>
-            <TextBox title='Mark Lovett' text='Organizer, TEDX San Diego'/>
+            <MattTB firstname='Mark' lastname='Lovett' text1='Organizer, TEDX' text2='San Diego'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Talk
@@ -186,7 +186,7 @@ class Speakers extends Component {
               <img className='portrait top' src='./MattBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus--middle' onClick={() => {this.speakerModal('matt-webb')}}/>
-            <MattTB firstname='Matt' lastname='Webb' text='Global CTO Mirum'/>
+            <MattTB firstname='Matt' lastname='Webb' text1='Global CTO' text2='Mirum'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Workshop
@@ -264,7 +264,7 @@ class Speakers extends Component {
 
           <div className="modal" id="tony-markovski">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./TonyBW.jpg" />
                       <SmallTextBox title='Tony Markovski' text='Head of Innovation and Emerging Technology'/>
@@ -278,6 +278,7 @@ class Speakers extends Component {
                               2017 Gartner Magic Quadrant. </p>
                       </div>
                       <div className="col talk">
+                          <h2>Opening</h2>
                           <h3>You’re Innovating in All the Wrong Places</h3>
                           <p>Setting the tone for the day, Tony demonstrates how prioritizing “purpose” to future-proof your business determines how long
                           your company will live.</p>
@@ -288,7 +289,7 @@ class Speakers extends Component {
 
           <div className="modal" id="bree-groff">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./BreeBW.jpg" />
                       <SmallTextBox title='Bree Groff' text='CEO of NOBL'/>
@@ -301,6 +302,7 @@ class Speakers extends Component {
                               leadership on designing organizations that support high-performing teams.</p>
                       </div>
                       <div className="col talk">
+                          <h2>Keynote</h2>
                           <h3>Underwear, Clocks, and Companies: How to Change When You Must</h3>
                           <p>Bree explains why those at the top of organizations must be instigators of change, and how to work through human responses
                           like resistance and vulnerability.  </p>
@@ -311,7 +313,7 @@ class Speakers extends Component {
 
           <div className="modal" id="brett-hurt">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./BrettBW.jpg"/>
                       <SmallTextBox title='Brett Hurt' text='CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
@@ -325,6 +327,7 @@ class Speakers extends Component {
                           </p>
                       </div>
                       <div className="col talk">
+                          <h2>Keynote</h2>
                           <h3>The Secrets of Making Profits with Purpose</h3>
                           <p>Brett dives into the concept of Conscious Capitalism, providing personal insights from his experience creating billion-dollar purpose-led business models that better serve us all, including investors.</p>
                       </div>
@@ -334,7 +337,7 @@ class Speakers extends Component {
 
           <div className="modal" id="tamara-ingram">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./TamaraBW.jpg"/>
                       <SmallTextBox title='Tamara Ingram' text='CEO of J. Walter Thompson Worldwide'/>
@@ -348,6 +351,7 @@ class Speakers extends Component {
                               Proctor & Gamble (P&G) account.</p>
                       </div>
                       <div className="col talk">
+                          <h2>Fireside Chat</h2>
                           <h3>Innovating Like a Bull in a China Shop</h3>
                           <p>(Description coming soon.)</p>
                       </div>
@@ -357,22 +361,19 @@ class Speakers extends Component {
 
           <div className="modal" id="emily-musil-church">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./EmilyBW.jpg"/>
                       <SmallTextBox title='Emily Musil Church' text='Director of Education and Impact XPRIZE Learning'/>
                   </div>
                   <div className="modal-columns">
                       <div className="col_bio">
-                          <p>As the Senior Director of Global Learning XPRIZE, Matt challenges teams from around the world to create innovative technologies.
-                              Previously as Vice President of One Laptop per Child (OLPC), Keller led OLPC’s ground-breaking
-                              literacy project testing the theory that children from non-literate communities could teach themselves
-                              to read using tablets filled with off-the-shelf applications.</p>
+                        <p>Dr. Emily Musil Church is a strategist and thought leader in harnessing technology to address global challenges for social good. Dr. Church directs the impact work for the Global Learning XPRIZE, where she bridges the worlds of research, innovation and global development. Prior to XPRIZE, Dr. Church spent over a decade in academia, where as a professor she specialized in African history, human rights and women’s global issues.</p>
                       </div>
                       <div className="col talk">
+                          <h2>Talk</h2>
                           <h3>Shooting for the Stars</h3>
-                          <p>Competition plays a pivotal role in innovation. Matt shares insights from watching entrepreneurs and private businesses compete
-                          to break barriers and solve the Earth’s most pressing problems.</p>
+                          <p>What is incentivized competition and what is it capable of achieving? XPRIZE is impact driven and future looking, and Emily will share how to eliminate obstacles to change and energize human progress.</p>
                       </div>
                   </div>
               </div>
@@ -380,7 +381,7 @@ class Speakers extends Component {
 
           <div className="modal" id="mark-lovett">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./MarkBW.jpg"/>
                       <SmallTextBox title='Mark Lovett' text='Organizer, TEDX San Diego'/>
@@ -388,8 +389,10 @@ class Speakers extends Component {
                   <div className="modal-columns">
                       <div className="col_bio">
                          <p>Having survived three decades in corporate America, recovering executive Mark Lovett is now immersed in the world of storytelling, from organizing TEDx events in San Diego, on the U.S. & Mexico border, and in prisons, to professional speaker coaching and storytelling workshops at Fabricating the Truth.</p>
+
                       </div>
                       <div className="col talk">
+                        <h2>Talk</h2>
                         <h3>Storylistening as an Agent of (R)evolution</h3>
                         <p>Mark will explore how to humanize experience and create connection. When we remove the titles and clichés, the barriers and borders that divide us, we see that everyone has a story to share, and that being a part of others’ stories allows us to gain perspective. Leaders should not overlook the importance of listening to others and sharing stories as one of the most powerful agents of change.</p>
                       </div>
@@ -399,7 +402,7 @@ class Speakers extends Component {
 
           <div className="modal" id="matt-webb">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./MattBW.jpg"/>
                       <SmallTextBox title='Matt Webb' text='Global CTO Mirum'/>
@@ -412,6 +415,7 @@ class Speakers extends Component {
                               about how technology relates to the customer experience.</p>
                       </div>
                       <div className="col talk">
+                          <h2>Workshop</h2>
                           <h3>How To Build A Maker Business</h3>
                           <p>Matt explores what it really means to “make what’s next” and why the ability to hire and retain makers will be your business’s
                           competitive advantage today (and tomorrow). Matt also co-hosts the <em>Opus</em> innovation sprint.</p>
@@ -422,7 +426,7 @@ class Speakers extends Component {
 
           <div className="modal" id="lucie-greene">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./LucieBW.jpg"/>
                       <SmallTextBox title='Lucie Greene' text='Worldwide Director of J. Walter Thompson Intelligence'/>
@@ -436,6 +440,7 @@ class Speakers extends Component {
                               </p>
                       </div>
                       <div className="col talk">
+                          <h2>Talk</h2>
                           <h3>How to be a Future-Focused Brand</h3>
                           <p>Lucie guides us through current trends for future-proofing your business, dissecting some of the best examples in today’s
                           do-or-die climate.</p>
@@ -447,7 +452,7 @@ class Speakers extends Component {
 
           <div className="modal" id="jamie-mclellan">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./JamieBW.jpg"/>
                       <SmallTextBox title='Lucie Greene' text='Worldwide Director of J. Walter Thompson Intelligence'/>
@@ -459,6 +464,7 @@ class Speakers extends Component {
                               operate on the intersection of his left and right brains.</p>
                       </div>
                       <div className="col talk">
+                          <h2>Talk</h2>
                           <h3>Solving Human Problems with AI</h3>
                           <p>Jamie explains why intelligence can never be artificial, and how our human ability to interpret context makes people, not
                           technology, the most important factor in achieving purpose-led innovation.</p>
@@ -469,7 +475,7 @@ class Speakers extends Component {
 
           <div className="modal two-speakers" id="acquiaspeakers">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}>X</div>
+                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="modal-columns">
                       <div className="col">
                           <div className="speaker">
@@ -496,6 +502,7 @@ class Speakers extends Component {
                       </div>
                   </div>
                   <div className="talk">
+                      <h2>Talk</h2>
                       <h3>She Said, He Said: How Product & Marketing Can See Eye to Eye on the Customer Journey</h3>
                       <p>Acquia’s CMO and CTO throw down in a battle for product and market alignment, with the aim of achieving their mutual North Star: enhancing customer experience.</p>
                   </div>

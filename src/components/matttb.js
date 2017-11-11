@@ -13,7 +13,9 @@ class MattTB extends Component {
           </div>
 
           <div className='textbox__subheading'>
-              {this.props.text}
+              {this.props.text1}
+              <br/>
+              {this.props.text2}
           </div>
         </div>
     );

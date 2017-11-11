@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-scroll-parallax'
-import ParticlesComponent from './particles'
-import SDTextBox from './SDtextbox'
 
 class About extends Component {
   render() {

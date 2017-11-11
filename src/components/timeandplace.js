@@ -4,6 +4,77 @@ import ParticlesComponent from './particles'
 import SDTextBox from './SDtextbox'
 
 class TimeAndPlace extends Component {
+
+  constructor(props) {
+    super(props);
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  };
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  };
+
+  handleScroll(event) {
+    if (window.matchMedia("(min-width: 700px) and (max-width:1825px)").matches){
+      if (window.scrollY < 770) {
+        document.querySelector('.SDtextbox').style.opacity = 1
+        document.querySelector('.SDtextbox').style.border = '23px solid #311836'
+        document.querySelector('.SDtextbox__title').style.opacity = 1
+        document.querySelector('.SDtextbox__title').style.color = '#311836'
+        document.querySelector('.SDtextbox__subheading').style.opacity = 1
+        document.querySelector('.SDtextbox__subheading').style.color = '#311836'
+        document.getElementById('date').style.opacity = 1
+        document.getElementById('date').style.color = '#311836'
+        document.getElementById('time').style.opacity = 1
+        document.getElementById('time').style.color = '#311836'
+        document.getElementById('mapMarker').style.opacity = 1
+        document.getElementById('mapMarker').style.color = '#311836'
+      } else {
+        document.querySelector('.SDtextbox').style.opacity = .8
+        document.querySelector('.SDtextbox').style.border = '23px solid #73507a'
+        document.querySelector('.SDtextbox__title').style.opacity = .8
+        document.querySelector('.SDtextbox__title').style.color = '#73507a'
+        document.querySelector('.SDtextbox__subheading').style.opacity = .8
+        document.querySelector('.SDtextbox__subheading').style.color = '#73507a'
+        document.getElementById('date').style.opacity = .8
+        document.getElementById('date').style.color = '#73507a'
+        document.getElementById('time').style.opacity = .8
+        document.getElementById('time').style.color = '#73507a'
+        document.getElementById('mapMarker').style.opacity = .5
+      }
+    } else if (window.matchMedia("(min-width: 1825px)").matches){
+      if (window.scrollY < 500) {
+        document.querySelector('.SDtextbox').style.opacity = 1
+        document.querySelector('.SDtextbox').style.border = '23px solid #311836'
+        document.querySelector('.SDtextbox__title').style.opacity = 1
+        document.querySelector('.SDtextbox__title').style.color = '#311836'
+        document.querySelector('.SDtextbox__subheading').style.opacity = 1
+        document.querySelector('.SDtextbox__subheading').style.color = '#311836'
+        document.getElementById('date').style.opacity = 1
+        document.getElementById('date').style.color = '#311836'
+        document.getElementById('time').style.opacity = 1
+        document.getElementById('time').style.color = '#311836'
+        document.getElementById('mapMarker').style.opacity = 1
+      } else {
+        document.querySelector('.SDtextbox').style.opacity = .8
+        document.querySelector('.SDtextbox').style.border = '23px solid #73507a'
+        document.querySelector('.SDtextbox__title').style.opacity = .8
+        document.querySelector('.SDtextbox__title').style.color = '#73507a'
+        document.querySelector('.SDtextbox__subheading').style.opacity = .8
+        document.querySelector('.SDtextbox__subheading').style.color = '#73507a'
+        document.getElementById('date').style.opacity = .8
+        document.getElementById('date').style.color = '#73507a'
+        document.getElementById('time').style.opacity = .8
+        document.getElementById('time').style.color = '#73507a'
+        document.getElementById('mapMarker').style.opacity = .8
+      }
+    }
+  };
+
   render() {
     return (
 
@@ -19,6 +90,12 @@ class TimeAndPlace extends Component {
           {window.matchMedia("(min-width: 700px)").matches &&
             <ParticlesComponent />
           }
+          {window.matchMedia("(min-width: 700px)").matches &&
+            <div id='eventTextBox'>
+              <SDTextBox title='San Diego' text='The Prado Balboa Park'/>
+            </div>
+          }
+          {window.matchMedia("(max-width: 700px)").matches &&
           <Parallax
           offsetYMin={0}
           offsetYMax={20}
@@ -27,6 +104,7 @@ class TimeAndPlace extends Component {
               <SDTextBox title='San Diego' text='The Prado Balboa Park'/>
             </div>
           </Parallax>
+          }
           {window.matchMedia("(min-width: 700px)").matches &&
             <Parallax
               offsetYMin={-400}
