@@ -488,16 +488,12 @@ class Speakers extends Component {
                                   She was previously CMO at JackBe, an enterprise mashup software company, and VP at Lotus Development, later acquired
                                   by IBM. Lynne is also on the board of directors at the Boston Children’s Hospital Trust and runs a nonprofit through
                                   the hospital.</p>
-                          </div>
-                      </div>
-                      <div className="col">
-                          <div className="speaker-header">
-                          </div>
-                          <div className="col">
-                              <p>Responsible for engineering, DevOps, product management and integrated digital experiences for the Acquia Platform, Chris
-                                  has more than 30 years’ experience in enterprise software development and open source solutions. With Eric Schmidt, former
-                                  CEO of Google and current Executive Chairman of Alphabet, Chris was part of Novell’s remarkable 1990s turnaround, and
-                                  later served as vice-chairman and co-CEO. Chris earned a certificate in advanced office systems engineering from MIT.</p>
+                                  <div className="talk">
+                                    Responsible for engineering, DevOps, product management and integrated digital experiences for the Acquia Platform, Chris
+                                    has more than 30 years’ experience in enterprise software development and open source solutions. With Eric Schmidt, former
+                                    CEO of Google and current Executive Chairman of Alphabet, Chris was part of Novell’s remarkable 1990s turnaround, and
+                                    later served as vice-chairman and co-CEO. Chris earned a certificate in advanced office systems engineering from MIT.
+                                  </div>
                           </div>
                       </div>
                   </div>

@@ -1465,8 +1465,13 @@ body {
   }
 }
 
+.talk {
+  color: #311836;
+}
+
 .talk h2 {
   font-family: "Mirum-Serif";
+  color: white;
 }
 
 .talk h3 {
@@ -1475,6 +1480,7 @@ body {
 
 .talk p {
   color: #311836;
+  margin-top: 0%;
 }
 
 .mirumagency_link {
