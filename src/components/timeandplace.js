@@ -20,7 +20,7 @@ class TimeAndPlace extends Component {
 
   handleScroll(event) {
     if (window.matchMedia("(min-width: 700px) and (max-width:1825px)").matches){
-      if (window.scrollY < 780) {
+      if (window.scrollY < 770) {
         document.querySelector('.SDtextbox').style.opacity = 1
         document.querySelector('.SDtextbox').style.border = '23px solid #311836'
         document.querySelector('.SDtextbox__title').style.opacity = 1
