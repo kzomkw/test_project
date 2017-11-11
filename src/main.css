@@ -183,6 +183,23 @@ body {
     margin-left: 65%;
     top: 15%;
   }
+  .modal-close{
+    margin-right: 10%;
+    transform: translateY(180px) scale(1.2);
+  }
+}
+
+.closeModalBar1 {
+  transform: rotateZ(-45deg);
+  height: 9px;
+  width: 55px;
+  background-color: white;
+}
+.closeModalBar2 {
+  transform: translateY(-100%) rotateZ(45deg);
+  height: 9px;
+  width: 55px;
+  background-color: white;
 }
 
 #closeTicketBox {
@@ -865,7 +882,7 @@ body {
   }
 }
 
-.middleSpeaker:hover .top{
+.middleHover:hover .top{
   opacity:0;
 }
 
@@ -1003,18 +1020,18 @@ body {
   z-index: 1;
   position: absolute;
   display: block;
-  margin-left: 10%;
-  margin-top: 12%;
+  margin-left: 25%;
+  margin-top: 10%;
 }
 @media (min-width:700px) {
   .smalltextbox {
-    border: 12px solid #311836;
-    width: 160px;
-    height: 198px;
+    border: 23px solid #311836;
+    width: 320px;
+    height: 395px;
     padding: 10px;
     display: inline-block;
-    margin-left: -10%;
-    margin-top: 3%;
+    margin-left: -20%;
+    margin-top: 6%;
   }
 }
 
@@ -1036,13 +1053,14 @@ body {
   font-size: 2em;
   margin-top: 15px;
   margin-bottom: -10px;
+  padding-left: 2%;
   font-family: 'Mirum-Sans-Bold';
   position: absolute;
 }
 @media (min-width:700px) {
   .smalltextbox__title{
     color: white;
-    font-size: 2em;
+    font-size: 3.5em;
     margin-top: 20px;
     margin-bottom: -20px;
     font-family: 'Mirum-Sans-Bold';
@@ -1110,14 +1128,15 @@ body {
   font-size: 1em;
   bottom: 0;
   position: absolute;
-  margin-bottom: 0;
+  padding-left: 2%;
+  margin-bottom: 15%;
   font-family: 'Mirum-Sans-Bold';
 }
 
 @media (min-width:700px) {
   .smalltextbox__subheading{
     color: #311836;
-    font-size: 1em;
+    font-size: 1.8em;
     bottom: 0;
     position: absolute;
     margin-bottom: 10%;
@@ -1330,7 +1349,7 @@ body {
 }
 @media (min-width:700px){
   #mirum-pic{
-    width: 80%;
+    width: 70%;
     margin-top: 0;
     margin-bottom: 0;
     display: inline-block;
@@ -1427,6 +1446,20 @@ body {
   content: '';
   height: 0;
 }
+@media (min-width: 700px) {
+  .speaker {
+    margin-top: 0%;
+    margin-left: 3%;
+  }
+}
+
+@media (min-width: 700px){
+  .modal-columns {
+    width: 34%;
+    margin-left:42%;
+    margin-top: -25%;
+  }
+}
 
 .closeButton {
   float: right;
@@ -1449,9 +1482,18 @@ body {
 }
 
 .speaker img {
-  margin-right: 15px;
+  margin-left: 20%;
   float: left;
   max-height: 200px;
+}
+@media (min-width: 700px) {
+  .speaker img {
+    margin-right: 15px;
+    float: left;
+    max-height: none;
+    height: 395px;
+    width: 320px;
+  }
 }
 
 .col_bio p{
@@ -1466,11 +1508,15 @@ body {
 }
 
 .talk h2 {
+  font-size: 2.25em;
+  font-weight: 400;
   font-family: "Mirum-Serif";
 }
 
 .talk h3 {
   color: #311836;
+  font-weight: 400;
+  font-size: 1em;
 }
 
 .talk p {

@@ -44,7 +44,7 @@ class Speakers extends Component {
           </div>
         }
         <div className='middleSpeaker'>
-          <span>
+          <span className='middleHover'>
 
             <Parallax
               offsetXMin={"0px"}
@@ -109,7 +109,7 @@ class Speakers extends Component {
         </div>
 
         <div className='middleSpeaker'>
-          <span>
+          <span className='middleHover'>
             <Parallax
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
@@ -177,7 +177,7 @@ class Speakers extends Component {
         </div>
 
         <div className='middleSpeaker'>
-          <span>
+          <span className='middleHover'>
             <Parallax
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
@@ -241,7 +241,7 @@ class Speakers extends Component {
         </div>
 
         <div className='middleSpeaker'>
-          <span>
+          <span className='middleHover'>
             <Parallax
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
@@ -264,7 +264,11 @@ class Speakers extends Component {
 
           <div className="modal" id="tony-markovski">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
+
+                  <div className="modal-close" onClick={this.closeModal}>
+                    <div className="closeModalBar1"></div>
+                    <div className="closeModalBar2"></div>
+                  </div>
                   <div className="speaker">
                       <img src="./TonyBW.jpg" />
                       <SmallTextBox title='Tony Markovski' text='Head of Innovation and Emerging Technology'/>
@@ -289,7 +293,10 @@ class Speakers extends Component {
 
           <div className="modal" id="bree-groff">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
+                  <div className="modal-close" onClick={this.closeModal}>
+                    <div className="closeModalBar1"></div>
+                    <div className="closeModalBar2"></div>
+                  </div>
                   <div className="speaker">
                       <img src="./BreeBW.jpg" />
                       <SmallTextBox title='Bree Groff' text='CEO of NOBL'/>
@@ -313,7 +320,10 @@ class Speakers extends Component {
 
           <div className="modal" id="brett-hurt">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
+                  <div className="modal-close" onClick={this.closeModal}>
+                    <div className="closeModalBar1"></div>
+                    <div className="closeModalBar2"></div>
+                  </div>
                   <div className="speaker">
                       <img src="./BrettBW.jpg"/>
                       <SmallTextBox title='Brett Hurt' text='CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
@@ -337,7 +347,10 @@ class Speakers extends Component {
 
           <div className="modal" id="tamara-ingram">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
+                  <div className="modal-close" onClick={this.closeModal}>
+                    <div className="closeModalBar1"></div>
+                    <div className="closeModalBar2"></div>
+                  </div>
                   <div className="speaker">
                       <img src="./TamaraBW.jpg"/>
                       <SmallTextBox title='Tamara Ingram' text='CEO of J. Walter Thompson Worldwide'/>
@@ -361,7 +374,10 @@ class Speakers extends Component {
 
           <div className="modal" id="emily-musil-church">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
+                  <div className="modal-close" onClick={this.closeModal}>
+                    <div className="closeModalBar1"></div>
+                    <div className="closeModalBar2"></div>
+                  </div>
                   <div className="speaker">
                       <img src="./EmilyBW.jpg"/>
                       <SmallTextBox title='Emily Musil Church' text='Director of Education and Impact XPRIZE Learning'/>
@@ -381,7 +397,10 @@ class Speakers extends Component {
 
           <div className="modal" id="mark-lovett">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
+                  <div className="modal-close" onClick={this.closeModal}>
+                    <div className="closeModalBar1"></div>
+                    <div className="closeModalBar2"></div>
+                  </div>
                   <div className="speaker">
                       <img src="./MarkBW.jpg"/>
                       <SmallTextBox title='Mark Lovett' text='Organizer, TEDX San Diego'/>
@@ -402,7 +421,10 @@ class Speakers extends Component {
 
           <div className="modal" id="matt-webb">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
+                <div className="modal-close" onClick={this.closeModal}>
+                  <div className="closeModalBar1"></div>
+                  <div className="closeModalBar2"></div>
+                </div>
                   <div className="speaker">
                       <img src="./MattBW.jpg"/>
                       <SmallTextBox title='Matt Webb' text='Global CTO Mirum'/>
@@ -426,7 +448,10 @@ class Speakers extends Component {
 
           <div className="modal" id="lucie-greene">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
+                  <div className="modal-close" onClick={this.closeModal}>
+                    <div className="closeModalBar1"></div>
+                    <div className="closeModalBar2"></div>
+                  </div>
                   <div className="speaker">
                       <img src="./LucieBW.jpg"/>
                       <SmallTextBox title='Lucie Greene' text='Worldwide Director of J. Walter Thompson Intelligence'/>
@@ -452,7 +477,10 @@ class Speakers extends Component {
 
           <div className="modal" id="jamie-mclellan">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
+                  <div className="modal-close" onClick={this.closeModal}>
+                    <div className="closeModalBar1"></div>
+                    <div className="closeModalBar2"></div>
+                  </div>
                   <div className="speaker">
                       <img src="./JamieBW.jpg"/>
                       <SmallTextBox title='Lucie Greene' text='Worldwide Director of J. Walter Thompson Intelligence'/>
@@ -475,13 +503,16 @@ class Speakers extends Component {
 
           <div className="modal two-speakers" id="acquiaspeakers">
               <div className="modal__inner">
-                  <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
+                  <div className="modal-close" onClick={this.closeModal}>
+                    <div className="closeModalBar1"></div>
+                    <div className="closeModalBar2"></div>
+                  </div>
+                  <div className="speaker">
+                      <img src="./AcquiaBW.jpg"/>
+                      <SmallTextBox title='Lynne Capozzi & Chris Stone' text='CMO & CPO, Acquia'/>
+                  </div>
                   <div className="modal-columns">
                       <div className="col">
-                          <div className="speaker">
-                              <img src="./AcquiaBW.jpg"/>
-                              <SmallTextBox title='Lynne Capozzi & Chris Stone' text='CMO & CPO, Acquia'/>
-                          </div>
                           <div className="col_bio">
                               <p>As Acquia’s CMO, Lynne oversees all global marketing functions, including corporate communications, content and events. In
                                   2011, Lynne left Acquia to pursue nonprofit work full-time, returning in 2016 to lead Acquia’s next stage of growth.
@@ -493,19 +524,20 @@ class Speakers extends Component {
                       <div className="col">
                           <div className="speaker-header">
                           </div>
-                          <div className="col">
+                          <div className="col_bio">
                               <p>Responsible for engineering, DevOps, product management and integrated digital experiences for the Acquia Platform, Chris
                                   has more than 30 years’ experience in enterprise software development and open source solutions. With Eric Schmidt, former
                                   CEO of Google and current Executive Chairman of Alphabet, Chris was part of Novell’s remarkable 1990s turnaround, and
                                   later served as vice-chairman and co-CEO. Chris earned a certificate in advanced office systems engineering from MIT.</p>
                           </div>
                       </div>
+                      <div className="talk">
+                          <h2>Talk</h2>
+                          <h3>She Said, He Said: How Product & Marketing Can See Eye to Eye on the Customer Journey</h3>
+                          <p>Acquia’s CMO and CTO throw down in a battle for product and market alignment, with the aim of achieving their mutual North Star: enhancing customer experience.</p>
+                      </div>
                   </div>
-                  <div className="talk">
-                      <h2>Talk</h2>
-                      <h3>She Said, He Said: How Product & Marketing Can See Eye to Eye on the Customer Journey</h3>
-                      <p>Acquia’s CMO and CTO throw down in a battle for product and market alignment, with the aim of achieving their mutual North Star: enhancing customer experience.</p>
-                  </div>
+
               </div>
           </div>
 
