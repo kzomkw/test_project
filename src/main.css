@@ -1089,9 +1089,10 @@ body {
   width: 160px;
   padding: 0;
   z-index: 1;
-  position: relative;
+  position: absolute;
   display: block;
   margin-left: 10%;
+  margin-top: 12%;
 }
 @media (min-width:700px) {
   .smalltextbox {
@@ -1100,7 +1101,7 @@ body {
     height: 198px;
     padding: 10px;
     display: inline-block;
-    margin-left: -13%;
+    margin-left: -10%;
     margin-top: 3%;
   }
 }
@@ -1125,17 +1126,18 @@ body {
 }
 
 .smalltextbox__title{
-  color: #311836;
-  font-size: 1em;
+  color: white;
+  font-size: 2em;
   margin-top: 15px;
   margin-bottom: -10px;
   font-family: 'Mirum-Sans-Bold';
+  position: absolute;
 }
 @media (min-width:700px) {
   .smalltextbox__title{
     color: white;
     font-size: 2em;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: -20px;
     font-family: 'Mirum-Sans-Bold';
   }
@@ -1221,7 +1223,7 @@ body {
 
 .smalltextbox__subheading{
   color: #311836;
-  font-size: 1.5em;
+  font-size: 1em;
   bottom: 0;
   position: absolute;
   margin-bottom: 0;
@@ -1234,7 +1236,7 @@ body {
     font-size: 1em;
     bottom: 0;
     position: absolute;
-    margin-bottom: 0;
+    margin-bottom: 10%;
     font-family: 'Mirum-Sans-Bold';
   }
 }
@@ -1613,4 +1615,14 @@ body {
   margin-right: 15px;
   float: left;
   max-height: 200px;
+}
+
+.col_bio p{
+  margin-top: 25%;
+}
+
+@media (min-width: 700px) {
+  .col_bio p{
+    margin-top: 10%;
+  }
 }
