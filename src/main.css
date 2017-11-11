@@ -1488,6 +1488,7 @@ body {
 }
 @media (min-width: 700px) {
   .speaker img {
+    margin-left: 0;
     margin-right: 15px;
     float: left;
     max-height: none;
