@@ -4,6 +4,7 @@ import ParticlesComponent from './particles'
 import TextBox from './textbox'
 import TwoSpeakersTB from './twospeakerstb'
 import MattTB from './matttb'
+import SmallTextBox from './smalltextbox'
 
 class Speakers extends Component {
   constructor(props){
@@ -266,11 +267,10 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./TonyBW.jpg" />
-                      <h1>Tony <br/> Markovski</h1>
-                      <h3>Head of Innovation and Emerging Technologies at Mirum </h3>
+                      <SmallTextBox title='Tony Markovski' text='Head of Innovation and Emerging Technology'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col bio">
+                      <div className="col_bio">
                           <p>Tony has 16 years of experience helping organizations plan, architect and deploy emerging technologies
                               and ideas that drive business transformation, innovation, experience development and leadership. He
                               has held leadership positions at Google, Adobe and Bazaarvoice, and is currently the Head of
@@ -292,11 +292,10 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./BreeBW.jpg" />
-                      <h1>Bree Groff</h1>
-                      <h3>CEO of NOBL</h3>
+                      <SmallTextBox title='Bree Groff' text='CEO of NOBL'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col bio">
+                      <div className="col_bio">
                           <p>Bree is a speaker and consultant, and serves as CEO of NOBL Collective. For more than a decade, she has been focused on organizational
                               design and innovation, advising leaders at companies including Calvin Klein, Intel, AARP, Capital
                               One and Memorial Sloan Kettering Cancer Center. She is recognized internationally for thought
@@ -317,11 +316,10 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./BrettBW.jpg"/>
-                      <h1>Brett Hurt</h1>
-                      <h3>CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice</h3>
+                      <SmallTextBox title='Brett Hurt' text='CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col bio">
+                      <div className="col_bio">
                           <p>At data.world, Brett is building meaningful, collaborative and abundant data resources in the world. He founded
                               Coremetrics and Bazaarvoice before IBM’s acquisition. To support Austin’s entrepreneurs, Brett serves
                               as a Partner at Capital Factory and Mentor at Techstars Austin. He also serves as the Chairman of the
@@ -342,11 +340,10 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./TamaraBW.jpg"/>
-                      <h1>Tamara Ingram</h1>
-                      <h3>CEO of J. Walter Thompson Worldwide</h3>
+                      <SmallTextBox title='Tamara Ingram' text='CEO of J. Walter Thompson Worldwide'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col bio">
+                      <div className="col_bio">
                           <p>Tamara joined J. Walter Thompson Company in 2016 as CEO where she oversees the agency’s global network. Previously at WPP,
                               Tamara oversaw the group’s 45 global account teams, which represented one-third of the Group’s
                               $20 billion revenue with over 38,000 employees. She has extensive experience leading innovative
@@ -367,12 +364,11 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./EmilyBW.jpg"/>
-                      <h1>Emily Musil Church</h1>
-                      <h3>Director of Education and Impact XPRIZE Learning</h3>
+                      <SmallTextBox title='Emily Musil Church' text='Director of Education and Impact XPRIZE Learning'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col bio">
-                          <p>Dr. Emily Musil Church is a strategist and thought leader in harnessing technology to address global challenges for social good. Dr. Church directs the impact work for the Global Learning XPRIZE, where she bridges the worlds of research, innovation and global development. Prior to XPRIZE, Dr. Church spent over a decade in academia, where as a professor she specialized in African history, human rights and women’s global issues.</p>
+                      <div className="col_bio">
+                        <p>Dr. Emily Musil Church is a strategist and thought leader in harnessing technology to address global challenges for social good. Dr. Church directs the impact work for the Global Learning XPRIZE, where she bridges the worlds of research, innovation and global development. Prior to XPRIZE, Dr. Church spent over a decade in academia, where as a professor she specialized in African history, human rights and women’s global issues.</p>
                       </div>
                       <div className="col talk">
                           <h2>Talk</h2>
@@ -388,12 +384,12 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./MarkBW.jpg"/>
-                      <h1>Mark Lovett</h1>
-                      <h3>Organizer, TEDX San Diego</h3>
+                      <SmallTextBox title='Mark Lovett' text='Organizer, TEDX San Diego'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col bio">
-                          <p>Having survived three decades in corporate America, recovering executive Mark Lovett is now immersed in the world of storytelling, from organizing TEDx events in San Diego, on the U.S. & Mexico border, and in prisons, to professional speaker coaching and storytelling workshops at Fabricating the Truth.</p>
+                      <div className="col_bio">
+                         <p>Having survived three decades in corporate America, recovering executive Mark Lovett is now immersed in the world of storytelling, from organizing TEDx events in San Diego, on the U.S. & Mexico border, and in prisons, to professional speaker coaching and storytelling workshops at Fabricating the Truth.</p>
+
                       </div>
                       <div className="col talk">
                         <h2>Talk</h2>
@@ -409,11 +405,10 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./MattBW.jpg"/>
-                      <h1>Matt Webb</h1>
-                      <h3>Global CTO of Mirum</h3>
+                      <SmallTextBox title='Matt Webb' text='Global CTO Mirum'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col bio">
+                      <div className="col_bio">
                           <p>Matt has over 18 years of web technology experience that extends across a range of areas, including web standards and best
                               practice, accessibility and human computer interfaces, enterprise content management systems,
                               system architecture, AR/VR, AI and anything to do with the future of web interfaces. He is passionate
@@ -434,11 +429,10 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./LucieBW.jpg"/>
-                      <h1>Lucie Greene</h1>
-                      <h3>Worldwide Director of J. Walter Thompson Intelligence</h3>
+                      <SmallTextBox title='Lucie Greene' text='Worldwide Director of J. Walter Thompson Intelligence'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col bio">
+                      <div className="col_bio">
                           <p>At J. Walter Thompson, Lucie leads The Innovation Group’s ongoing research into emerging global consumer behaviors, cultural
                               changes and sector innovation with deep-dive studies and daily insights. She’s a thought leadership
                               columnist for Campaign, writes for the Financial Times and has spoken at conferences including
@@ -461,11 +455,10 @@ class Speakers extends Component {
                   <div className="modal-close" onClick={this.closeModal}><img src='../close-x.png'  className='closeButton' alt='Close'/></div>
                   <div className="speaker">
                       <img src="./JamieBW.jpg"/>
-                      <h1>Jamie McLellan</h1>
-                      <h3>CTO of J. Walter Thompson Worldwide</h3>
+                      <SmallTextBox title='Lucie Greene' text='Worldwide Director of J. Walter Thompson Intelligence'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col bio">
+                      <div className="col_bio">
                           <p>Innovative technology that helps solve challenges, enable transformation and enhance experiences like artificial intelligence
                               (AI) are what motivate and excite Jamie. An architect by training, Jamie tries—sometime successfully—to
                               operate on the intersection of his left and right brains.</p>
@@ -487,10 +480,9 @@ class Speakers extends Component {
                       <div className="col">
                           <div className="speaker">
                               <img src="./AcquiaBW.jpg"/>
-                              <h1>Lynne Capozzi</h1>
-                              <h3>CMO, Acquia</h3>
+                              <SmallTextBox title='Lynne Capozzi & Chris Stone' text='CMO & CPO, Acquia'/>
                           </div>
-                          <div className="bio">
+                          <div className="col_bio">
                               <p>As Acquia’s CMO, Lynne oversees all global marketing functions, including corporate communications, content and events. In
                                   2011, Lynne left Acquia to pursue nonprofit work full-time, returning in 2016 to lead Acquia’s next stage of growth.
                                   She was previously CMO at JackBe, an enterprise mashup software company, and VP at Lotus Development, later acquired
@@ -499,11 +491,9 @@ class Speakers extends Component {
                           </div>
                       </div>
                       <div className="col">
-                          <div className="speaker">
-                              <h1>Chris Stone</h1>
-                              <h3>CPO, Acquia</h3>
+                          <div className="speaker-header">
                           </div>
-                          <div className="bio">
+                          <div className="col">
                               <p>Responsible for engineering, DevOps, product management and integrated digital experiences for the Acquia Platform, Chris
                                   has more than 30 years’ experience in enterprise software development and open source solutions. With Eric Schmidt, former
                                   CEO of Google and current Executive Chairman of Alphabet, Chris was part of Novell’s remarkable 1990s turnaround, and

@@ -995,6 +995,29 @@ body {
   }
 }
 
+.smalltextbox {
+  border: 12px solid #311836;
+  height: 198px;
+  width: 160px;
+  padding: 0;
+  z-index: 1;
+  position: absolute;
+  display: block;
+  margin-left: 10%;
+  margin-top: 12%;
+}
+@media (min-width:700px) {
+  .smalltextbox {
+    border: 12px solid #311836;
+    width: 160px;
+    height: 198px;
+    padding: 10px;
+    display: inline-block;
+    margin-left: -10%;
+    margin-top: 3%;
+  }
+}
+
 .textbox__title {
   color: #311836;
   font-size: 3em;
@@ -1007,6 +1030,25 @@ body {
     font-size: 4em;
   }
 }
+
+.smalltextbox__title{
+  color: white;
+  font-size: 2em;
+  margin-top: 15px;
+  margin-bottom: -10px;
+  font-family: 'Mirum-Sans-Bold';
+  position: absolute;
+}
+@media (min-width:700px) {
+  .smalltextbox__title{
+    color: white;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-family: 'Mirum-Sans-Bold';
+  }
+}
+
 
 .textbox1__title {
   color: #311836;
@@ -1063,6 +1105,25 @@ body {
   }
 }
 
+.smalltextbox__subheading{
+  color: #311836;
+  font-size: 1em;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 0;
+  font-family: 'Mirum-Sans-Bold';
+}
+
+@media (min-width:700px) {
+  .smalltextbox__subheading{
+    color: #311836;
+    font-size: 1em;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 10%;
+    font-family: 'Mirum-Sans-Bold';
+  }
+}
 .keynoteText {
   margin-left: 4%;
 }
@@ -1393,9 +1454,15 @@ body {
   max-height: 200px;
 }
 
-.bio p {
+.col_bio p{
+  margin-top: 25%;
   color: #311836;
 }
+
+@media (min-width: 700px) {
+  .col_bio p{
+    margin-top: 10%;
+  }
 
 .talk h2 {
   font-family: "Mirum-Serif";
