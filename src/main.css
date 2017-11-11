@@ -566,10 +566,6 @@ body {
     font-size: 6em;
     margin-left: 20px;
     margin-top: 20px;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
   }
 }
 
@@ -588,10 +584,6 @@ body {
     font-size: 2.5em;
     margin-left: 23px;
     margin-bottom: 20%;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
   }
 }
 
@@ -616,10 +608,6 @@ body {
     margin-left: 22%;
     height: 150px;
     margin-top: 30px;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
   }
 }
 
@@ -643,10 +631,6 @@ body {
     margin-left: 66%;
     margin-top: -7%;
     display: block;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
   }
 }
 
@@ -671,10 +655,6 @@ body {
     margin-left: 76%;
     margin-top: -8%;
     display: block;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
   }
 }
 

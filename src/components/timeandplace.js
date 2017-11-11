@@ -21,56 +21,15 @@ class TimeAndPlace extends Component {
   handleScroll(event) {
     if (window.matchMedia("(min-width: 700px) and (max-width:1825px)").matches){
       if (window.scrollY < 770) {
-        document.querySelector('.SDtextbox').style.opacity = 1
-        document.querySelector('.SDtextbox').style.border = '23px solid #311836'
-        document.querySelector('.SDtextbox__title').style.opacity = 1
-        document.querySelector('.SDtextbox__title').style.color = '#311836'
-        document.querySelector('.SDtextbox__subheading').style.opacity = 1
-        document.querySelector('.SDtextbox__subheading').style.color = '#311836'
-        document.getElementById('date').style.opacity = 1
-        document.getElementById('date').style.color = '#311836'
-        document.getElementById('time').style.opacity = 1
-        document.getElementById('time').style.color = '#311836'
-        document.getElementById('mapMarker').style.opacity = 1
-        document.getElementById('mapMarker').style.color = '#311836'
+        document.querySelector('.SDtextbox').style.background = 'rgba(255,255,255, 0)'
       } else {
-        document.querySelector('.SDtextbox').style.opacity = .8
-        document.querySelector('.SDtextbox').style.border = '23px solid #73507a'
-        document.querySelector('.SDtextbox__title').style.opacity = .8
-        document.querySelector('.SDtextbox__title').style.color = '#73507a'
-        document.querySelector('.SDtextbox__subheading').style.opacity = .8
-        document.querySelector('.SDtextbox__subheading').style.color = '#73507a'
-        document.getElementById('date').style.opacity = .8
-        document.getElementById('date').style.color = '#73507a'
-        document.getElementById('time').style.opacity = .8
-        document.getElementById('time').style.color = '#73507a'
-        document.getElementById('mapMarker').style.opacity = .5
+        document.querySelector('.SDtextbox').style.background = 'rgba(255,255,255, 0.5)'
       }
     } else if (window.matchMedia("(min-width: 1825px)").matches){
       if (window.scrollY < 500) {
-        document.querySelector('.SDtextbox').style.opacity = 1
-        document.querySelector('.SDtextbox').style.border = '23px solid #311836'
-        document.querySelector('.SDtextbox__title').style.opacity = 1
-        document.querySelector('.SDtextbox__title').style.color = '#311836'
-        document.querySelector('.SDtextbox__subheading').style.opacity = 1
-        document.querySelector('.SDtextbox__subheading').style.color = '#311836'
-        document.getElementById('date').style.opacity = 1
-        document.getElementById('date').style.color = '#311836'
-        document.getElementById('time').style.opacity = 1
-        document.getElementById('time').style.color = '#311836'
-        document.getElementById('mapMarker').style.opacity = 1
+        document.querySelector('.SDtextbox').style.background = 'rgba(255,255,255, 0)'
       } else {
-        document.querySelector('.SDtextbox').style.opacity = .8
-        document.querySelector('.SDtextbox').style.border = '23px solid #73507a'
-        document.querySelector('.SDtextbox__title').style.opacity = .8
-        document.querySelector('.SDtextbox__title').style.color = '#73507a'
-        document.querySelector('.SDtextbox__subheading').style.opacity = .8
-        document.querySelector('.SDtextbox__subheading').style.color = '#73507a'
-        document.getElementById('date').style.opacity = .8
-        document.getElementById('date').style.color = '#73507a'
-        document.getElementById('time').style.opacity = .8
-        document.getElementById('time').style.color = '#73507a'
-        document.getElementById('mapMarker').style.opacity = .8
+        document.querySelector('.SDtextbox').style.background = 'rgba(255,255,255, 0.5)'
       }
     }
   };
