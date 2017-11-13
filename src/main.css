@@ -100,8 +100,8 @@ body {
 #expandedNav {
   background-color: #E24498;
   z-index:9;
-  position: -webkit-sticky;
-  position: sticky;
+  /*position: -webkit-sticky;*/
+  position: fixed;
   top:0;
   width: 100%;
   height: 50%;
@@ -207,6 +207,8 @@ body {
   color: white;
   cursor: pointer;
   margin-left: 90%;
+  position: absolute;
+  margin-top: 50px;
 }
 
 #landingPage--mobile {
