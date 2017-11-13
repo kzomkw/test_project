@@ -71,7 +71,8 @@ class TimeAndPlace extends Component {
             >
               <div id='datetime'>
                 <a href='https://www.google.com/maps/place/The+Prado+at+Balboa+Park/@32.7310106,-117.1519294,17z/data=!3m1!4b1!4m5!3m4!1s0x80d954bd88e868f9:0xe3785d326e563046!8m2!3d32.7310061!4d-117.1497354'>
-                  <img src='./map-get.png' id='mapMarker'/>
+                  <img src='./map_marker.png' id='mapMarker'/>
+                  <p id='get_directions'>Get Directions</p>
                 </a>
                 <div id='date'>
                   DEC
@@ -88,7 +89,10 @@ class TimeAndPlace extends Component {
           {window.matchMedia("(max-width: 700px)").matches &&
             <div id='datetime--mobile'>
               <a href='https://www.google.com/maps/place/The+Prado+at+Balboa+Park/@32.7310106,-117.1519294,17z/data=!3m1!4b1!4m5!3m4!1s0x80d954bd88e868f9:0xe3785d326e563046!8m2!3d32.7310061!4d-117.1497354'>
-                <img src='./map-get.png' id='mapMarker'/>
+                <img src='./map_marker.png' id='mapMarker'/>
+              </a>
+              <a id='get_directions' href='https://www.google.com/maps/place/The+Prado+at+Balboa+Park/@32.7310106,-117.1519294,17z/data=!3m1!4b1!4m5!3m4!1s0x80d954bd88e868f9:0xe3785d326e563046!8m2!3d32.7310061!4d-117.1497354'>
+                <p>Get Directions</p>
               </a>
               <span>
                 <div id='date'>

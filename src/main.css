@@ -626,21 +626,58 @@ body {
   margin-top: -150px;
 }
 
+#datetime a{
+  text-decoration: none;
+}
+
 #mapMarker {
   position: absolute;
-  height: 70px;
+  height: 60px;
   z-index: 1;
-  margin-left: 5%;
+  margin-left: 8%;
   margin-top: 17%;
+  transform: scale(.8);
 }
 @media (min-width: 700px) {
   #mapMarker {
     margin-left: 22%;
     height: 150px;
-    margin-top: 30px;
+    margin-top: -10%;
   }
 }
 
+#get_directions{
+  position:absolute;
+  margin-top: 28%;
+  margin-left: 0%;
+  font-family: 'Mirum-Sans-Bold';
+  font-size: 1em;
+  text-decoration: none;
+  color: #311836;
+}
+
+@media(min-width: 700px){
+  #get_directions{
+    position:relative;
+    margin-top: 10%;
+    margin-left: 19%;
+    font-family: 'Mirum-Sans-Bold';
+    font-size: 2em;
+    color: #311836;
+    text-decoration: none;
+  }
+}
+@media (min-width: 700px){
+  #date {
+    position:absolute;
+    margin-top: 11%;
+    margin-left: 20%;
+    font-family: 'Mirum-Sans-Bold';
+    font-size: 1.6em;
+    text-decoration: none;
+    color: #311836;
+  }
+}
 
 .map-directions {
   color: #311836;
@@ -655,6 +692,7 @@ body {
   font-family: "Mirum-Sans-Bold";
   color: #311836;
 }
+
 @media (min-width: 700px) {
   #date {
     font-size: 4.5em;
