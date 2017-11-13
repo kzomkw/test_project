@@ -642,7 +642,7 @@ body {
   #mapMarker {
     margin-left: 22%;
     height: 150px;
-    margin-top: -10%;
+    margin-top: 0%;
   }
 }
 
@@ -658,24 +658,13 @@ body {
 
 @media(min-width: 700px){
   #get_directions{
-    position:relative;
+    position:absolute;
     margin-top: 10%;
     margin-left: 19%;
     font-family: 'Mirum-Sans-Bold';
     font-size: 2em;
     color: #311836;
     text-decoration: none;
-  }
-}
-@media (min-width: 700px){
-  #date {
-    position:absolute;
-    margin-top: 11%;
-    margin-left: 20%;
-    font-family: 'Mirum-Sans-Bold';
-    font-size: 1.6em;
-    text-decoration: none;
-    color: #311836;
   }
 }
 
