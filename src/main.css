@@ -169,8 +169,8 @@ body {
   font-size: 2em;
   color: white;
   position: absolute;
-  margin-left: 85%;
-  top: 5%;
+  margin-left: 80%;
+  top: 40px;
   cursor: pointer;
 }
 @media (min-width: 700px) {
@@ -206,9 +206,20 @@ body {
   font-size: 3em;
   color: white;
   cursor: pointer;
-  margin-left: 90%;
+  margin-left: 80%;
   position: absolute;
-  margin-top: 50px;
+  margin-top: -15px;
+}
+
+@media (min-width: 700px) {
+  #closeTicketBox {
+    font-size: 3em;
+    color: white;
+    cursor: pointer;
+    margin-left: 90%;
+    position: absolute;
+    margin-top: 50px;
+  }
 }
 
 #landingPage--mobile {
