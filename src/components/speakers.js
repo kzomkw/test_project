@@ -60,7 +60,7 @@ class Speakers extends Component {
                 Opening
               </p>
               <p className='keynoteDescription'>
-                You’re innovating in All The Wrong Places
+                You’re Innovating In All The Wrong Places
               </p>
             </div>
           </span>
