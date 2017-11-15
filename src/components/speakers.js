@@ -82,7 +82,7 @@ class Speakers extends Component {
                 Keynote
               </p>
               <p className='keynoteDescription'>
-                Underwear, Clocks, and Companies: <br/> How to Change When You Must
+                Underwear, Clocks, and Companies:  How to Change When You Must
               </p>
             </div>
           </span>
@@ -102,7 +102,7 @@ class Speakers extends Component {
                 Keynote
               </p>
               <p className='keynoteDescription'>
-                The Secrets of Making Profits with Purpose
+                The Secrets of Making Profits With Purpose
               </p>
             </div>
           </span>
@@ -150,7 +150,7 @@ class Speakers extends Component {
                 Talk
               </p>
               <p className='keynoteDescription'>
-                Shooting For The Stars
+                Shooting for the Stars
               </p>
             </div>
           </span>
@@ -170,7 +170,7 @@ class Speakers extends Component {
                 Talk
               </p>
               <p className='keynoteDescription'>
-                Storylistening as an Agent of (R)evolution
+                Storylistening as an Agent of (R)Evolution
               </p>
             </div>
           </span>
@@ -192,7 +192,7 @@ class Speakers extends Component {
                 Workshop
               </p>
               <p className='keynoteDescription'>
-                How to build a Maker Business
+                How to Build a Maker Business
               </p>
             </div>
           </span>
@@ -214,7 +214,7 @@ class Speakers extends Component {
                 Talk
               </p>
               <p className='keynoteDescription'>
-                How to be a Future-Focused Brand
+                How to Be a Future-Focused Brand
               </p>
             </div>
           </span>
@@ -234,7 +234,7 @@ class Speakers extends Component {
                 Talk
               </p>
               <p className='keynoteDescription'>
-                Solving Human Problems with AI
+                Solving Human Problems With AI
               </p>
             </div>
           </span>
@@ -310,7 +310,7 @@ class Speakers extends Component {
                       </div>
                       <div className="col talk">
                           <h2>Keynote</h2>
-                          <h3>Underwear, Clocks, and Companies: How to Change When You Must</h3>
+                          <h3>Underwear, Clocks, and Companies:  How to Change When You Must</h3>
                           <p>Bree explains why those at the top of organizations must be instigators of change, and how to work through human responses
                           like resistance and vulnerability.  </p>
                       </div>
@@ -338,7 +338,7 @@ class Speakers extends Component {
                       </div>
                       <div className="col talk">
                           <h2>Keynote</h2>
-                          <h3>The Secrets of Making Profits with Purpose</h3>
+                          <h3>The Secrets of Making Profits With Purpose</h3>
                           <p>Brett dives into the concept of Conscious Capitalism, providing personal insights from his experience creating billion-dollar purpose-led business models that better serve us all, including investors.</p>
                       </div>
                   </div>
@@ -412,7 +412,7 @@ class Speakers extends Component {
                       </div>
                       <div className="col talk">
                         <h2>Talk</h2>
-                        <h3>Storylistening as an Agent of (R)evolution</h3>
+                        <h3>Storylistening as an Agent of (R)Evolution</h3>
                         <p>Mark will explore how to humanize experience and create connection. When we remove the titles and clichés, the barriers and borders that divide us, we see that everyone has a story to share, and that being a part of others’ stories allows us to gain perspective. Leaders should not overlook the importance of listening to others and sharing stories as one of the most powerful agents of change.</p>
                       </div>
                   </div>
@@ -438,7 +438,7 @@ class Speakers extends Component {
                       </div>
                       <div className="col talk">
                           <h2>Workshop</h2>
-                          <h3>How To Build A Maker Business</h3>
+                          <h3>How to Build a Maker Business</h3>
                           <p>Matt explores what it really means to “make what’s next” and why the ability to hire and retain makers will be your business’s
                           competitive advantage today (and tomorrow). Matt also co-hosts the <em>Opus</em> innovation sprint.</p>
                       </div>
@@ -466,7 +466,7 @@ class Speakers extends Component {
                       </div>
                       <div className="col talk">
                           <h2>Talk</h2>
-                          <h3>How to be a Future-Focused Brand</h3>
+                          <h3>How to Be a Future-Focused Brand</h3>
                           <p>Lucie guides us through current trends for future-proofing your business, dissecting some of the best examples in today’s
                           do-or-die climate.</p>
                       </div>
@@ -493,7 +493,7 @@ class Speakers extends Component {
                       </div>
                       <div className="col talk">
                           <h2>Talk</h2>
-                          <h3>Solving Human Problems with AI</h3>
+                          <h3>Solving Human Problems With AI</h3>
                           <p>Jamie explains why intelligence can never be artificial, and how our human ability to interpret context makes people, not
                           technology, the most important factor in achieving purpose-led innovation.</p>
                       </div>
@@ -533,7 +533,7 @@ class Speakers extends Component {
                       </div>
                       <div className="talk">
                           <h2>Talk</h2>
-                          <h3>She Said, He Said: How Product & Marketing Can See Eye to Eye on the Customer Journey</h3>
+                          <h3>The Right Stuff: What It Takes to Align Product and Marketing</h3>
                           <p>Acquia’s CMO and CTO throw down in a battle for product and market alignment, with the aim of achieving their mutual North Star: enhancing customer experience.</p>
                       </div>
                   </div>
