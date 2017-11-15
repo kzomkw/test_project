@@ -841,9 +841,15 @@ body {
   margin-top: -35%;
   background-color: #DCDCDC;
 }
-@media (min-width: 700px) {
+@media (min-width: 700px) and (max-width: 1500px) {
   .speakersPage {
-    height: 4500px;
+    height: 4600px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .speakersPage {
+    height: 4700px;
   }
 }
 
@@ -1284,14 +1290,21 @@ body {
   background-color: #DCDCDC;
   height: 1650px;
 }
-@media (min-width:700px){
+
+@media (min-width: 700px) and (max-width: 1500px) {
   .demosandworkshopsPage {
     height: 1700px;
   }
 }
 
+@media (min-width:1500px){
+  .demosandworkshopsPage {
+    height: 1800px;
+  }
+}
+
 #workshop_elements {
-  padding-top: 12%;
+  padding-top: 6%;
   display: block;
 }
 
