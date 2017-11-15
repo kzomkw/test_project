@@ -4,7 +4,7 @@ class Footer extends Component {
     return (
       <div id='footer'>
         <span>
-          <img id='mirum-pic' src='./bottompic.png' alt='mirum'/>
+          <img id='mirum-pic' src='./mirum_opus_next.png' alt='mirum'/>
         </span>
 
         <p id='btm-text'>
