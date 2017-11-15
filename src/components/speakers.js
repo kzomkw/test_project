@@ -44,7 +44,7 @@ class Speakers extends Component {
           </div>
         }
         <div className='middleSpeaker'>
-          <span className='middleHover'>
+          <span className='middleHover' onClick={() => {this.speakerModal('tony-markovski')}}>
 
             <Parallax
               offsetXMin={"0px"}
@@ -53,7 +53,7 @@ class Speakers extends Component {
               <img className='portrait bottom' src='./TonyC.jpg'/>
               <img className='portrait top' src='./TonyBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus--middle' onClick={() => {this.speakerModal('tony-markovski')}} />
+            <img src='./plus-sign.png' className='plus--middle'/>
             <TextBox title='Tony Markovski' text='Head of Innovation and Emerging Technology'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -67,7 +67,7 @@ class Speakers extends Component {
         </div>
 
         <div className='speakerRow'>
-          <span className='leftSpeakerBox'>
+          <span className='leftSpeakerBox' onClick={() => {this.speakerModal('bree-groff')}}>
             <Parallax
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
@@ -75,7 +75,7 @@ class Speakers extends Component {
               <img className='portrait--left' src='./BreeC.jpg' />
               <img className='portrait--left top' src='./BreeBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('bree-groff')}}/>
+            <img src='./plus-sign.png' className='plus'/>
             <MattTB firstname='Bree' lastname='Groff' text1='CEO of NOBL'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -87,7 +87,7 @@ class Speakers extends Component {
             </div>
           </span>
 
-          <span className='rightSpeakerBox'>
+          <span className='rightSpeakerBox' onClick={() => {this.speakerModal('brett-hurt')}}>
             <Parallax
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
@@ -95,7 +95,7 @@ class Speakers extends Component {
               <img className='portrait--right' src='./BrettC.jpg' />
               <img className='portrait--right top' src='./BrettBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('brett-hurt')}}/>
+            <img src='./plus-sign.png' className='plus'/>
             <MattTB firstname='Brett' lastname='Hurt' text1='CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -109,7 +109,7 @@ class Speakers extends Component {
         </div>
 
         <div className='middleSpeaker'>
-          <span className='middleHover'>
+          <span className='middleHover' onClick={() => {this.speakerModal('tamara-ingram')}}>
             <Parallax
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
@@ -117,7 +117,7 @@ class Speakers extends Component {
               <img className='portrait' src='./TamaraC.jpg'/>
               <img className='portrait top' src='./TamaraBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus--middle' onClick={() => {this.speakerModal('tamara-ingram')}}/>
+            <img src='./plus-sign.png' className='plus--middle'/>
             <TextBox title='Tamara Ingram' text='CEO of J. Walter Thompson Worldwide'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -135,7 +135,7 @@ class Speakers extends Component {
         }
 
         <div className='speakerRow'>
-          <span className='leftSpeakerBox'>
+          <span className='leftSpeakerBox' onClick={() => {this.speakerModal('emily-musil-church')}}>
             <Parallax
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
@@ -143,7 +143,7 @@ class Speakers extends Component {
               <img className='portrait--left' src='./EmilyC.jpg' />
               <img className='portrait--left top' src='./EmilyBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('emily-musil-church')}}/>
+            <img src='./plus-sign.png' className='plus'/>
             <MattTB firstname='Emily Musil' lastname='Church' text1='Director of Education and Impact' text2='XPRIZE Learning'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -155,7 +155,7 @@ class Speakers extends Component {
             </div>
           </span>
 
-          <span className='rightSpeakerBox'>
+          <span className='rightSpeakerBox' onClick={() => {this.speakerModal('mark-lovett')}}>
             <Parallax
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
@@ -163,7 +163,7 @@ class Speakers extends Component {
               <img className='portrait--right' src='./MarkC.jpg' />
               <img className='portrait--right top' src='./MarkBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('mark-lovett')}}/>
+            <img src='./plus-sign.png' className='plus'/>
             <MattTB firstname='Mark' lastname='Lovett' text1='Organizer, TEDX' text2='San Diego'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -177,7 +177,7 @@ class Speakers extends Component {
         </div>
 
         <div className='middleSpeaker'>
-          <span className='middleHover'>
+          <span className='middleHover' onClick={() => {this.speakerModal('matt-webb')}}>
             <Parallax
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
@@ -185,7 +185,7 @@ class Speakers extends Component {
               <img className='portrait' src='./MattC.jpg'/>
               <img className='portrait top' src='./MattBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus--middle' onClick={() => {this.speakerModal('matt-webb')}}/>
+            <img src='./plus-sign.png' className='plus--middle'/>
             <MattTB firstname='Matt' lastname='Webb' text1='Global CTO' text2='Mirum'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -199,7 +199,7 @@ class Speakers extends Component {
         </div>
 
         <div className='speakerRow'>
-          <span className='leftSpeakerBox'>
+          <span className='leftSpeakerBox' onClick={() => {this.speakerModal('lucie-greene')}}>
             <Parallax
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
@@ -207,7 +207,7 @@ class Speakers extends Component {
               <img className='portrait--left' src='./LucieC.jpg' />
               <img className='portrait--left top' src='./LucieBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('lucie-greene')}}/>
+            <img src='./plus-sign.png' className='plus'/>
             <TextBox title='Lucie Greene' text='Worldwide Director of J. Walter Thompson Intelligence'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -219,7 +219,7 @@ class Speakers extends Component {
             </div>
           </span>
 
-          <span className='rightSpeakerBox'>
+          <span className='rightSpeakerBox' onClick={() => {this.speakerModal('jamie-mclellan')}}>
             <Parallax
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
@@ -227,7 +227,7 @@ class Speakers extends Component {
               <img className='portrait--right' src='./JamieC.jpg' />
               <img className='portrait--right top' src='./JamieBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus' onClick={() => {this.speakerModal('jamie-mclellan')}}/>
+            <img src='./plus-sign.png' className='plus'/>
             <TextBox title='Jamie McLellan' text='CTO of J. Walter Thompson Worldwide'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
@@ -241,7 +241,7 @@ class Speakers extends Component {
         </div>
 
         <div className='middleSpeaker'>
-          <span className='middleHover'>
+          <span className='middleHover' onClick={() => {this.speakerModal('acquiaspeakers')}}>
             <Parallax
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
@@ -249,7 +249,7 @@ class Speakers extends Component {
               <img className='portrait-last' src='./Acquia.jpg'/>
               <img className='portrait-last top' src='./AcquiaBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus--middle2' onClick={() => {this.speakerModal('acquiaspeakers')}}/>
+            <img src='./plus-sign.png' className='plus--middle2'/>
             <TwoSpeakersTB title1='Lynne Capozzi' text1='CMO, Acquia' title2='Chris Stone' text2='CPO, Acquia'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>

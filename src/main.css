@@ -33,7 +33,7 @@ body {
 }
 
 #navIconWrapper {
-  top: 3%;
+  top: 0%;
   position: -webkit-sticky;
   position: sticky;
   cursor: pointer;
@@ -508,7 +508,7 @@ body {
   float: right;
   padding-top: 10px;
   position: sticky;
-  top: 3%;
+  top: 0%;
   color: white;
   text-align: center;
   margin-top: -25px;
@@ -658,7 +658,7 @@ body {
 @media (min-width: 700px) {
   #date {
     font-size: 4.5em;
-    margin-left: 66%;
+    margin-left: 64.5%;
     margin-top: -7%;
     display: block;
   }
@@ -670,6 +670,7 @@ body {
   margin-top: -6%;
   z-index: 1;
   font-family: "Mirum-Sans-Bold";
+  margin-left: -1%;
 }
 
 #time {
@@ -777,6 +778,7 @@ body {
     width: 30%;
     line-height: .9;
     margin-top: -5%;
+    margin-bottom: 3%;
   }
 }
 
@@ -1014,6 +1016,7 @@ body {
   position: relative;
   display: block;
   margin-left: 10%;
+  cursor:pointer;
 }
 @media (min-width:700px) {
   .textbox {
@@ -1160,6 +1163,13 @@ body {
   margin-left: 4%;
 }
 
+@media (min-width:700px){
+  .keynoteText {
+    margin-left: 4%;
+    margin-top: 20px;
+  }
+}
+
 .keynoteTitle {
   font-size: 1.4em;
   margin-top: 1%;
@@ -1294,7 +1304,7 @@ body {
 @media (min-width:700px){
   #workshopElement--left {
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 7%;
     width: 31%;
   }
 }
@@ -1317,7 +1327,7 @@ body {
 @media (min-width:700px) {
   .demoBox {
     font-size: 1.5em;
-  }
+    }
 }
 
 .workshopParagraph {
@@ -1325,10 +1335,13 @@ body {
   display: inline-block;
   text-align: left;
   font-family: 'Mirum-Sans';
+  color: #311836;
 }
 @media (min-width: 700px) {
   .workshopParagraph {
     padding-left: 10%;
+    line-height: 1.5;
+    margin-top:8%;
   }
 }
 
@@ -1374,11 +1387,14 @@ body {
   margin: 0% 10% 0% 10%;
   font-family: 'Mirum-Sans';
   color: #311836;
+  font-size: 1.1em;
 }
 @media (min-width:700px) {
   #btm-text{
-    margin: 10% 5% 0% 1%;
+    margin: 10% 5% 0% 2%;
     display: inline-block;
+    line-height: 1.5;
+    width:20%;
   }
 }
 
