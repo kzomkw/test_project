@@ -33,16 +33,18 @@ body {
 }
 
 #navIconWrapper {
-  top: 3%;
   position: -webkit-sticky;
   position: sticky;
+  top: 0;
   cursor: pointer;
   z-index:10;
   max-width: 50px;
+  margin-top: 20px;
 }
 @media (min-width: 700px){
   #navIconWrapper {
     max-width: 76px;
+    margin-top: 25px;
   }
 }
 
@@ -223,14 +225,14 @@ body {
 }
 
 #landingPage--mobile {
-  margin-top: -70px;
+  margin-top: -90px;
   height: 630px;
   width: 100%;
 }
 #landingPage {
   background-color: black;
   z-index: -2;
-  margin-top: -70px;
+  margin-top: -95px;
   height: 700px;
   width: 100%;
   overflow: hidden;
@@ -508,7 +510,7 @@ body {
   float: right;
   padding-top: 10px;
   position: sticky;
-  top: 3%;
+  top: 0;
   color: white;
   text-align: center;
   margin-top: -25px;
