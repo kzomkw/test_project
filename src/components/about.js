@@ -42,7 +42,7 @@ class About extends Component {
             </div>
 
             <div id='video'>
-              <iframe src="https://player.vimeo.com/video/204015105" width='100%' height='100%' frameBorder="0" allowFullScreen></iframe>
+              <iframe src="https://player.vimeo.com/video/204015105?title=0&byline=0&portrait=0" width='100%' height='100%' frameBorder="0" allowFullScreen></iframe>
             </div>
           </Parallax>
         </div>
