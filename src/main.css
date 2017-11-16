@@ -147,6 +147,7 @@ body {
   margin-left: 10%;
   margin-top: 0;
   margin-bottom: 10px;
+  font-family: 'Mirum-Sans-Bold';
 }
 @media (min-width: 700px) {
   #navList {
