@@ -479,7 +479,7 @@ class Speakers extends Component {
                   </div>
                   <div className="speaker">
                       <img src="./JamieBW.jpg"/>
-                      <SmallTextBox title='Lucie Greene' text='Worldwide Director of J. Walter Thompson Intelligence'/>
+                      <SmallTextBox title='Jamie McLellan' text='CTO of J. Walter Thompson Worldwide'/>
                   </div>
                   <div className="modal-columns">
                       <div className="col_bio">

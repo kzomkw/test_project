@@ -21,9 +21,16 @@ class About extends Component {
                   They must also <br/> contribute to human <br/> progress.
                 </div>
               </div>
+              {window.matchMedia("(max-width: 700px)").matches &&
               <p className='titleText'>
-                How is this possible?
+                How <br/> is this possible?
               </p>
+              }
+              {window.matchMedia("(min-width: 700px)").matches &&
+                <p className='titleText'>
+                  How is this possible?
+                </p>
+              }
               <p className='descriptionParagraph'>
                 By embracing purpose-led innovation, businesses position themselves to stay relevant and grow in the activist economy, where consumers, employees and the media can quickly express dissent.
               </p>
