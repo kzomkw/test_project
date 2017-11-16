@@ -226,7 +226,7 @@ body {
 
 #landingPage--mobile {
   margin-top: -90px;
-  height: 630px;
+  height: 650px;
   width: 100%;
 }
 #landingPage {
@@ -245,7 +245,7 @@ body {
 }
 
 #landingPhoto--mobile {
-  height: 630px;
+  height: 650px;
   width: 100%;
   position: absolute;
 }
@@ -489,7 +489,7 @@ body {
   width: 100%;
   margin-top: 3%;
   font-size: 2em;
-  font-family: 'Mirum Serif';
+  font-family: 'Mirum-Serif';
   color: #311836;
 }
 @media (min-width:700px) {
@@ -1345,7 +1345,7 @@ body {
 @media (min-width:700px) {
   #workshopElement--right {
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-bottom: 0;
     width: 31%;
   }
