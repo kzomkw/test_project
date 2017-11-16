@@ -7,7 +7,7 @@ class DemosAndWorkshops extends Component {
 
         <div className='demosandworkshopsPage'>
 
-          <div id='section_heading'>
+          <div id='demoSectionHeading'>
             DEMOS & WORKSHOPS
           </div>
 

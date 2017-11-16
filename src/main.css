@@ -534,7 +534,7 @@ body {
   font-size: 1.5em;
 }
 
-#section_heading {
+#demoSectionHeading {
   font-size: 1.8em;
   z-index: 1;
   text-align: center;
@@ -542,7 +542,7 @@ body {
   font-family: 'Mirum-Sans';
 }
 @media (min-width:700px) {
-  #section_heading {
+  #demoSectionHeading {
     position: absolute;
     margin-top: 5%;
     margin-left: 10%;
@@ -701,13 +701,13 @@ body {
 }
 @media (min-width: 700px) and (max-width: 1500px){
   .about {
-    height: 2060px;
+    height: 2100px;
     margin-bottom: 10px;
   }
 }
 @media (min-width: 1500px) {
   .about {
-    height: 2100px;
+    height: 2150px;
     margin-bottom: 10px;
   }
 }
@@ -770,13 +770,13 @@ body {
   width: 40%;
   font-family: "Mirum-Sans-Bold";
   color: #311836;
+  margin-bottom: 30px;
 }
 @media (min-width: 700px) {
   .titleText {
     font-size: 5em;
     display: block;
     margin-left: 50%;
-    margin-bottom: 0.55%;
     width: 30%;
     line-height: .9;
     margin-top: -5%;
@@ -806,19 +806,25 @@ body {
   width: 92%;
   margin-top: 50px;
   margin-bottom: 5%;
-  margin-left: 7%;
+  margin-left: 10%;
   font-family: 'Mirum-Serif';
   color: #311836;
 }
-@media (min-width: 700px) {
+@media (min-width: 700px) and (max-width:1500px){
   #videoIntro {
     font-size: 1.7em;
-    line-height: 2;
+    line-height: 1.5;
     width: 44%;
-    margin-top: -1.0576%;
-    margin-left: 90px;
+    margin-bottom: 2%;
   }
 }
+@media (min-width: 1500px) {
+  #videoIntro {
+    line-height: 1.5;
+    margin-bottom: 2%;
+  }
+}
+
 
 #video {
   color: white;
@@ -837,7 +843,7 @@ body {
 /*styling for speakers page*/
 
 .speakersPage {
-  height: 4550px;
+  height: 4650px;
   width: 100%;
   margin-top: -35%;
   background-color: #DCDCDC;
@@ -1210,6 +1216,7 @@ body {
 #speakers {
   margin-top: 30%;
   margin-left: 10%;
+  margin-bottom: 35px;
   font-size: 1.8em;
   font-family: 'Mirum-Sans';
   color: #311836;
@@ -1294,7 +1301,7 @@ body {
 .demosandworkshopsPage {
   width: 100%;
   background-color: #DCDCDC;
-  height: 1650px;
+  height: 1700px;
 }
 
 @media (min-width: 700px) and (max-width: 1500px) {
@@ -1310,7 +1317,7 @@ body {
 }
 
 #workshop_elements {
-  padding-top: 6%;
+  padding-top: 12%;
   display: block;
 }
 
@@ -1321,22 +1328,26 @@ body {
 
 #workshopElement--left {
   display: block;
+  margin-bottom: 30px;
 }
 @media (min-width:700px){
   #workshopElement--left {
     display: inline-block;
     margin-left: 7%;
+    margin-bottom: 0;
     width: 31%;
   }
 }
 
 #workshopElement--right {
   display: block;
+  margin-bottom: 30px;
 }
 @media (min-width:700px) {
   #workshopElement--right {
     display: inline-block;
     margin-left: 10%;
+    margin-bottom: 0;
     width: 31%;
   }
 }
@@ -1365,6 +1376,8 @@ body {
     padding-left: 10%;
     line-height: 1.5;
     margin-top:8%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
