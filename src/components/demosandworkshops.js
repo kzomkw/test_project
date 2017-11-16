@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TextBox from './textbox'
+import TextBox from './demoTextbox'
 
 class DemosAndWorkshops extends Component {
   render() {

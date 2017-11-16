@@ -1,8 +1,3 @@
-/*body {
-  background-color: black;
-  overflow-x: hidden;
-}*/
-
 body {
   overflow-x: hidden;
 }
@@ -277,7 +272,7 @@ body {
   color: white;
   font-family: 'Mirum-Serif';
   font-size: 1em;
-  margin-top: 100%;
+  margin-top: 380px;
   width: 100%;
   z-index: 1;
   text-align: center;
@@ -408,7 +403,7 @@ body {
   margin-left: -2px;
 }
 .titleInnovation--mobile {
-  font-size: 1.24em;
+  font-size: 1.1em;
   margin-left: -2px;
 }
 
@@ -843,7 +838,7 @@ body {
 /*styling for speakers page*/
 
 .speakersPage {
-  height: 4650px;
+  height: 5650px;
   width: 100%;
   margin-top: -35%;
   background-color: #DCDCDC;
@@ -927,6 +922,7 @@ body {
 
 .portrait {
   margin-top: -7%;
+  margin-bottom: 20%;
   width: 250px;
   height: auto;
   opacity: 1;
@@ -992,7 +988,7 @@ body {
 }
 
 .portrait-last {
-  margin-top: -10%;
+  margin-top: 10px;
   width: 250px;
   height: auto;
   opacity: 1;
@@ -1024,7 +1020,7 @@ body {
 
 .textbox {
   border: 15px solid #311836;
-  height: 300px;
+  height: 400px;
   width: 250px;
   padding: 0;
   z-index: 1;
@@ -1042,6 +1038,7 @@ body {
     display: inline-block;
   }
 }
+
 
 .smalltextbox {
   border: 12px solid #311836;
@@ -1069,13 +1066,34 @@ body {
 .textbox__title {
   color: #311836;
   font-size: 3em;
-  margin-top: 30px;
+  margin-top: 140px;
   margin-bottom: -20px;
+  margin-left: 3%;
   font-family: 'Mirum-Sans-Bold';
 }
 @media (min-width:700px) {
   .textbox__title {
     font-size: 4em;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
+
+.textbox__subheading {
+  color: #311836;
+  font-size: 1.5em;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 5%;
+  font-family: 'Mirum-Sans-Bold';
+  width: 90%;
+  margin-left: 5%;
+}
+@media (min-width:700px) {
+  .textbox__subheading {
+    font-size: 1.75em;
+    margin-bottom: 5%;
+    margin-left: 3%;
   }
 }
 
@@ -1098,63 +1116,88 @@ body {
   }
 }
 
+.textbox_twospeakers {
+  border: 15px solid #311836;
+  height: 400px;
+  width: 250px;
+  padding: 0;
+  z-index: 1;
+  position: relative;
+  display: block;
+  margin-top: -5px;
+  margin-left: 10%;
+  cursor:pointer;
+}
+@media (min-width:700px) {
+  .textbox_twospeakers {
+    border: 23px solid #311836;
+    width: 320px;
+    height: 395px;
+    padding: 10px;
+    display: inline-block;
+  }
+}
 
-.textbox1__title {
+.textbox2__title1 {
   color: #311836;
   font-size: 3em;
+  margin-top: 110px;
   margin-bottom: -20px;
+  margin-left: 3%;
   font-family: 'Mirum-Sans-Bold';
 }
 @media (min-width:700px) {
-  .textbox1__title {
+  .textbox2__title1 {
     font-size: 4em;
     margin-top: 30px;
   }
 }
 
-.textbox2__title{
-  color: #311836;
-  font-size: 3em;
-  margin-top: 80px;
-  font-family: 'Mirum-Sans-Bold';
-}
-@media (min-width:700px){
-  .textbox2__title{
-    margin-top: 140px;
-    margin-bottom: -20px;
-  }
-}
-
-.textbox__subheading {
-  color: #311836;
-  font-size: 1.5em;
-  bottom: 0;
-  position: absolute;
-  margin-bottom: 0;
-  font-family: 'Mirum-Sans-Bold';
-  width: 90%;
-  margin-left: 3%;
-}
-@media (min-width:700px) {
-  .textbox__subheading {
-    font-size: 1.75em;
-    margin-bottom: 5%;
-  }
-}
-
-.textbox2__subheading {
+.textbox2__subheading1 {
   color: #311836;
   font-size: 1.75em;
   bottom: 0;
   position: absolute;
-  margin-bottom: 65%;
+  margin-bottom: 150px;
   font-family: 'Mirum-Sans-Bold';
   width: 90%;
   margin-left: 5%;
 }
 @media (min-width:700px) {
-  .textbox2__subheading {
+  .textbox2__subheading1 {
     margin-bottom: 60%;
+  }
+}
+
+.textbox2__title2{
+  color: #311836;
+  font-size: 3em;
+  margin-top: 100px;
+  font-family: 'Mirum-Sans-Bold';
+  margin-left: 2%;
+}
+@media (min-width:700px){
+  .textbox2__title2{
+    margin-top: 140px;
+    margin-bottom: -20px;
+  }
+}
+
+.textbox2__subheading2 {
+  color: #311836;
+  font-size: 1.5em;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 5%;
+  font-family: 'Mirum-Sans-Bold';
+  width: 90%;
+  margin-left: 5%;
+}
+@media (min-width:700px) {
+  .textbox2__subheading2 {
+    font-size: 1.75em;
+    margin-bottom: 5%;
+    margin-left: 3%;
   }
 }
 
@@ -1178,6 +1221,62 @@ body {
     font-family: 'Mirum-Sans-Bold';
   }
 }
+
+.workshopTextbox {
+  border: 15px solid #311836;
+  height: 320px;
+  width: 250px;
+  padding: 0;
+  z-index: 1;
+  position: relative;
+  display: block;
+  margin-left: 10%;
+  cursor:pointer;
+}
+@media (min-width:700px) {
+  .workshopTextbox {
+    border: 23px solid #311836;
+    width: 320px;
+    height: 395px;
+    padding: 10px;
+    display: inline-block;
+  }
+}
+
+.workshopTextbox__title {
+  color: #311836;
+  font-size: 3em;
+  margin-top: 50px;
+  margin-bottom: -20px;
+  margin-left: 3%;
+  font-family: 'Mirum-Sans-Bold';
+}
+@media (min-width:700px) {
+  .workshopTextbox__title {
+    font-size: 4em;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
+
+.workshopTextbox__subheading {
+  color: #311836;
+  font-size: 1.5em;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 5%;
+  font-family: 'Mirum-Sans-Bold';
+  width: 90%;
+  margin-left: 5%;
+}
+@media (min-width:700px) {
+  .workshopTextbox__subheading {
+    font-size: 1.75em;
+    margin-bottom: 5%;
+    margin-left: 3%;
+  }
+}
+
 .keynoteText {
   margin-left: 25px;
 }
@@ -1207,10 +1306,20 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 10%;
-  width: 80%;
+  width: 90%;
   font-family: 'Mirum-Sans';
   color: #311836;
 }
+
+.keynoteDescription--last {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10%;
+  width: 35%;
+  font-family: 'Mirum-Sans';
+  color: #311836;
+}
+
 
 #speakers {
   margin-top: 28%;
@@ -1226,7 +1335,7 @@ body {
   position: absolute;
   height: 40px;
   margin-left: 17%;
-  margin-top: 40%;
+  margin-top: 258px;
   cursor: pointer;
 }
 @media (min-width:700px) and (max-width:1700px){
@@ -1251,10 +1360,9 @@ body {
   position: absolute;
   height: 40px;
   margin-left: 17%;
-  margin-top: 44%;
+  margin-top: 270px;
   cursor: pointer;
 }
-
 @media (min-width:700px) and (max-width:1700px){
   .plus--middle{
     z-index: 5;
@@ -1272,16 +1380,16 @@ body {
   }
 }
 
-.plus--middle2{
+.plus--last{
   z-index: 2;
   position: absolute;
   height: 40px;
   margin-left: 17%;
-  margin-top: 40%;
+  margin-top: 270px;
   cursor: pointer;
 }
 @media (min-width:700px) and (max-width:1700px){
-  .plus--middle2{
+  .plus--last{
     z-index: 5;
     height: 50px;
     margin-left: 10%;
@@ -1289,7 +1397,7 @@ body {
   }
 }
 @media (min-width:1700px){
-  .plus--middle2{
+  .plus--last{
     z-index: 5;
     height: 50px;
     margin-left: 10%;

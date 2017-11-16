@@ -245,13 +245,13 @@ class Speakers extends Component {
               <img className='portrait-last' src='./Acquia.jpg'/>
               <img className='portrait-last top' src='./AcquiaBW.jpg'/>
             </Parallax>
-            <img src='./plus-sign.png' className='plus--middle2'/>
+            <img src='./plus-sign.png' className='plus--last'/>
             <TwoSpeakersTB title1='Lynne Capozzi' text1='CMO, Acquia' title2='Chris Stone' text2='CPO, Acquia'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
                 Talk
               </p>
-              <p className='keynoteDescription'>
+              <p className='keynoteDescription--last'>
                 The Right Stuff: What It Takes to Align Product and Marketing
               </p>
             </div>
