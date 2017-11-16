@@ -38,11 +38,7 @@ class Speakers extends Component {
         {window.matchMedia("(min-width: 700px)").matches &&
           <ParticlesComponent />
         }
-        {this.state.showSpeakerModal &&
-          <div>
 
-          </div>
-        }
         <div className='middleSpeaker'>
           <span className='middleHover' onClick={() => {this.speakerModal('tony-markovski')}}>
 
