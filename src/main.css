@@ -1180,12 +1180,12 @@ body {
   }
 }
 .keynoteText {
-  margin-left: 4%;
+  margin-left: 25px;
 }
 
 @media (min-width:700px){
   .keynoteText {
-    margin-left: 4%;
+    margin-left: 50px;
     margin-top: 20px;
   }
 }
