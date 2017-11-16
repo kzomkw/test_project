@@ -328,7 +328,7 @@ body {
   margin-left: 20px;
   display: inline;
 }
-
+/*
 #presentedBy--logo3--mobile {
   width: 25%;
   margin-left: 10%;
@@ -339,11 +339,8 @@ body {
   margin-left: 25px;
   display: inline;
   width: 100%;
-}
+}*/
 
-#lingotek_logo {
-  width: 120px;
-}
 
 #landingBackground {
   color: white;
@@ -900,7 +897,13 @@ body {
   display: block;
   margin-top: 60px;
 }
-@media (min-width: 700px){
+@media (min-width: 700px) and (max-width:1500px){
+  .rightSpeakerBox {
+    margin-left: 15%;
+    display: inline-block;
+  }
+}
+@media (min-width: 1500px){
   .rightSpeakerBox {
     margin-left: 15%;
     display: inline-block;
@@ -1280,9 +1283,19 @@ body {
 .keynoteText {
   margin-left: 25px;
 }
-
 @media (min-width:700px){
   .keynoteText {
+    width: 318px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+}
+
+.keynoteText--middle {
+  margin-left: 25px;
+}
+@media (min-width:700px){
+  .keynoteText--middle {
     margin-left: 50px;
     margin-top: 20px;
   }
@@ -1306,20 +1319,29 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 10%;
-  width: 90%;
+  width: 80%;
   font-family: 'Mirum-Sans';
   color: #311836;
+}
+@media (min-width:700px) {
+  .keynoteDescription {
+    width: 90%;
+  }
 }
 
 .keynoteDescription--last {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 10%;
-  width: 35%;
+  width: 90%;
   font-family: 'Mirum-Sans';
   color: #311836;
 }
-
+@media (min-width:700px) {
+  .keynoteDescription--last {
+    width: 318px;
+  }
+}
 
 #speakers {
   margin-top: 28%;
@@ -1408,7 +1430,7 @@ body {
 .demosandworkshopsPage {
   width: 100%;
   background-color: #DCDCDC;
-  height: 1700px;
+  height: 1800px;
   padding-top: 50px;
 }
 @media (min-width: 700px) and (max-width: 1500px) {
@@ -1508,22 +1530,47 @@ body {
   background-color: #DCDCDC;
   height: 800px;
 }
-@media (min-width:1000px){
+@media (min-width:700px) and (max-width:1400px){
   #footer {
     height: 900px;
+  }
+}
+@media (min-width:1400px){
+  #footer {
+    height: 1000px;
+  }
+}
+
+
+.otherSponsors {
+  text-align: center;
+}
+
+.otherSponsors__text {
+  font-family: 'Mirum-Sans';
+  color: #311836;
+  line-height: 3;
+}
+
+#lingotek_logo {
+  width: 120px;
+}
+@media (min-width:700px){
+  #lingotek_logo {
+    width: 240px;
   }
 }
 
 #mirum-pic{
   height: auto;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 7%;
   margin-bottom: 10%;
 }
 @media (min-width:700px){
   #mirum-pic{
-    width: 70%;
-    margin-top: 0;
+    width: auto;
+    height: 70%;
     margin-bottom: 0;
     display: inline-block;
   }
@@ -1673,35 +1720,45 @@ body {
   }
 }
 
-.col_bio p{
+.modal_bio p{
   margin-top: 25%;
   color: #311836;
+  margin-left: 10%;
+  width: 80%;
 }
-
 @media (min-width: 700px) {
-  .col_bio p{
+  .modal_bio p{
     margin-top: 10%;
+    margin-left: 0;
+    width: 100%;
   }
 }
 
-.talk {
+.modal_talk {
   color: #311836;
+  margin-left: 10%;
+  width: 80%;
+}
+@media (min-width:700px) {
+  .modal_talk {
+    margin-left: 0;
+  }
 }
 
-.talk h2 {
+.modal_talk h2 {
   font-size: 2.25em;
   font-weight: 400;
   font-family: "Mirum-Serif";
   color: white;
 }
 
-.talk h3 {
+.modal_talk h3 {
   color: #311836;
   font-weight: 400;
   font-size: 1em;
 }
 
-.talk p {
+.modal_talk p {
   color: #311836;
   margin-top: 0%;
 }

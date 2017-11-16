@@ -51,7 +51,7 @@ class Speakers extends Component {
             </Parallax>
             <img src='./plus-sign.png' className='plus--middle'/>
             <TextBox title='Tony Markovski' text='Head of Innovation and Emerging Technology'/>
-            <div className='keynoteText'>
+            <div className='keynoteText--middle'>
               <p className='keynoteTitle'>
                 Opening
               </p>
@@ -115,7 +115,7 @@ class Speakers extends Component {
             </Parallax>
             <img src='./plus-sign.png' className='plus--middle'/>
             <TextBox title='Tamara Ingram' text='CEO of J. Walter Thompson Worldwide'/>
-            <div className='keynoteText'>
+            <div className='keynoteText--middle'>
               <p className='keynoteTitle'>
                 Fireside Chat
               </p>
@@ -183,7 +183,7 @@ class Speakers extends Component {
             </Parallax>
             <img src='./plus-sign.png' className='plus--middle'/>
             <MattTB firstname='Matt' lastname='Webb' text1='Global CTO' text2='Mirum'/>
-            <div className='keynoteText'>
+            <div className='keynoteText--middle'>
               <p className='keynoteTitle'>
                 Workshop
               </p>
@@ -247,7 +247,7 @@ class Speakers extends Component {
             </Parallax>
             <img src='./plus-sign.png' className='plus--last'/>
             <TwoSpeakersTB title1='Lynne Capozzi' text1='CMO, Acquia' title2='Chris Stone' text2='CPO, Acquia'/>
-            <div className='keynoteText'>
+            <div className='keynoteText--middle'>
               <p className='keynoteTitle'>
                 Talk
               </p>
@@ -270,14 +270,14 @@ class Speakers extends Component {
                       <SmallTextBox title='Tony Markovski' text='Head of Innovation and Emerging Technology'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col_bio">
+                      <div className="modal_bio">
                           <p>Tony has 16 years of experience helping organizations plan, architect and deploy emerging technologies
                               and ideas that drive business transformation, innovation, experience development and leadership. He
                               has held leadership positions at Google, Adobe and Bazaarvoice, and is currently the Head of
                               Innovation & Emerging Technologies at Mirum Agency, which was named "Visionary" in the 2016 and
                               2017 Gartner Magic Quadrant. </p>
                       </div>
-                      <div className="col talk">
+                      <div className="modal_talk">
                           <h2>Opening</h2>
                           <h3>You’re Innovating in All the Wrong Places</h3>
                           <p>Setting the tone for the day, Tony demonstrates how prioritizing “purpose” to future-proof your business determines how long
@@ -298,13 +298,13 @@ class Speakers extends Component {
                       <SmallTextBox title='Bree Groff' text='CEO of NOBL'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col_bio">
+                      <div className="modal_bio">
                           <p>Bree is a speaker and consultant, and serves as CEO of NOBL Collective. For more than a decade, she has been focused on organizational
                               design and innovation, advising leaders at companies including Calvin Klein, Intel, AARP, Capital
                               One and Memorial Sloan Kettering Cancer Center. She is recognized internationally for thought
                               leadership on designing organizations that support high-performing teams.</p>
                       </div>
-                      <div className="col talk">
+                      <div className="modal_talk">
                           <h2>Keynote</h2>
                           <h3>Underwear, Clocks, and Companies:  How to Change When You Must</h3>
                           <p>Bree explains why those at the top of organizations must be instigators of change, and how to work through human responses
@@ -325,14 +325,14 @@ class Speakers extends Component {
                       <SmallTextBox title='Brett Hurt' text='CEO & Co-founder of data.world, Founder of Coremetrics and Bazaarvoice'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col_bio">
+                      <div className="modal_bio">
                           <p>At data.world, Brett is building meaningful, collaborative and abundant data resources in the world. He founded
                               Coremetrics and Bazaarvoice before IBM’s acquisition. To support Austin’s entrepreneurs, Brett serves
                               as a Partner at Capital Factory and Mentor at Techstars Austin. He also serves as the Chairman of the
                               Board at Edgecase and serves on the Board of Conscious Capitalism.
                           </p>
                       </div>
-                      <div className="col talk">
+                      <div className="modal_talk">
                           <h2>Keynote</h2>
                           <h3>The Secrets of Making Profits With Purpose</h3>
                           <p>Brett dives into the concept of Conscious Capitalism, providing personal insights from his experience creating billion-dollar purpose-led business models that better serve us all, including investors.</p>
@@ -352,14 +352,14 @@ class Speakers extends Component {
                       <SmallTextBox title='Tamara Ingram' text='CEO of J. Walter Thompson Worldwide'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col_bio">
+                      <div className="modal_bio">
                           <p>Tamara joined J. Walter Thompson Company in 2016 as CEO where she oversees the agency’s global network. Previously at WPP,
                               Tamara oversaw the group’s 45 global account teams, which represented one-third of the Group’s
                               $20 billion revenue with over 38,000 employees. She has extensive experience leading innovative
                               advertising agencies, and has previously served as Grey UK’s Group CEO and global leader on their
                               Proctor & Gamble (P&G) account.</p>
                       </div>
-                      <div className="col talk">
+                      <div className="modal_talk">
                           <h2>Fireside Chat</h2>
                           <h3>Innovating Like a Bull in a China Shop</h3>
                           <p>(Description coming soon.)</p>
@@ -379,10 +379,10 @@ class Speakers extends Component {
                       <SmallTextBox title='Emily Musil Church' text='Director of Education and Impact XPRIZE Learning'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col_bio">
+                      <div className="modal_bio">
                         <p>Dr. Emily Musil Church is a strategist and thought leader in harnessing technology to address global challenges for social good. Dr. Church directs the impact work for the Global Learning XPRIZE, where she bridges the worlds of research, innovation and global development. Prior to XPRIZE, Dr. Church spent over a decade in academia, where as a professor she specialized in African history, human rights and women’s global issues.</p>
                       </div>
-                      <div className="col talk">
+                      <div className="modal_talk">
                           <h2>Talk</h2>
                           <h3>Shooting for the Stars</h3>
                           <p>What is incentivized competition and what is it capable of achieving? XPRIZE is impact driven and future looking, and Emily will share how to eliminate obstacles to change and energize human progress.</p>
@@ -402,11 +402,11 @@ class Speakers extends Component {
                       <SmallTextBox title='Mark Lovett' text='Organizer, TEDX San Diego'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col_bio">
+                      <div className="modal_bio">
                          <p>Having survived three decades in corporate America, recovering executive Mark Lovett is now immersed in the world of storytelling, from organizing TEDx events in San Diego, on the U.S. & Mexico border, and in prisons, to professional speaker coaching and storytelling workshops at Fabricating the Truth.</p>
 
                       </div>
-                      <div className="col talk">
+                      <div className="modal_talk">
                         <h2>Talk</h2>
                         <h3>Storylistening as an Agent of (R)Evolution</h3>
                         <p>Mark will explore how to humanize experience and create connection. When we remove the titles and clichés, the barriers and borders that divide us, we see that everyone has a story to share, and that being a part of others’ stories allows us to gain perspective. Leaders should not overlook the importance of listening to others and sharing stories as one of the most powerful agents of change.</p>
@@ -426,13 +426,13 @@ class Speakers extends Component {
                       <SmallTextBox title='Matt Webb' text='Global CTO Mirum'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col_bio">
+                      <div className="modal_bio">
                           <p>Matt has over 18 years of web technology experience that extends across a range of areas, including web standards and best
                               practice, accessibility and human computer interfaces, enterprise content management systems,
                               system architecture, AR/VR, AI and anything to do with the future of web interfaces. He is passionate
                               about how technology relates to the customer experience.</p>
                       </div>
-                      <div className="col talk">
+                      <div className="modal_talk">
                           <h2>Workshop</h2>
                           <h3>How to Build a Maker Business</h3>
                           <p>Matt explores what it really means to “make what’s next” and why the ability to hire and retain makers will be your business’s
@@ -453,14 +453,14 @@ class Speakers extends Component {
                       <SmallTextBox title='Lucie Greene' text='Worldwide Director of J. Walter Thompson Intelligence'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col_bio">
+                      <div className="modal_bio">
                           <p>At J. Walter Thompson, Lucie leads The Innovation Group’s ongoing research into emerging global consumer behaviors, cultural
                               changes and sector innovation with deep-dive studies and daily insights. She’s a thought leadership
                               columnist for Campaign, writes for the Financial Times and has spoken at conferences including
                               CES, SXSW, Web Summit and Adweek, discussing future trends across multiple lifestyle sectors.
                               </p>
                       </div>
-                      <div className="col talk">
+                      <div className="modal_talk">
                           <h2>Talk</h2>
                           <h3>How to Be a Future-Focused Brand</h3>
                           <p>Lucie guides us through current trends for future-proofing your business, dissecting some of the best examples in today’s
@@ -482,12 +482,12 @@ class Speakers extends Component {
                       <SmallTextBox title='Jamie McLellan' text='CTO of J. Walter Thompson Worldwide'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col_bio">
+                      <div className="modal_bio">
                           <p>Innovative technology that helps solve challenges, enable transformation and enhance experiences like artificial intelligence
                               (AI) are what motivate and excite Jamie. An architect by training, Jamie tries—sometime successfully—to
                               operate on the intersection of his left and right brains.</p>
                       </div>
-                      <div className="col talk">
+                      <div className="modal_talk">
                           <h2>Talk</h2>
                           <h3>Solving Human Problems With AI</h3>
                           <p>Jamie explains why intelligence can never be artificial, and how our human ability to interpret context makes people, not
@@ -508,8 +508,8 @@ class Speakers extends Component {
                       <SmallTextBox title='Lynne Capozzi & Chris Stone' text='CMO & CPO, Acquia'/>
                   </div>
                   <div className="modal-columns">
-                      <div className="col">
-                          <div className="col_bio">
+                      <div>
+                          <div className="modal_bio">
                               <p>As Acquia’s CMO, Lynne oversees all global marketing functions, including corporate communications, content and events. In
                                   2011, Lynne left Acquia to pursue nonprofit work full-time, returning in 2016 to lead Acquia’s next stage of growth.
                                   She was previously CMO at JackBe, an enterprise mashup software company, and VP at Lotus Development, later acquired
@@ -517,17 +517,17 @@ class Speakers extends Component {
                                   the hospital.</p>
                           </div>
                       </div>
-                      <div className="col">
+                      <div>
                           <div className="speaker-header">
                           </div>
-                          <div className="col_bio">
+                          <div className="modal_bio">
                               <p>Responsible for engineering, DevOps, product management and integrated digital experiences for the Acquia Platform, Chris
                                   has more than 30 years’ experience in enterprise software development and open source solutions. With Eric Schmidt, former
                                   CEO of Google and current Executive Chairman of Alphabet, Chris was part of Novell’s remarkable 1990s turnaround, and
                                   later served as vice-chairman and co-CEO. Chris earned a certificate in advanced office systems engineering from MIT.</p>
                           </div>
                       </div>
-                      <div className="talk">
+                      <div className="modal_talk">
                           <h2>Talk</h2>
                           <h3>The Right Stuff: What It Takes to Align Product and Marketing</h3>
                           <p>Acquia’s CMO and CTO throw down in a battle for product and market alignment, with the aim of achieving their mutual North Star: enhancing customer experience.</p>
