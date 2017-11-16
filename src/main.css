@@ -695,7 +695,7 @@ body {
 /*styling for about section (photo, words, video)*/
 
 .about {
-  height: 1650px;
+  height: 1630px;
   width: 100%;
   background-color: #DCDCDC;
 }
@@ -853,10 +853,9 @@ body {
     height: 4600px;
   }
 }
-
 @media (min-width: 1500px) {
   .speakersPage {
-    height: 4700px;
+    height: 4800px;
   }
 }
 
@@ -1214,7 +1213,7 @@ body {
 }
 
 #speakers {
-  margin-top: 30%;
+  margin-top: 28%;
   margin-left: 10%;
   margin-bottom: 35px;
   font-size: 1.8em;
@@ -1302,17 +1301,17 @@ body {
   width: 100%;
   background-color: #DCDCDC;
   height: 1700px;
+  padding-top: 50px;
 }
-
 @media (min-width: 700px) and (max-width: 1500px) {
   .demosandworkshopsPage {
     height: 1700px;
   }
 }
-
 @media (min-width:1500px){
   .demosandworkshopsPage {
-    height: 1800px;
+    height: 1700px;
+    padding-top: 0;
   }
 }
 
@@ -1371,13 +1370,18 @@ body {
   margin-left: 10%;
   margin-right: 10%;
 }
-@media (min-width: 700px) {
+@media (min-width: 700px) and (max-width:1500px){
   .workshopParagraph {
     padding-left: 10%;
     line-height: 1.5;
     margin-top:8%;
     margin-left: 0;
     margin-right: 0;
+  }
+}
+@media (min-width: 1500px){
+  .workshopParagraph {
+    padding-right: 10%;
   }
 }
 
