@@ -1417,6 +1417,7 @@ body {
     height: 395px;
     padding: 10px;
     display: inline-block;
+    margin-top: 0%
   }
 }
 
@@ -1732,7 +1733,7 @@ body {
     z-index: 5;
     height: 50px;
     margin-left: 10%;
-    margin-top: 23%;
+    margin-top: 17.5%;
   }
 }
 
