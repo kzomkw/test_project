@@ -843,7 +843,7 @@ body {
 }
 @media (min-width: 700px) and (max-width: 1500px) {
   .speakersPage {
-    height: 4600px;
+    height: 6000px;
   }
 }
 @media (min-width: 1500px) {
@@ -1242,6 +1242,16 @@ body {
     border: 23px solid #311836;
     width: 320px;
     height: 395px;
+    margin-left: 0;
+    padding: 10px;
+    display: inline-block;
+  }
+}
+@media (min-width:769px) {
+  .workshopTextbox {
+    border: 23px solid #311836;
+    width: 320px;
+    height: 395px;
     padding: 10px;
     display: inline-block;
   }
@@ -1435,7 +1445,12 @@ body {
   height: 1800px;
   padding-top: 50px;
 }
-@media (min-width: 700px) and (max-width: 1500px) {
+@media (min-width: 700px) and (max-width: 769px) {
+  .demosandworkshopsPage {
+    height: 2200px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1500px) {
   .demosandworkshopsPage {
     height: 1600px;
   }
@@ -1463,6 +1478,13 @@ body {
 }
 @media (min-width:700px){
   #workshopElement--left {
+    margin-left: 25%;
+    margin-bottom: 0;
+    width: 50%;
+  }
+}
+@media (min-width:769px){
+  #workshopElement--left {
     display: inline-block;
     margin-left: 7%;
     margin-bottom: 0;
@@ -1475,6 +1497,14 @@ body {
   margin-bottom: 30px;
 }
 @media (min-width:700px) {
+  #workshopElement--right {
+    display: inline-block;
+    margin-left: 25%;
+    margin-bottom: 0;
+    width: 50%;
+  }
+}
+@media (min-width:769px) {
   #workshopElement--right {
     display: inline-block;
     margin-left: 15%;
@@ -1502,7 +1532,16 @@ body {
   margin-left: 10%;
   margin-right: 10%;
 }
-@media (min-width: 700px) and (max-width:1500px){
+@media (min-width: 700px){
+  .workshopParagraph {
+    padding-left: 0;
+    line-height: 1.5;
+    margin-top:8%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (min-width: 769px) and (max-width:1500px){
   .workshopParagraph {
     padding-left: 10%;
     line-height: 1.5;
@@ -1521,6 +1560,12 @@ body {
   display: block;
 }
 @media (min-width: 700px){
+  .demosandworkshops--bottom {
+    margin-left: 25%;
+    width: 50%;
+  }
+}
+@media (min-width: 769px){
   .demosandworkshops--bottom {
     margin-left: 35%;
     width: 31%;
