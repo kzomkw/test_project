@@ -35,7 +35,7 @@ class Speakers extends Component {
           SPEAKERS
         </div>
 
-        {window.matchMedia("(min-width: 700px)").matches &&
+        {window.matchMedia("(min-width: 769px)").matches &&
           <ParticlesComponent />
         }
 
@@ -126,7 +126,7 @@ class Speakers extends Component {
           </span>
         </div>
 
-        {window.matchMedia("(min-width: 700px)").matches &&
+        {window.matchMedia("(min-width: 769px)").matches &&
           <ParticlesComponent />
         }
 

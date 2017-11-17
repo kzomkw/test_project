@@ -19,17 +19,23 @@ class TimeAndPlace extends Component {
   };
 
   handleScroll(event) {
-    if (window.matchMedia("(min-width: 700px) and (max-width:1825px)").matches){
-      if (window.scrollY < 770) {
-        document.querySelector('.SDtextbox').style.background = 'rgba(255,255,255, 0)'
+    if (window.matchMedia("(min-width: 700px) and (max-width:769px)").matches){
+      if (window.scrollY < 400) {
+        document.querySelector('.SDtextbox').style.background = 'rgba(220,220,220, 0)'
       } else {
-        document.querySelector('.SDtextbox').style.background = 'rgba(255,255,255, 0.5)'
+        document.querySelector('.SDtextbox').style.background = 'rgba(220,220,220, 0.5)'
+      }
+    } else if (window.matchMedia("(min-width: 769px) and (max-width:1825px)").matches){
+      if (window.scrollY < 770) {
+        document.querySelector('.SDtextbox').style.background = 'rgba(220,220,220, 0)'
+      } else {
+        document.querySelector('.SDtextbox').style.background = 'rgba(220,220,220, 0.5)'
       }
     } else if (window.matchMedia("(min-width: 1825px)").matches){
       if (window.scrollY < 500) {
-        document.querySelector('.SDtextbox').style.background = 'rgba(255,255,255, 0)'
+        document.querySelector('.SDtextbox').style.background = 'rgba(220,220,220, 0)'
       } else {
-        document.querySelector('.SDtextbox').style.background = 'rgba(255,255,255, 0.5)'
+        document.querySelector('.SDtextbox').style.background = 'rgba(220,220,220, 0.5)'
       }
     }
   };
@@ -46,7 +52,7 @@ class TimeAndPlace extends Component {
           <div id='timeandplace_heading'>
             TIME AND PLACE
           </div>
-          {window.matchMedia("(min-width: 700px)").matches &&
+          {window.matchMedia("(min-width: 769px)").matches &&
             <ParticlesComponent />
           }
           {window.matchMedia("(min-width: 700px)").matches &&

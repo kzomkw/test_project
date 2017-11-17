@@ -3,21 +3,24 @@ class Footer extends Component {
   render() {
     return (
       <div id='footer'>
-        <div className='otherSponsors'>
+        {/*<div className='otherSponsors'>
           <div className='otherSponsors__text'>
             Other sponsors:
           </div>
           <div>
             <img src='../lingotek_logo.png' id='lingotek_logo'/>
           </div>
-        </div>
+        </div>*/}
+
         <span>
           <img id='mirum-pic' src='./mirum_opus_next.png' alt='mirum'/>
         </span>
 
-        <p id='btm-text'>
-          Mirum is a borderless agency of over 2400 digital savants, storytellers, makers and relentlessly curious minds who are united by an uncommon drive to make what&#39;s next. Active in 24 countries, we work across our global network of expertise to transform business, design innovative digital experiences and activate commerce at a global and local level. Mirum is part of the J. Walter Thompson Company and the WPP Network. Visit <a href='https://www.mirumagency.com/' className='mirumagency_link'>mirumagency.com</a> for more information.
-        </p>
+        <span>
+          <p id='btm-text'>
+            Mirum is a borderless agency of over 2400 digital savants, storytellers, makers and relentlessly curious minds who are united by an uncommon drive to make what&#39;s next. Active in 24 countries, we work across our global network of expertise to transform business, design innovative digital experiences and activate commerce at a global and local level. Mirum is part of the J. Walter Thompson Company and the WPP Network. Visit <a href='https://www.mirumagency.com/' className='mirumagency_link'>mirumagency.com</a> for more information.
+          </p>
+        </span>
 
         <span id='social'>
           <a href="https://www.facebook.com/MirumAgency/" >
