@@ -796,7 +796,7 @@ body {
 
 #videoIntro {
   font-size: 1.5em;
-  width: 92%;
+  width: 90%;
   margin-top: 50px;
   margin-bottom: 5%;
   margin-left: 10%;
@@ -1334,13 +1334,14 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 10%;
-  width: 90%;
+  width: 80%;
   font-family: 'Mirum-Sans';
   color: #311836;
 }
 @media (min-width:700px) {
   .keynoteDescription--last {
     width: 318px;
+    margin-right: 90%;
   }
 }
 
@@ -1436,12 +1437,12 @@ body {
 }
 @media (min-width: 700px) and (max-width: 1500px) {
   .demosandworkshopsPage {
-    height: 1700px;
+    height: 1600px;
   }
 }
 @media (min-width:1500px){
   .demosandworkshopsPage {
-    height: 1700px;
+    height: 1600px;
     padding-top: 0;
   }
 }
