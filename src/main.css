@@ -322,6 +322,11 @@ body {
   position: absolute;
   z-index: 1;
 }
+@media (min-width: 769px){
+  #presentedBy {
+    margin-left: 7%;
+  }
+}
 
 #presentedBy img {
   vertical-align: middle;
@@ -980,7 +985,7 @@ body {
   #videoIntro {
     font-size: 1.7em;
     line-height: 1.5;
-    width: 44%;
+    width: 45%;
     margin-bottom: 2%;
   }
 }
@@ -1035,7 +1040,7 @@ body {
 
 @media (min-width: 1500px) {
   .speakersPage {
-    height: 4800px;
+    height: 5400px;
   }
 }
 
@@ -1417,6 +1422,7 @@ body {
     height: 395px;
     padding: 10px;
     display: inline-block;
+    margin-top: 0%;
   }
 }
 
@@ -1732,7 +1738,7 @@ body {
     z-index: 5;
     height: 50px;
     margin-left: 10%;
-    margin-top: 23%;
+    margin-top: 17.5%;
   }
 }
 
@@ -1763,7 +1769,7 @@ body {
 }
 @media (min-width:1500px){
   .demosandworkshopsPage {
-    height: 1600px;
+    height: 1700px;
     padding-top: 0;
   }
 }
@@ -1826,7 +1832,13 @@ body {
 @media (min-width:700px) {
   .demoBox {
     font-size: 1.5em;
-    }
+  }
+}
+@media (min-width:769px) {
+  .demoBox {
+    font-size: 1.5em;
+    margin-left: 10%;
+  }
 }
 
 .workshopParagraph {
@@ -1859,6 +1871,8 @@ body {
 @media (min-width: 1500px){
   .workshopParagraph {
     padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 
@@ -1883,12 +1897,12 @@ body {
   background-color: #DCDCDC;
   height: 800px;
 }
-@media (min-width:700px) and (max-width:1400px){
+@media (min-width:700px) and (max-width:1500px){
   #footer {
     height: 900px;
   }
 }
-@media (min-width:1400px){
+@media (min-width:1500px){
   #footer {
     height: 1000px;
   }
@@ -1929,8 +1943,8 @@ body {
 }
 @media (min-width:769px){
   #mirum-pic{
-    width: auto;
-    height: 70%;
+    width: 70%;
+    height: auto;
     margin-bottom: 0;
     display: inline-block;
   }
@@ -1967,12 +1981,20 @@ body {
 }
 @media (min-width: 700px){
   #social{
-    text-align: center;
+    margin-left: 33%;
+    display:block
   }
 }
 @media (min-width: 769px){
   #social{
+    margin-left: 1%;
     position:absolute;
+    display: inline;
+  }
+}
+@media (min-width: 1600px){
+  #social{
+    margin-top: 33%;
   }
 }
 
