@@ -2214,6 +2214,14 @@ body {
   }
 }
 
+
+
+.modal_talk h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+  font-family: "Mirum-Serif";
+  color: white;
+}
 @media(min-width:700px){
   .modal_talk h2 {
     font-size: 2em;
@@ -2222,7 +2230,6 @@ body {
     color: white;
   }
 }
-
 @media(min-width:769px){
   .modal_talk h2 {
     font-size: 2.25em;

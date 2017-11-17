@@ -279,7 +279,7 @@ class Speakers extends Component {
                       </div>
                       <div className="modal_talk">
                           <h2>Opening</h2>
-                          <h3>You’re Innovating in All the Wrong Places</h3>
+                          <h3>You’re Innovating In All The Wrong Places</h3>
                           <p>Setting the tone for the day, Tony demonstrates how prioritizing “purpose” to future-proof your business determines how long
                           your company will live.</p>
                       </div>
