@@ -3,14 +3,15 @@ class Footer extends Component {
   render() {
     return (
       <div id='footer'>
-        <div className='otherSponsors'>
+        {/*<div className='otherSponsors'>
           <div className='otherSponsors__text'>
             Other sponsors:
           </div>
           <div>
             <img src='../lingotek_logo.png' id='lingotek_logo'/>
           </div>
-        </div>
+        </div>*/}
+
         <span>
           <img id='mirum-pic' src='./mirum_opus_next.png' alt='mirum'/>
         </span>
