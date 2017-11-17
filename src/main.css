@@ -322,6 +322,11 @@ body {
   position: absolute;
   z-index: 1;
 }
+@media (min-width: 769px){
+  #presentedBy {
+    margin-left: 7%;
+  }
+}
 
 #presentedBy img {
   vertical-align: middle;
@@ -1029,7 +1034,7 @@ body {
 
 @media (min-width: 769px){
   .speakersPage {
-    height: 6000px;
+    height: 4900px;
   }
 }
 
@@ -1809,7 +1814,13 @@ body {
 @media (min-width:700px) {
   .demoBox {
     font-size: 1.5em;
-    }
+  }
+}
+@media (min-width:769px) {
+  .demoBox {
+    font-size: 1.5em;
+    margin-left: 10%;
+  }
 }
 
 .workshopParagraph {
@@ -1866,12 +1877,12 @@ body {
   background-color: #DCDCDC;
   height: 800px;
 }
-@media (min-width:700px) and (max-width:1400px){
+@media (min-width:700px) and (max-width:1500px){
   #footer {
     height: 900px;
   }
 }
-@media (min-width:1400px){
+@media (min-width:1500px){
   #footer {
     height: 1000px;
   }
@@ -1912,8 +1923,8 @@ body {
 }
 @media (min-width:769px){
   #mirum-pic{
-    width: auto;
-    height: 70%;
+    width: 70%;
+    height: auto;
     margin-bottom: 0;
     display: inline-block;
   }
@@ -1950,12 +1961,20 @@ body {
 }
 @media (min-width: 700px){
   #social{
-    text-align: center;
+    margin-left: 33%;
+    display:block
   }
 }
 @media (min-width: 769px){
   #social{
+    margin-left: 1%;
     position:absolute;
+    display: inline;
+  }
+}
+@media (min-width: 1600px){
+  #social{
+    margin-top: 33%;
   }
 }
 
