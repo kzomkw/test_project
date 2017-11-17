@@ -826,11 +826,10 @@ body {
 }
 @media (min-width: 700px){
   .about {
-    height: 1550px;
+    height: 1600px;
     margin-bottom: 10px;
   }
 }
-
 @media (min-width: 769px){
   .about {
     height: 2100px;
