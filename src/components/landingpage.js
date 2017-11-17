@@ -8,9 +8,16 @@ class LandingPage extends Component {
       <div id='landingPage'>
 
           <div>
+            {window.matchMedia("(max-width: 768px)").matches &&
+            <div>
+              <img src='../landing_still.jpg' alt='background' id='landingPhoto--ipad'/>
+            </div>
+            }
+            {window.matchMedia("(min-width: 769px)").matches &&
             <video id='landingPhoto' loop autoPlay>
               <source src='../GettyImages-471736934_6MBs.mp4' type="video/mp4" />
             </video>
+            }
           </div>
 
         <div id='presentedBy'>
@@ -59,8 +66,10 @@ class LandingPage extends Component {
 
           </div>
         </div>
-        <ParticlesComponent />
-      </div>
+        {window.matchMedia("(min-width: 769px)").matches &&
+          <ParticlesComponent />
+        }
+        </div>
     );
   }
 }
