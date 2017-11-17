@@ -46,7 +46,7 @@ class TimeAndPlace extends Component {
           <div id='timeandplace_heading'>
             TIME AND PLACE
           </div>
-          {window.matchMedia("(min-width: 700px)").matches &&
+          {window.matchMedia("(min-width: 769px)").matches &&
             <ParticlesComponent />
           }
           {window.matchMedia("(min-width: 700px)").matches &&
