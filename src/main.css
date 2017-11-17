@@ -1245,7 +1245,7 @@ body {
 @media (min-width: 700px) {
   .portrait-last {
     margin-top: -50px;
-    margin-left: 250px;
+    margin-left: 165px;
     height: 395px;
     width: 320px;
   }
@@ -1312,7 +1312,20 @@ body {
   margin-left: 25%;
   margin-top: 10%;
 }
+
 @media (min-width:700px) {
+  .smalltextbox {
+    border: 16px solid #311836;
+    width: 240px;
+    height: 296px;
+    padding: 10px;
+    display: inline-block;
+    margin-left: -28%;
+    margin-top: 7%;
+  }
+}
+
+@media (min-width:769px) {
   .smalltextbox {
     border: 23px solid #311836;
     width: 320px;
@@ -1375,7 +1388,18 @@ body {
   font-family: 'Mirum-Sans-Bold';
   position: absolute;
 }
+
 @media (min-width:700px) {
+  .smalltextbox__title{
+    color: white;
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-family: 'Mirum-Sans-Bold';
+  }
+}
+
+@media (min-width:769px) {
   .smalltextbox__title{
     color: white;
     font-size: 3.5em;
@@ -1495,6 +1519,17 @@ body {
 }
 
 @media (min-width:700px) {
+  .smalltextbox__subheading{
+    color: #311836;
+    font-size: 1.3em;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 10%;
+    font-family: 'Mirum-Sans-Bold';
+  }
+}
+
+@media (min-width:769px) {
   .smalltextbox__subheading{
     color: #311836;
     font-size: 1.8em;
@@ -2053,6 +2088,14 @@ body {
 
 @media (min-width: 700px){
   .modal-columns {
+    width: 38%;
+    margin-left:28%;
+    margin-top: 20%;
+  }
+}
+
+@media (min-width: 769px){
+  .modal-columns {
     width: 34%;
     margin-left:42%;
     margin-top: -25%;
@@ -2084,7 +2127,19 @@ body {
   float: left;
   max-height: 200px;
 }
+
 @media (min-width: 700px) {
+  .speaker img {
+    margin-left: 20%;
+    margin-right: 15px;
+    float: left;
+    max-height: none;
+    height: 296px;
+    width: 240px;
+  }
+}
+
+@media (min-width: 769px) {
   .speaker img {
     margin-left: 0;
     margin-right: 15px;
@@ -2114,17 +2169,30 @@ body {
   margin-left: 10%;
   width: 80%;
 }
+
 @media (min-width:700px) {
   .modal_talk {
-    margin-left: 0;
+    margin-left: 0% ;
+    width:100%;
   }
 }
 
-.modal_talk h2 {
-  font-size: 2.25em;
-  font-weight: 400;
-  font-family: "Mirum-Serif";
-  color: white;
+@media(min-width:700px){
+  .modal_talk h2 {
+    font-size: 2em;
+    font-weight: 400;
+    font-family: "Mirum-Serif";
+    color: white;
+  }
+}
+
+@media(min-width:769px){
+  .modal_talk h2 {
+    font-size: 2.25em;
+    font-weight: 400;
+    font-family: "Mirum-Serif";
+    color: white;
+  }
 }
 
 .modal_talk h3 {
