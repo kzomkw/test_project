@@ -171,7 +171,23 @@ body {
   top: 40px;
   cursor: pointer;
 }
+
 @media (min-width: 700px) {
+  #closeNav,
+  .modal-close{
+    font-size: 3em;
+    color: white;
+    float: right;
+    cursor: pointer;
+    margin-left: 65%;
+    top: 15%;
+  }
+  .modal-close{
+    margin-right: 15%;
+    transform: translateY(-20px) scale(1.2);
+  }
+}
+@media (min-width: 769px) {
   #closeNav,
   .modal-close{
     font-size: 3em;
