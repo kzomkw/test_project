@@ -104,7 +104,7 @@ class Speakers extends Component {
           </span>
         </div>
 
-        <div className='middleSpeaker'>
+        {/*<div className='middleSpeaker'>
           <span className='middleHover' onClick={() => {this.speakerModal('tamara-ingram')}}>
             <Parallax
               offsetXMin={"0px"}
@@ -121,6 +121,28 @@ class Speakers extends Component {
               </p>
               <p className='keynoteDescription'>
                 Innovating Like a Bull in a China Shop
+              </p>
+            </div>
+          </span>
+        </div>*/}
+
+        <div className='middleSpeaker'>
+          <span className='middleHover' onClick={() => {this.speakerModal('vivian-rosenthal')}}>
+            <Parallax
+              offsetXMin={"0px"}
+              offsetXMax={"-50px"}
+            >
+              <img className='portrait' src='./VivianC.jpg'/>
+              <img className='portrait top' src='./VivianBW.jpg'/>
+            </Parallax>
+            <img src='./plus-sign.png' className='plus--middle'/>
+            <TextBox title='Vivian Rosenthal' text='Founder, Snaps'/>
+            <div className='keynoteText--middle'>
+              <p className='keynoteTitle'>
+                Talk
+              </p>
+              <p className='keynoteDescription'>
+                The Next Big Thing In Business - Chatbots, Voice Skills & Social Messaging
               </p>
             </div>
           </span>
@@ -341,7 +363,7 @@ class Speakers extends Component {
               </div>
           </div>
 
-          <div className="modal" id="tamara-ingram">
+          {/*<div className="modal" id="tamara-ingram">
               <div className="modal__inner">
                   <div className="modal-close" onClick={this.closeModal}>
                     <div className="closeModalBar1"></div>
@@ -362,6 +384,29 @@ class Speakers extends Component {
                       <div className="modal_talk">
                           <h2>Fireside Chat</h2>
                           <h3>Innovating Like a Bull in a China Shop</h3>
+                          <p>(Description coming soon.)</p>
+                      </div>
+                  </div>
+              </div>
+          </div>*/}
+
+          <div className="modal" id="vivian-rosenthal">
+              <div className="modal__inner">
+                  <div className="modal-close" onClick={this.closeModal}>
+                    <div className="closeModalBar1"></div>
+                    <div className="closeModalBar2"></div>
+                  </div>
+                  <div className="speaker">
+                      <img src="./VivianBW.jpg"/>
+                      <SmallTextBox title='Vivian Rosenthal' text='Founder, Snaps'/>
+                  </div>
+                  <div className="modal-columns">
+                      <div className="modal_bio">
+                          <p>Vivian is the founder of Snaps, the innovative AI technology behind the largest chatbots, voice skills and social messaging apps for brands including Marriott, Nike Jordan, Ad Age and Vice. Named one of Creativity Magazine’s top 50 Global Creatives, she’s spoken at CaT London and TEDx, and has appeared on Good Morning America with Sheryl Sandberg to help promote women leaders and entrepreneurs.</p>
+                      </div>
+                      <div className="modal_talk">
+                          <h2>Talk</h2>
+                          <h3>The Next Big Thing In Business - Chatbots, Voice Skills & Social Messaging</h3>
                           <p>(Description coming soon.)</p>
                       </div>
                   </div>
