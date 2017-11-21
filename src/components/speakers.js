@@ -141,7 +141,7 @@ class Speakers extends Component {
               <p className='keynoteTitle'>
                 Talk
               </p>
-              <p className='keynoteDescription'>
+              <p className='keynoteDescription--vivian'>
                 The Next Big Thing In Business - Chatbots, Voice Skills & Social Messaging
               </p>
             </div>

@@ -1675,6 +1675,30 @@ body {
   }
 }
 
+.keynoteDescription--vivian {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10%;
+  width: 80%;
+  font-family: 'Mirum-Sans';
+  color: #311836;
+}
+@media (min-width:446px) {
+  .keynoteDescription--vivian {
+    width: 50%;
+  }
+}
+@media (min-width:900px) {
+  .keynoteDescription--vivian {
+    width: 35%;
+  }
+}
+@media (min-width:1500px) {
+  .keynoteDescription--vivian {
+    width: 25%;
+  }
+}
+
 .keynoteDescription--last {
   margin-top: 0;
   margin-bottom: 0;
