@@ -280,6 +280,48 @@ class Speakers extends Component {
           </span>
         </div>
 
+        <div className='speakerRow'>
+          <span className='leftSpeakerBox' onClick={() => {this.speakerModal('debra-cleaver')}}>
+            <Parallax
+              offsetXMin={"0px"}
+              offsetXMax={"-50px"}
+            >
+              <img className='portrait--left' src='./CleaverC.jpg' />
+              <img className='portrait--left top' src='./CleaverBW.jpg'/>
+            </Parallax>
+            <img src='./plus-sign.png' className='plus'/>
+            <TextBox title='Debra Cleaver' text='Founder and CEO, Vote.org'/>
+            <div className='keynoteText'>
+              <p className='keynoteTitle'>
+                Talk
+              </p>
+              <p className='keynoteDescription'>
+                Description Coming Soon
+              </p>
+            </div>
+          </span>
+
+          <span className='rightSpeakerBox' onClick={() => {this.speakerModal('mark-newcomer')}}>
+            <Parallax
+              offsetXMin={"0px"}
+              offsetXMax={"-50px"}
+            >
+              <img className='portrait--right' src='./NewcomerC.jpg'/>
+              <img className='portrait--right top' src='./NewcomerBW.jpg'/>
+            </Parallax>
+            <img src='./plus-sign.png' className='plus'/>
+            <TextBox title='Mark Newcomer' text='Chief Strategy Officer, Mirum'/>
+            <div className='keynoteText'>
+              <p className='keynoteTitle'>
+                Talk
+              </p>
+              <p className='keynoteDescription'>
+                Description Coming Soon
+              </p>
+            </div>
+          </span>
+        </div>
+
           <div className="modal" id="tony-markovski">
               <div className="modal__inner">
 
@@ -579,6 +621,52 @@ class Speakers extends Component {
                       </div>
                   </div>
 
+              </div>
+          </div>
+
+          <div className="modal" id="debra-cleaver">
+              <div className="modal__inner">
+                  <div className="modal-close" onClick={this.closeModal}>
+                    <div className="closeModalBar1"></div>
+                    <div className="closeModalBar2"></div>
+                  </div>
+                  <div className="speaker">
+                      <img src="./CleaverBW.png"/>
+                      <SmallTextBox title='Debra Cleaver' text='Founder and CEO, Vote.org'/>
+                  </div>
+                  <div className="modal-columns">
+                      <div className="modal_bio">
+                          <p>Debra Cleaver has been working at the intersection of technology and democracy since 2004. She currently serves as the Founder and CEO of Vote.org, a nonpartisan, nonprofit organization that uses technology to simplify political engagement, increase voter turnout, and strengthen American democracy. Under Debra’s leadership, Vote.org won the prestigious Knight News Challenge in 2015, and was accepted into Y Combinator&#39s 2016 Summer Cohort.  Vote.org is widely recognized as the most cost-efficient, and innovative, voter turnout organization in America.  Over the past two years, Vote.org has registered almost one million voters and helped over 10 million voters cast ballots in national and local elections. Debra’s work has been featured in Forbes, Mic, The Huffington Post, and Bustle.</p>
+                      </div>
+                      <div className="modal_talk">
+                          <h2>Talk</h2>
+                          <h3>Description Coming Soon</h3>
+                          <p></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div className="modal" id="mark-newcomer">
+              <div className="modal__inner">
+                  <div className="modal-close" onClick={this.closeModal}>
+                    <div className="closeModalBar1"></div>
+                    <div className="closeModalBar2"></div>
+                  </div>
+                  <div className="speaker">
+                      <img src="./NewcomerBW.png"/>
+                      <SmallTextBox title='Mark Newcomer' text='Chief Strategy Officer, Mirum'/>
+                  </div>
+                  <div className="modal-columns">
+                      <div className="modal_bio">
+                          <p>As the Chief Strategy Officer of Mirum Agency, Mark leads Mirum’s Strategy & Planning, Insights, and Performance Media teams to transform client businesses. His approach is to work closely with organizations to collaborate, plan and execute large-scale digital efforts and improve marketing, sales, customer experience, product, and brand.</p>
+                      </div>
+                      <div className="modal_talk">
+                          <h2>Talk</h2>
+                          <h3>Description Coming Soon</h3>
+                          <p></p>
+                      </div>
+                  </div>
               </div>
           </div>
 
