@@ -296,7 +296,7 @@ class Speakers extends Component {
                 Talk
               </p>
               <p className='keynoteDescription'>
-                Description Coming Soon
+                Information Coming Soon
               </p>
             </div>
           </span>
@@ -316,7 +316,7 @@ class Speakers extends Component {
                 Talk
               </p>
               <p className='keynoteDescription'>
-                Description Coming Soon
+                Information Coming Soon
               </p>
             </div>
           </span>
@@ -631,12 +631,12 @@ class Speakers extends Component {
                     <div className="closeModalBar2"></div>
                   </div>
                   <div className="speaker">
-                      <img src="./CleaverBW.png"/>
+                      <img src="./CleaverBW.jpg"/>
                       <SmallTextBox title='Debra Cleaver' text='Founder and CEO, Vote.org'/>
                   </div>
                   <div className="modal-columns">
                       <div className="modal_bio">
-                          <p>Debra Cleaver has been working at the intersection of technology and democracy since 2004. She currently serves as the Founder and CEO of Vote.org, a nonpartisan, nonprofit organization that uses technology to simplify political engagement, increase voter turnout, and strengthen American democracy. Under Debra’s leadership, Vote.org won the prestigious Knight News Challenge in 2015, and was accepted into Y Combinator&#39s 2016 Summer Cohort.  Vote.org is widely recognized as the most cost-efficient, and innovative, voter turnout organization in America.  Over the past two years, Vote.org has registered almost one million voters and helped over 10 million voters cast ballots in national and local elections. Debra’s work has been featured in Forbes, Mic, The Huffington Post, and Bustle.</p>
+                          <p>Debra Cleaver has been working at the intersection of technology and democracy since 2004. She currently serves as the Founder and CEO of Vote.org, a nonpartisan, nonprofit organization that uses technology to simplify political engagement, increase voter turnout, and strengthen American democracy. Under Debra’s leadership, Vote.org won the prestigious Knight News Challenge in 2015, and was accepted into Y Combinator’s 2016 Summer Cohort.  Vote.org is widely recognized as the most cost-efficient, and innovative, voter turnout organization in America.  Over the past two years, Vote.org has registered almost one million voters and helped over 10 million voters cast ballots in national and local elections. Debra’s work has been featured in Forbes, Mic, The Huffington Post, and Bustle.</p>
                       </div>
                       <div className="modal_talk">
                           <h2>Talk</h2>
@@ -654,7 +654,7 @@ class Speakers extends Component {
                     <div className="closeModalBar2"></div>
                   </div>
                   <div className="speaker">
-                      <img src="./NewcomerBW.png"/>
+                      <img src="./NewcomerBW.jpg"/>
                       <SmallTextBox title='Mark Newcomer' text='Chief Strategy Officer, Mirum'/>
                   </div>
                   <div className="modal-columns">
