@@ -139,10 +139,10 @@ class Speakers extends Component {
             <TextBox title='Vivian Rosenthal' text='Founder, Snaps'/>
             <div className='keynoteText--middle'>
               <p className='keynoteTitle'>
-                Talk
+                Session
               </p>
               <p className='keynoteDescription--vivian'>
-                The Next Big Thing In Business - Chatbots, Voice Skills & Social Messaging
+                It’s Personal:  How Chatbots, Voice & Messaging Change the Conversation
               </p>
             </div>
           </span>
@@ -293,10 +293,10 @@ class Speakers extends Component {
             <TextBox title='Debra Cleaver' text='Founder and CEO, Vote.org'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
-                Talk
+                Session
               </p>
               <p className='keynoteDescription'>
-                Information Coming Soon
+              Innovating Democracy: Why It Should Be Everyone’s Purpose
               </p>
             </div>
           </span>
@@ -313,10 +313,10 @@ class Speakers extends Component {
             <TextBox title='Mark Newcomer' text='Chief Strategy Officer, Mirum'/>
             <div className='keynoteText'>
               <p className='keynoteTitle'>
-                Talk
+                Discussion
               </p>
               <p className='keynoteDescription'>
-                Information Coming Soon
+                Innovate Your Business: Insights, Tactics & Tales from the Trenches
               </p>
             </div>
           </span>
@@ -447,9 +447,10 @@ class Speakers extends Component {
                           <p>Vivian is the founder of Snaps, the innovative AI technology behind the largest chatbots, voice skills and social messaging apps for brands including Marriott, Nike Jordan, Ad Age and Vice. Named one of Creativity Magazine’s top 50 Global Creatives, she’s spoken at CaT London and TEDx, and has appeared on Good Morning America with Sheryl Sandberg to help promote women leaders and entrepreneurs.</p>
                       </div>
                       <div className="modal_talk">
-                          <h2>Talk</h2>
-                          <h3>The Next Big Thing In Business - Chatbots, Voice Skills & Social Messaging</h3>
-                          <p>(Description coming soon.)</p>
+                          <h2>Session</h2>
+                          <h3>It’s Personal:  How Chatbots, Voice & Messaging Change the Conversation</h3>
+                          <p>Snaps are at the forefront of the transformation in communications, allowing brands to have personal conversations at scale, leveraging Chatbot, Voice and Messaging technology. Viv explains how data underlies this ability to scale personalization, and provides tactical ideas about how your brand can make use of it and change customer conversations.
+                          </p>
                       </div>
                   </div>
               </div>
@@ -639,9 +640,10 @@ class Speakers extends Component {
                           <p>Debra Cleaver has been working at the intersection of technology and democracy since 2004. She currently serves as the Founder and CEO of Vote.org, a nonpartisan, nonprofit organization that uses technology to simplify political engagement, increase voter turnout, and strengthen American democracy. Under Debra’s leadership, Vote.org won the prestigious Knight News Challenge in 2015, and was accepted into Y Combinator’s 2016 Summer Cohort.  Vote.org is widely recognized as the most cost-efficient, and innovative, voter turnout organization in America.  Over the past two years, Vote.org has registered almost one million voters and helped over 10 million voters cast ballots in national and local elections. Debra’s work has been featured in Forbes, Mic, The Huffington Post, and Bustle.</p>
                       </div>
                       <div className="modal_talk">
-                          <h2>Talk</h2>
-                          <h3>Description Coming Soon</h3>
-                          <p></p>
+                          <h2>Session</h2>
+                          <h3>Innovating Democracy: Why It Should Be Everyone’s Purpose</h3>
+                          <p>Imagine if we marketed democracy like a commercial brand? Debra challenges Opus attendees to turn up and play a role in innovating democracy, and highlights the unique opportunity brands have to drive purposeful change (and ROI) by encouraging people to get to the polls and vote. She’ll end the day with an intriguing challenge.
+</p>
                       </div>
                   </div>
               </div>
@@ -662,9 +664,10 @@ class Speakers extends Component {
                           <p>As the Chief Strategy Officer of Mirum Agency, Mark leads Mirum’s Strategy & Planning, Insights, and Performance Media teams to transform client businesses. His approach is to work closely with organizations to collaborate, plan and execute large-scale digital efforts and improve marketing, sales, customer experience, product, and brand.</p>
                       </div>
                       <div className="modal_talk">
-                          <h2>Talk</h2>
-                          <h3>Description Coming Soon</h3>
-                          <p></p>
+                          <h2>Discussion</h2>
+                          <h3>Discussion - Innovate Your Business: Insights, Tactics & Tales from the Trenches</h3>
+                          <p>Mirum’s Chief Strategy Officer, Mark Newcomer, will host a candid discussion with industry leaders who share their personal perspectives and insights on how to transform and innovate your business from the inside out – insightful, practical, and direct advice you can apply to your own transformation journey.
+                          </p>
                       </div>
                   </div>
               </div>
