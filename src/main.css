@@ -2217,6 +2217,11 @@ body {
   margin-left: 10%;
   width: 80%;
 }
+
+.modal_bio a{
+  color: #afafaf;
+  text-decoration: none;
+}
 @media (min-width: 700px) {
   .modal_bio p{
     margin-top: 10%;
