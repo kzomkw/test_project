@@ -1037,26 +1037,26 @@ body {
 /*styling for speakers page*/
 
 .speakersPage {
-  height: 6800px;
+  height: 7400px;
   width: 100%;
   margin-top: -35%;
   background-color: #DCDCDC;
 }
 @media (min-width: 700px){
   .speakersPage {
-    height: 7900px;
+    height: 8550px;
   }
 }
 
 @media (min-width: 769px){
   .speakersPage {
-    height: 5800px;
+    height: 6500px;
   }
 }
 
 @media (min-width: 1500px) {
   .speakersPage {
-    height: 6300px;
+    height: 7100px;
   }
 }
 

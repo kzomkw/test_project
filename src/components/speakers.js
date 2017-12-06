@@ -322,6 +322,28 @@ class Speakers extends Component {
           </span>
         </div>
 
+        <div className='middleSpeaker'>
+          <span className='middleHover' onClick={() => {this.speakerModal('afdhel-aziz')}}>
+            <Parallax
+              offsetXMin={"0px"}
+              offsetXMax={"-50px"}
+            >
+              <img className='portrait' src='./AfdhelC.jpg'/>
+              <img className='portrait top' src='./AfdhelBW.jpg'/>
+            </Parallax>
+            <img src='./plus-sign.png' className='plus--middle'/>
+            <TextBox title='Afdhel Aziz' text='Best-Selling Author and Founder of Conspiracy of Love'/>
+            <div className='keynoteText--middle'>
+              <p className='keynoteTitle'>
+                Session
+              </p>
+              <p className='keynoteDescription'>
+                Good Is The New Cool - <br/> Market Like you Give a Damn
+              </p>
+            </div>
+          </span>
+        </div>
+
           <div className="modal" id="tony-markovski">
               <div className="modal__inner">
 
@@ -545,8 +567,7 @@ class Speakers extends Component {
                           <p>At J. Walter Thompson, Lucie leads The Innovation Group’s ongoing research into emerging global consumer behaviors, cultural
                               changes and sector innovation with deep-dive studies and daily insights. She’s a thought leadership
                               columnist for Campaign, writes for the Financial Times and has spoken at conferences including
-                              CES, SXSW, Web Summit and Adweek, discussing future trends across multiple lifestyle sectors.
-                              </p>
+                              CES, SXSW, Web Summit and Adweek, discussing future trends across multiple lifestyle sectors.</p>
                       </div>
                       <div className="modal_talk">
                           <h2>Talk</h2>
@@ -642,8 +663,7 @@ class Speakers extends Component {
                       <div className="modal_talk">
                           <h2>Session</h2>
                           <h3>Innovating Democracy: Why It Should Be Everyone’s Purpose</h3>
-                          <p>Imagine if we marketed democracy like a commercial brand? Debra challenges Opus attendees to turn up and play a role in innovating democracy, and highlights the unique opportunity brands have to drive purposeful change (and ROI) by encouraging people to get to the polls and vote. She’ll end the day with an intriguing challenge.
-</p>
+                          <p>Imagine if we marketed democracy like a commercial brand? Debra challenges Opus attendees to turn up and play a role in innovating democracy, and highlights the unique opportunity brands have to drive purposeful change (and ROI) by encouraging people to get to the polls and vote. She’ll end the day with an intriguing challenge.</p>
                       </div>
                   </div>
               </div>
@@ -666,8 +686,30 @@ class Speakers extends Component {
                       <div className="modal_talk">
                           <h2>Discussion</h2>
                           <h3>Discussion - Innovate Your Business: Insights, Tactics & Tales from the Trenches</h3>
-                          <p>Mirum’s Chief Strategy Officer, Mark Newcomer, will host a candid discussion with industry leaders who share their personal perspectives and insights on how to transform and innovate your business from the inside out – insightful, practical, and direct advice you can apply to your own transformation journey.
-                          </p>
+                          <p>Mirum’s Chief Strategy Officer, Mark Newcomer, will host a candid discussion with industry leaders who share their personal perspectives and insights on how to transform and innovate your business from the inside out – insightful, practical, and direct advice you can apply to your own transformation journey.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div className="modal" id="afdhel-aziz">
+              <div className="modal__inner">
+                  <div className="modal-close" onClick={this.closeModal}>
+                    <div className="closeModalBar1"></div>
+                    <div className="closeModalBar2"></div>
+                  </div>
+                  <div className="speaker">
+                      <img src="./AfdhelBW.jpg"/>
+                      <SmallTextBox title='Afdhel Aziz' text='Best-Selling Author and Founder of Conspiracy of Love'/>
+                  </div>
+                  <div className="modal-columns">
+                      <div className="modal_bio">
+                          <p>Bio coming soon</p>
+                      </div>
+                      <div className="modal_talk">
+                          <h2>Session</h2>
+                          <h3>Good Is The New Cool - Market Like you Give a Damn</h3>
+                          <p>Info coming soon</p>
                       </div>
                   </div>
               </div>
