@@ -704,10 +704,10 @@ class Speakers extends Component {
                   </div>
                   <div className="modal-columns">
                       <div className="modal_bio">
-                          <p>Bio coming soon</p>
+                          <p>Afdhel Aziz is Founder and Chief Creative Officer at Conspiracy of Love, a think-tank and idea incubator that helps Fortune 500 companies mix profits with purpose by harnessing the power of culture and technology. One of the world’s leading experts on brand purpose, he is co-author of the book Good is the New Cool: Market Like You Give a Damn, which explores how brands can attract loyal customers through a mission of ‘doing well by doing good’ and how to retain talent by helping employees find the meaningfulness in their work.</p>
                       </div>
                       <div className="modal_talk">
-                          <h2>Session</h2>
+                          <h2>Talk</h2>
                           <h3>Good Is The New Cool - Market Like you Give a Damn</h3>
                           <p>Info coming soon</p>
                       </div>
