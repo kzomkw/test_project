@@ -332,7 +332,7 @@ class Speakers extends Component {
               <img className='portrait top' src='./AfdhelBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus--middle'/>
-            <TextBox title='Afdhel Aziz' text='Best-Selling Author and Founder of Conspiracy of Love'/>
+            <MattTB firstname='Afdhel' lastname='Aziz' text1='Best-Selling Author and Founder of Conspiracy of Love'/>
             <div className='keynoteText--middle'>
               <p className='keynoteTitle'>
                 Session
