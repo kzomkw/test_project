@@ -264,7 +264,7 @@ class Speakers extends Component {
               offsetXMin={"0px"}
               offsetXMax={"-50px"}
             >
-              <img className='portrait-last' src='./Acquia.jpg'/>
+              <img className='portrait-last' src='./AcquiaC.jpg'/>
               <img className='portrait-last top' src='./AcquiaBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus--last'/>
@@ -338,7 +338,7 @@ class Speakers extends Component {
                 Session
               </p>
               <p className='keynoteDescription'>
-                Good Is The New Cool - <br/> Market Like you Give a Damn
+                Good Is The New Cool - Leading With Purpose
               </p>
             </div>
           </span>
@@ -708,8 +708,8 @@ class Speakers extends Component {
                       </div>
                       <div className="modal_talk">
                           <h2>Talk</h2>
-                          <h3>Good Is The New Cool - Market Like you Give a Damn</h3>
-                          <p>Info coming soon</p>
+                          <h3>Good Is The New Cool - Leading With Purpose</h3>
+                          <p>Description coming soon</p>
                       </div>
                   </div>
               </div>

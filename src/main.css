@@ -140,6 +140,15 @@ body {
   }
 }
 
+.navLinkAgenda {
+  text-decoration: none;
+  color: white;
+}
+
+.navLinkAgenda:visited {
+  color: white;
+}
+
 #navList {
   font-size: 2em;
   color: white;
@@ -162,6 +171,7 @@ body {
 .navLink {
   cursor: pointer;
 }
+
 
 #closeNav {
   font-size: 2em;
