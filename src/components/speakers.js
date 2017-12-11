@@ -338,7 +338,7 @@ class Speakers extends Component {
                 Session
               </p>
               <p className='keynoteDescription'>
-                Good Is The New Cool - Leading With Purpose
+                Beyond Advertising - Good Is The New Cool
               </p>
             </div>
           </span>
@@ -685,7 +685,7 @@ class Speakers extends Component {
                       </div>
                       <div className="modal_talk">
                           <h2>Discussion</h2>
-                          <h3>Discussion - Innovate Your Business: Insights, Tactics & Tales from the Trenches</h3>
+                          <h3>Innovate Your Business: Insights, Tactics & Tales from the Trenches</h3>
                           <p>Mirum’s Chief Strategy Officer, Mark Newcomer, will host a candid discussion with industry leaders who share their personal perspectives and insights on how to transform and innovate your business from the inside out – insightful, practical, and direct advice you can apply to your own transformation journey.</p>
                       </div>
                   </div>
@@ -708,7 +708,7 @@ class Speakers extends Component {
                       </div>
                       <div className="modal_talk">
                           <h2>Talk</h2>
-                          <h3>Good Is The New Cool - Leading With Purpose</h3>
+                          <h3>Beyond Advertising - Good Is The New Cool</h3>
                           <p>Description coming soon</p>
                       </div>
                   </div>
