@@ -332,7 +332,7 @@ class Speakers extends Component {
               <img className='portrait top' src='./AfdhelBW.jpg'/>
             </Parallax>
             <img src='./plus-sign.png' className='plus--middle'/>
-            <MattTB firstname='Afdhel' lastname='Aziz' text1='Best-Selling Author and Founder of Conspiracy of Love'/>
+            <MattTB firstname='Afdhel' lastname='Aziz' text1='Founder and Chief Purpose Officer, Conspiracy of Love'/>
             <div className='keynoteText--middle'>
               <p className='keynoteTitle'>
                 Session
@@ -700,7 +700,7 @@ class Speakers extends Component {
                   </div>
                   <div className="speaker">
                       <img src="./AfdhelBW.jpg"/>
-                      <SmallTextBox title='Afdhel Aziz' text='Best-Selling Author and Founder of Conspiracy of Love'/>
+                      <SmallTextBox title='Afdhel Aziz' text='Founder and Chief Purpose Officer, Conspiracy of Love'/>
                   </div>
                   <div className="modal-columns">
                       <div className="modal_bio">
@@ -709,7 +709,7 @@ class Speakers extends Component {
                       <div className="modal_talk">
                           <h2>Talk</h2>
                           <h3>Beyond Advertising - Good Is The New Cool</h3>
-                          <p>Description coming soon</p>
+                          <p>DAfdhel highlights that we are at a crossroads: either we can try to prop up the old, broken marketing model, or we can create a new model, one that is fit for the unique challenges of today. In his talk, <em>Beyond Advertising: Good Is the New Cool</em>, he challenges agencies to move beyond advertising and create products, services and experiences that consumers find ‘useful and delightful.’</p>
                       </div>
                   </div>
               </div>
