@@ -101,7 +101,7 @@ class App extends Component {
                 <Link activeClass="active" to="demosAndWorkshops" onClick={this.navClick} spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>Demos &amp; Workshops</Link>
               </div>
               <div>
-                <a href='./Agenda.pdf' className='navLinkAgenda'>Agenda</a>
+                <a href='./Agenda.pdf' className='navLinkAgenda' target="_blank">Agenda</a>
               </div>
             </span>
           </div>
